@@ -1,0 +1,31 @@
+{
+    "HomePage": {
+        "title": "Germany's Best",
+        "breweries": "Breweries",
+        "subtitle": "Pay less for your beer",
+        "desc": "It is a long-known fact that a reader is distracted by the readable content of a page when looking at its layout.",
+        "section-two-title": "Experience diverse selection of Authentic Breweries from the",
+        "section-two-title-main": "Heart of Bavaria",
+        "section-two-desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary",
+        "section-three-title": "Join the celebration at our unmissable",
+        "section-three-title-main": "beer festival",
+        "section-three-desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary",
+        "product-title": "Top Selling",
+        "product-view-all": "View All",
+        "product-desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "product-price": "Starting from",
+        "product-cat-title": "Shop By Categories",
+        "product-cat-desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "beers-title": "Top Selling",
+        "beers-view-all": "View All",
+        "beers-desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "breweries-title": "Top Selling",
+        "breweries-desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form",
+        "final-section-title": " Contrary to popular belief, Lorem Ipsum is not simply",
+        "final-section-subtitle": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "final-section-st-1": "From brewery to glass",
+        "final-section-st-2": "Start selling your bear on",
+        "final-section-st-3": "Best bavarian",
+        "final-section-st-4": "Signup"
+    }
+}

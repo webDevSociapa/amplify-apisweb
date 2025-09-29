@@ -1,0 +1,109 @@
+/* src/components/common/Pages/Media/media.module.css */
+
+.campaignimage {
+    width: 470px;
+    height: 282px;
+    padding: 31px 42px 19px;
+    border-radius: 154px 83px 127px 0;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: -19px 24px 5px #DBB79E;
+  }
+  
+  .campaignimage img {
+    background: transparent;
+    padding: 9px;
+    margin-top: 0;
+  }
+  
+  .imageWrapper,
+  .imageWrapper2 {
+    width: 470px;
+    height: 282px;
+    padding: 31px 42px 19px;
+    border-radius: 154px 83px 127px 0;
+    background: linear-gradient(#e66465, #9198e5);
+    box-shadow: -19px 24px 5px #DBB79E;
+  }
+  
+  .imageWrapper img,
+  .imageWrapper2 img {
+    background: transparent;
+    padding: 9px;
+    margin-top: 0;
+  }
+  
+  .Text-sec {
+    text-align: center;
+  }
+  
+  .Text-sec h4 {
+    font-size: 34px;
+  }
+  
+  .Text-sec p {
+    width: 502px;
+    font-size: 17px;
+    line-height: 31.79px;
+  }
+  
+  .handhoney {
+    position: relative;
+    margin-left: 160px;
+    border: 7px dotted #9F7B49;
+    border-radius: 50%;
+    margin-bottom: 67px;
+  }
+  
+  .handhoney img {
+    width: 39%;
+    margin-top: 35px;
+  }
+  
+  .handhoney::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 132px;
+    right: 146px;
+    bottom: -17px;
+    border-radius: 50%;
+    border: 7px dotted #9F7B49;
+  }
+  
+  .custom121 {
+    border: 4px solid;
+    display: flex;
+    gap: 59px;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .imageWrapper,
+    .imageWrapper2,
+    .campaignimage {
+      width: 384px;
+      height: 228px;
+      padding: 25px 36px 19px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 992px) {
+    .imageWrapper,
+    .imageWrapper2,
+    .campaignimage {
+      width: 325px;
+      height: 213px;
+      padding: 19px 22px 6px;
+      border-radius: 125px 62px 82px 0;
+    }
+  
+    .Text-sec p {
+      width: 347px;
+      font-size: 16px;
+      line-height: 23.79px;
+    }
+  
+    .Text-sec h4 {
+      font-size: 30px;
+    }
+  }

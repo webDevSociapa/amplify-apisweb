@@ -1,0 +1,100 @@
+/** @type {import('next').NextConfig} */
+
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin();
+
+const nextConfig = {
+  experimental: {
+    turbo: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+      resolveExtensions: [
+        '.mdx',
+        '.tsx',
+        '.ts',
+        '.jsx',
+        '.js',
+        '.mjs',
+        '.json',
+      ],
+      resolveAlias: {
+        underscore: 'lodash',
+        mocha: { browser: 'mocha/browser-entry.js' },
+      },
+    },
+  },
+
+  // ✅ Add this block
+  async redirects() {
+    return [
+      {
+        source: '/en/product.php',
+        destination: '/en/our-brand/product-details?brand_id=1&product_id=2', // 🔁 update this if the actual new route is different
+        permanent: true,
+      },
+      {
+        source: '/en/aboutus',
+        destination: '/en/about-us', // example
+        permanent: true,
+      },
+      {
+        source: '/en/contact',
+        destination: '/en/contact-us',
+        permanent: true,
+      },
+      {
+        source: '/en/join-our-squad',
+        destination: '/en/careers/joinOurTeam',
+        permanent: true,
+      },
+      {
+        source: '/en/annual-Report',
+        destination: '/en/investors',
+        permanent: true,
+      },
+    ];
+  },
+
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: [
+        {
+          loader: "@svgr/webpack",
+          options: {
+            prettier: false,
+            svgo: true,
+            svgoConfig: {
+              plugins: [
+                {
+                  name: "removeViewBox",
+                  active: false,
+                },
+              ],
+            },
+            titleProp: true,
+          },
+        },
+      ],
+    });
+
+    return config;
+  },
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
+};
+
+export default withNextIntl(nextConfig);

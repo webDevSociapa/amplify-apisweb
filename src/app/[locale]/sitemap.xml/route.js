@@ -1,0 +1,159 @@
+export async function GET(_, { params }) {
+  const { locale } = params;
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://apisindia.com/${locale}</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/about-us</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/investors</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/careers</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/media</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/sustainability</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-blog/ourRecipis</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/contact-us</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-policy?policy=terms</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-policy?policy=privacy</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/about-us/journey</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=1&amp;product_id=1</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=1&amp;product_id=2</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=1</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=3</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=7</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=4</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=5</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=6</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=8</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=9</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=10</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=11</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details?brand_id=2&amp;product_id=12</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/recipes</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details/certificate</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://apisindia.com/${locale}/our-brand/product-details/product-desc?selectedProduct=HimalayaHoney</loc>
+  <lastmod>2025-06-19T12:15:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+</urlset>`;
+
+  return new Response(sitemap, {
+    headers: {
+      'Content-Type': 'application/xml',
+    },
+  });
+}

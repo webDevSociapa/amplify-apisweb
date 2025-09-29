@@ -1,0 +1,27 @@
+.carousel-container {
+  position: relative;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.scroll-pill {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-pill.active {
+  background-color: white;
+}
