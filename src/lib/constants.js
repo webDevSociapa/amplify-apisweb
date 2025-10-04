@@ -34,74 +34,74 @@ import NewsName3 from "@/assets/images/Media/NewsName3.png";
 import NewsName4 from "@/assets/images/Media/NewsName4.png";
 import NewsName5 from "@/assets/images/Media/NewsName5.png";
 import NewsName6 from "@/assets/images/Media/NewsName6.png";
-import apisNews3 from "@/assets/images/Media/apisnews3.jpg"
-import apisNews4 from "@/assets/images/Media/apisnews4.jpg"
-import apisNews5 from "@/assets/images/Media/apisnews5.jpg"
-import apisNews6 from "@/assets/images/Media/apisnews6.jpg"
-import apisNews7 from "@/assets/images/Media/apisnews7.jpg"
-import apisNews8 from "@/assets/images/Media/apisnews8.webp"
-import apisNews9 from "@/assets/images/Media/apisnews9.webp"
-import apisNews10 from "@/assets/images/Media/apisnews10.webp"
-import apisNews11 from "@/assets/images/Media/apisnews11.jpg"
-import apisNews12 from "@/assets/images/Media/apisnews12.jpeg"
-import apisnews13New from "@/assets/images/Media/apisnews13.jpg"
-import apisNews14 from "@/assets/images/Media/apisnews14.jpg"
-import apisNews15 from "@/assets/images/Media/apisnews15.jpg"
-import apisNews16 from "@/assets/images/Media/apisnews16.jpg"
-import apisNews17 from "@/assets/images/Media/apisnews17.jpg"
-import apisNews18 from "@/assets/images/Media/apisnews18.jpg"
-import apisNews19 from "@/assets/images/Media/apisnews19.jpg"
-import apisNews20 from "@/assets/images/Media/apisnews20.jpg"
-import apisNews21 from "@/assets/images/Media/apisnews21.png"
-import apisNews22 from "@/assets/images/Media/apisnews22.png"
-import apisNews23 from "@/assets/images/Media/apisnews23.png"
-import apisNews24 from "@/assets/images/Media/apisnews24.png"
-import apisNews25 from "@/assets/images/Media/apisnews25.png"
-import apisNews26 from "@/assets/images/Media/apisnews26.png"
-import apisNews27 from "@/assets/images/Media/apisnews27.jpeg"
-import apisNews28 from "@/assets/images/Media/apisnews28.jpg"
-import apisNews29 from "@/assets/images/Media/apisnews29.jpeg"
-import apisNews30 from "@/assets/images/Media/apisnews30.jpg"
-import apisNews31 from "@/assets/images/Media/apisnews31.jpg"
-import apisNews32 from "@/assets/images/Media/apisnews32.jpg"
-import apisNews33 from "@/assets/images/Media/apisnews33.jpg"
-import apisNews34 from "@/assets/images/Media/apisnews34.jpg"
-import apisNews35 from "@/assets/images/Media/apisnews35.jpg"
-import apisNews36 from "@/assets/images/Media/apisnews36.jpg"
-import apisNews37 from "@/assets/images/Media/apisnews37.jpg"
-import apisNews38 from "@/assets/images/Media/apisnews38.jpg"
-import apisNews39 from "@/assets/images/Media/apisnews39.jpg"
-import apisNews40 from "@/assets/images/Media/apisnews40.jpg"
-import apisNews41 from "@/assets/images/Media/apisnews41.jpg"
-import apisNews42 from "@/assets/images/Media/apisnews42.jpg"
-import apisNews43 from "@/assets/images/Media/apisnews43.jpg"
-import apisNews44 from "@/assets/images/Media/apisnews44.jpg"
-import apisNews45 from "@/assets/images/Media/apisnews45.jpg"
-import apisNews46 from "@/assets/images/Media/apisnews46.jpg"
-import apisNews47 from "@/assets/images/Media/apisnews47.jpg"
-import apisNews48 from "@/assets/images/Media/apisnews48.jpg"
-import apisNews49 from "@/assets/images/Media/apisnews49.jpg"
-import Blog1 from '@/assets/images/our-blog/Blog01.jpg';
-import Blog2 from '@/assets/images/our-blog/blog02.jpg';
-import Blog3 from '@/assets/images/our-blog/blog03.jpg';
-import Blog4 from '@/assets/images/our-blog/blog04.jpg';
-import Blog5 from '@/assets/images/our-blog/blog05.jpg';
-import Blog6 from '@/assets/images/our-blog/blog06.jpg';
-import Blog7 from '@/assets/images/our-blog/blog07.jpg';
-import Thumbnail_ApisLatest from '@/assets/images/home-banner-section/thumbnail_apisLatest.jpeg'
-import Thumbnail_ApisLatest2 from '@/assets/images/home-banner-section/thumbnail_apisLatest2.jpeg'
-import Thumbnail_ApisLatest3 from '@/assets/images/home-banner-section/thumbnail_apisLatest3.jpeg'
-import Thumbnail_ApisLatest4 from '@/assets/images/home-banner-section/thumbnail_apisLatest4.jpeg'
-import Thumbnail_ApisLatest5 from '@/assets/images/home-banner-section/thumbnail_apisLatest5.jpeg'
-import MediaImage02 from '@/assets/images/home-banner-section/mediaImage02.jpeg'
-import MediaImage01 from '@/assets/images/home-banner-section/mediaImage01.jpeg'
-import NewCookingPaste from '@/assets/images/OurBrands/newCookingPaste.png'
-import AlmondHoney from '@/assets/images/home-banner-section/cornFlakes01.png'
-import Saffron1 from '@/assets/images/home-banner-section/saffron01.png'
-import SoyaChunks1 from '@/assets/images/home-banner-section/soyaChunks01.png'
-import Muesli from '@/assets/images/home-banner-section/muesli01.png'
-import ClassicDates from '@/assets/images/home-banner-section/classicDates01.png'
-import ChocolateSpread from '@/assets/images/home-banner-section/chocoFlakes01.png'
+import apisNews3 from "@/assets/images/Media/apisnews3.jpg";
+import apisNews4 from "@/assets/images/Media/apisnews4.jpg";
+import apisNews5 from "@/assets/images/Media/apisnews5.jpg";
+import apisNews6 from "@/assets/images/Media/apisnews6.jpg";
+import apisNews7 from "@/assets/images/Media/apisnews7.jpg";
+import apisNews8 from "@/assets/images/Media/apisnews8.webp";
+import apisNews9 from "@/assets/images/Media/apisnews9.webp";
+import apisNews10 from "@/assets/images/Media/apisnews10.webp";
+import apisNews11 from "@/assets/images/Media/apisnews11.jpg";
+import apisNews12 from "@/assets/images/Media/apisnews12.jpeg";
+import apisnews13New from "@/assets/images/Media/apisnews13.jpg";
+import apisNews14 from "@/assets/images/Media/apisnews14.jpg";
+import apisNews15 from "@/assets/images/Media/apisnews15.jpg";
+import apisNews16 from "@/assets/images/Media/apisnews16.jpg";
+import apisNews17 from "@/assets/images/Media/apisnews17.jpg";
+import apisNews18 from "@/assets/images/Media/apisnews18.jpg";
+import apisNews19 from "@/assets/images/Media/apisnews19.jpg";
+import apisNews20 from "@/assets/images/Media/apisnews20.jpg";
+import apisNews21 from "@/assets/images/Media/apisnews21.png";
+import apisNews22 from "@/assets/images/Media/apisnews22.png";
+import apisNews23 from "@/assets/images/Media/apisnews23.png";
+import apisNews24 from "@/assets/images/Media/apisnews24.png";
+import apisNews25 from "@/assets/images/Media/apisnews25.png";
+import apisNews26 from "@/assets/images/Media/apisnews26.png";
+import apisNews27 from "@/assets/images/Media/apisnews27.jpeg";
+import apisNews28 from "@/assets/images/Media/apisnews28.jpg";
+import apisNews29 from "@/assets/images/Media/apisnews29.jpeg";
+import apisNews30 from "@/assets/images/Media/apisnews30.jpg";
+import apisNews31 from "@/assets/images/Media/apisnews31.jpg";
+import apisNews32 from "@/assets/images/Media/apisnews32.jpg";
+import apisNews33 from "@/assets/images/Media/apisnews33.jpg";
+import apisNews34 from "@/assets/images/Media/apisnews34.jpg";
+import apisNews35 from "@/assets/images/Media/apisnews35.jpg";
+import apisNews36 from "@/assets/images/Media/apisnews36.jpg";
+import apisNews37 from "@/assets/images/Media/apisnews37.jpg";
+import apisNews38 from "@/assets/images/Media/apisnews38.jpg";
+import apisNews39 from "@/assets/images/Media/apisnews39.jpg";
+import apisNews40 from "@/assets/images/Media/apisnews40.jpg";
+import apisNews41 from "@/assets/images/Media/apisnews41.jpg";
+import apisNews42 from "@/assets/images/Media/apisnews42.jpg";
+import apisNews43 from "@/assets/images/Media/apisnews43.jpg";
+import apisNews44 from "@/assets/images/Media/apisnews44.jpg";
+import apisNews45 from "@/assets/images/Media/apisnews45.jpg";
+import apisNews46 from "@/assets/images/Media/apisnews46.jpg";
+import apisNews47 from "@/assets/images/Media/apisnews47.jpg";
+import apisNews48 from "@/assets/images/Media/apisnews48.jpg";
+import apisNews49 from "@/assets/images/Media/apisnews49.jpg";
+import Blog1 from "@/assets/images/our-blog/Blog01.jpg";
+import Blog2 from "@/assets/images/our-blog/blog02.jpg";
+import Blog3 from "@/assets/images/our-blog/blog03.jpg";
+import Blog4 from "@/assets/images/our-blog/blog04.jpg";
+import Blog5 from "@/assets/images/our-blog/blog05.jpg";
+import Blog6 from "@/assets/images/our-blog/blog06.jpg";
+import Blog7 from "@/assets/images/our-blog/blog07.jpg";
+import Thumbnail_ApisLatest from "@/assets/images/home-banner-section/thumbnail_apisLatest.jpeg";
+import Thumbnail_ApisLatest2 from "@/assets/images/home-banner-section/thumbnail_apisLatest2.jpeg";
+import Thumbnail_ApisLatest3 from "@/assets/images/home-banner-section/thumbnail_apisLatest3.jpeg";
+import Thumbnail_ApisLatest4 from "@/assets/images/home-banner-section/thumbnail_apisLatest4.jpeg";
+import Thumbnail_ApisLatest5 from "@/assets/images/home-banner-section/thumbnail_apisLatest5.jpeg";
+import MediaImage02 from "@/assets/images/home-banner-section/mediaImage02.jpeg";
+import MediaImage01 from "@/assets/images/home-banner-section/mediaImage01.jpeg";
+import NewCookingPaste from "@/assets/images/OurBrands/newCookingPaste.png";
+import AlmondHoney from "@/assets/images/home-banner-section/cornFlakes01.png";
+import Saffron1 from "@/assets/images/home-banner-section/saffron01.png";
+import SoyaChunks1 from "@/assets/images/home-banner-section/soyaChunks01.png";
+import Muesli from "@/assets/images/home-banner-section/muesli01.png";
+import ClassicDates from "@/assets/images/home-banner-section/classicDates01.png";
+import ChocolateSpread from "@/assets/images/home-banner-section/chocoFlakes01.png";
 import AmazonLogo from "@/assets/images/home-banner-section/amazon.png";
 import JioMart from "@/assets/images/home-banner-section/jiomart.png";
 import JioMart2 from "@/assets/images/home-banner-section/jio-mart.png";
@@ -109,39 +109,39 @@ import DMart from "@/assets/images/home-banner-section/d-mart.png";
 import BlinkIt from "@/assets/images/home-banner-section/blink-it.png";
 import BigBasket from "@/assets/images/home-banner-section/big-basket.png";
 import HoneyShield from "@/assets/images/OurBrands/honeyShield.png";
-import Skin from '@/assets/images/OurBrands/skin.png';
+import Skin from "@/assets/images/OurBrands/skin.png";
 import Sustain from "@/assets/images/OurBrands/sustain.png";
-import Minrella from '@/assets/images/OurBrands/minrella.png'
-import VitaminSource from '@/assets/images/OurBrands/vitaminSource.png'
-import Ingrediant from '@/assets/images/OurBrands/ingrediant.png'
-import EnergyBoost from '@/assets/images/OurBrands/energyBoost.png'
-import AidsDigestion from "@/assets/images/OurBrands/AidsDigestion.png"
-import Psychology from "@/assets/images/OurBrands/psychology.png"
-import FiberRich from "@/assets/images/OurBrands/fiberRich.png"
-import Nutrient from "@/assets/images/OurBrands/nutrient.png"
-import LowClories from "@/assets/images/OurBrands/lowClories.png"
-import Digestive from "@/assets/images/OurBrands/digestive.png"
-import Versatile from "@/assets/images/OurBrands/versatile.png"
-import VersatileMeals from "@/assets/images/OurBrands/versatileMile.png"
-import NoArtificial from "@/assets/images/OurBrands/noArtificial.png"
-import Calcium from "@/assets/images/OurBrands/calcium.png"
-import Delious from "@/assets/images/OurBrands/delious.png"
-import SkinCare from "@/assets/images/OurBrands/skinCare.png"
-import WeightLoss from "@/assets/images/OurBrands/weightLoss.png"
-import WoundHealing from "@/assets/images/OurBrands/woundHealing.png"
-import ProteinSource from "@/assets/images/OurBrands/proteinSource.png"
-import BoneStrength from "@/assets/images/OurBrands/BoneStrength.png"
-import HarmoneBalance from "@/assets/images/OurBrands/HarmoneBalance.png"
-import MoodEnhance from "@/assets/images/OurBrands/moodEnhance.png"
-import BrainFunction from "@/assets/images/OurBrands/BrainFunction.png"
+import Minrella from "@/assets/images/OurBrands/minrella.png";
+import VitaminSource from "@/assets/images/OurBrands/vitaminSource.png";
+import Ingrediant from "@/assets/images/OurBrands/ingrediant.png";
+import EnergyBoost from "@/assets/images/OurBrands/energyBoost.png";
+import AidsDigestion from "@/assets/images/OurBrands/AidsDigestion.png";
+import Psychology from "@/assets/images/OurBrands/psychology.png";
+import FiberRich from "@/assets/images/OurBrands/fiberRich.png";
+import Nutrient from "@/assets/images/OurBrands/nutrient.png";
+import LowClories from "@/assets/images/OurBrands/lowClories.png";
+import Digestive from "@/assets/images/OurBrands/digestive.png";
+import Versatile from "@/assets/images/OurBrands/versatile.png";
+import VersatileMeals from "@/assets/images/OurBrands/versatileMile.png";
+import NoArtificial from "@/assets/images/OurBrands/noArtificial.png";
+import Calcium from "@/assets/images/OurBrands/calcium.png";
+import Delious from "@/assets/images/OurBrands/delious.png";
+import SkinCare from "@/assets/images/OurBrands/skinCare.png";
+import WeightLoss from "@/assets/images/OurBrands/weightLoss.png";
+import WoundHealing from "@/assets/images/OurBrands/woundHealing.png";
+import ProteinSource from "@/assets/images/OurBrands/proteinSource.png";
+import BoneStrength from "@/assets/images/OurBrands/BoneStrength.png";
+import HarmoneBalance from "@/assets/images/OurBrands/HarmoneBalance.png";
+import MoodEnhance from "@/assets/images/OurBrands/moodEnhance.png";
+import BrainFunction from "@/assets/images/OurBrands/BrainFunction.png";
 import Glimpse1 from "@/assets/images/OurBrands/glimp1.jpg";
 import Glimpse2 from "@/assets/images/OurBrands/glimp2.jpg";
 import Glimpse3 from "@/assets/images/OurBrands/glimp3.jpg";
 import Glimpse4 from "@/assets/images/OurBrands/glimp4.jpg";
 import Glimpse5 from "@/assets/images/OurBrands/glimp5.jpg";
-import HoneyImage11 from "@/assets/images/OurBrands/honeyyyyy.png"
+import HoneyImage11 from "@/assets/images/OurBrands/honeyyyyy.png";
 // import chocoFlakesManu from "@/assets/images/OurBrands/chocoFlakesManu.png"
-import SafronProductMenu from "@/assets/images/OurBrands/safronProductMenu.png"
+import SafronProductMenu from "@/assets/images/OurBrands/safronProductMenu.png";
 // import ClassicDatesMenu from "@/assets/images/OurBrands/classicDatesMenu.png"
 // import SoyaChunkMenu from "@/assets/images/OurBrands/soyaChunkMenu.png"
 // import HimalayaHoneyMenu from "@/assets/images/OurBrands/HimalayaHoneyMenu.png"
@@ -151,30 +151,30 @@ import SafronProductMenu from "@/assets/images/OurBrands/safronProductMenu.png"
 // import newSoyaChunks01 from "@/assets/images/home-banner-section/newSoyaChunks01.jpg"
 // import newSaffron01 from "@/assets/images/home-banner-section/newSaffron01.jpg"
 // import newDates01 from "@/assets/images/home-banner-section/newdates01.jpg"
-import HimalayaHoney001 from "@/assets/images/OurBrands/Himalaya-Honey.png"
+import HimalayaHoney001 from "@/assets/images/OurBrands/Himalaya-Honey.png";
 // import Jam001 from "@/assets/images/OurBrands/Jam (1).png";
-import SoyaChunks001 from "@/assets/images/OurBrands/Soya-Chunks.png"
-import TulsiGreenTea from "@/assets/images/OurBrands/Tulsi-Green-Tea.png"
+import SoyaChunks001 from "@/assets/images/OurBrands/Soya-Chunks.png";
+import TulsiGreenTea from "@/assets/images/OurBrands/Tulsi-Green-Tea.png";
 // import NewDatesBanner from "@/assets/images/OurBrands/newDatesBanner.png"
-// import 
-import NewBannerGreenTea from "@/assets/images/OurBrands/newBannerGreenTea.png"
-import NewBannerJam from "@/assets/images/OurBrands/newBannerJam.png"
-import NewBannerOrganic from "@/assets/images/OurBrands/newBannerOrganic.png"
-import NewBannerSaffron from "@/assets/images/OurBrands/newBannerSaffron.png"
-import NewBannerSoyaChunks from "@/assets/images/OurBrands/newBannersoyaChunks.png"
-import NewBannerHimalayaHoney from '@/assets/images/OurBrands/Himalaya-Honey12.png'
-import NewBannerVermicalli from "@/assets/images/OurBrands/newBannerVermicalli.png"
-import NewBannerChoco from "@/assets/images/OurBrands/chocoFlakes011.png"
-import ChocoFlakes from "@/assets/images/OurBrands/chocoFlakesNew01.png"
-import himalayaHoney01 from "@/assets/images/OurBrands/himalayaHoney01.jpg"
-import HimalayaHoney0001 from "@/assets/images/OurBrands/himalayaHoney001.jpg"
-import RegularHoney001 from "@/assets/images/OurBrands/regularHoney001.jpg"
-import soyaChunksProduct01 from "@/assets/images/OurBrands/soyaChunksProduct01.jpg"
-import chocoFlakes001 from "@/assets/images/OurBrands/chocoFlakes001.png"
-import NewProductBannerDates from "@/assets/images/OurBrands/newProductBannerDates.png"
-import CornFlakesNew from "@/assets/images/OurBrands/cornFlakesNew.png"
-import NewJamBanner from "@/assets/images/OurBrands/newJamBanner.png"
-import DatesProducts from "@/assets/images/OurBrands/newDatesProduct1.png"
+// import
+import NewBannerGreenTea from "@/assets/images/OurBrands/newBannerGreenTea.png";
+import NewBannerJam from "@/assets/images/OurBrands/newBannerJam.png";
+import NewBannerOrganic from "@/assets/images/OurBrands/newBannerOrganic.png";
+import NewBannerSaffron from "@/assets/images/OurBrands/newBannerSaffron.png";
+import NewBannerSoyaChunks from "@/assets/images/OurBrands/newBannersoyaChunks.png";
+import NewBannerHimalayaHoney from "@/assets/images/OurBrands/Himalaya-Honey12.png";
+import NewBannerVermicalli from "@/assets/images/OurBrands/newBannerVermicalli.png";
+import NewBannerChoco from "@/assets/images/OurBrands/chocoFlakes011.png";
+import ChocoFlakes from "@/assets/images/OurBrands/chocoFlakesNew01.png";
+import himalayaHoney01 from "@/assets/images/OurBrands/himalayaHoney01.jpg";
+import HimalayaHoney0001 from "@/assets/images/OurBrands/himalayaHoney001.jpg";
+import RegularHoney001 from "@/assets/images/OurBrands/regularHoney001.jpg";
+import soyaChunksProduct01 from "@/assets/images/OurBrands/soyaChunksProduct01.jpg";
+import chocoFlakes001 from "@/assets/images/OurBrands/chocoFlakes001.png";
+import NewProductBannerDates from "@/assets/images/OurBrands/newProductBannerDates.png";
+import CornFlakesNew from "@/assets/images/OurBrands/cornFlakesNew.png";
+import NewJamBanner from "@/assets/images/OurBrands/newJamBanner.png";
+import DatesProducts from "@/assets/images/OurBrands/newDatesProduct1.png";
 import HoneyBannerNew001 from "@/assets/images/OurBrands/Himalaya-Honey-banner-fix111.png";
 import RegularHoneyNewFix from "@/assets/images/OurBrands/Regular-Honey-banner-fix222.png";
 import newSoyaChunkss from "@/assets/images/OurBrands/newSoyaChunks1.png";
@@ -196,30 +196,30 @@ import Vermicelli103 from "@/assets/images/OurBrands/Vermicelli103.png";
 import jam103 from "@/assets/images/OurBrands/jam103.png";
 import cornFlakes103 from "@/assets/images/OurBrands/cornFlakes103.png";
 import honey103 from "@/assets/images/OurBrands/honey103.png";
-import DatesV1 from "@/assets/images/OurBrands/ArabianPearls.jpg"
-import DatesV2 from "@/assets/images/OurBrands/ClassicDate.jpg"
-import DatesV3 from "@/assets/images/OurBrands/DeseededDate.jpg"
-import DatesV4 from "@/assets/images/OurBrands/DesertBliss.jpg"
-import DatesV5 from "@/assets/images/OurBrands/KalmiDates.jpg"
-import DatesV6 from "@/assets/images/OurBrands/PremiumDates.jpg"
-import DatesV7 from "@/assets/images/OurBrands/RoyalZahidi.jpg"
-import DatesV8 from "@/assets/images/OurBrands/SelectDate.jpg"
-import DatesV9 from "@/assets/images/OurBrands/ShaaneKhajoor.jpg"
-import DatesV10 from "@/assets/images/OurBrands/ShehenshahDate.jpg"
-import ShehenshahBG from "@/assets/images/OurBrands/ShehenshahDateBg1.jpg"
-import RoyalZahidiBg from "@/assets/images/OurBrands/RoyalZahidiBg1.jpg"
-import ArabianPearlsBg from "@/assets/images/OurBrands/ArabianPearlsBg1.jpg"
-import ClassicDateBg from "@/assets/images/OurBrands/ClassicDateBg1.jpg"
-import DeseededDateBg from "@/assets/images/OurBrands/DeseededDateBg1.jpg"
-import DesertBlissBg from "@/assets/images/OurBrands/DesertBlissBg1.jpg"
-import KalmiDatesBg from "@/assets/images/OurBrands/KalmiDatesBg1.jpg"
-import PremiumDatesBg from "@/assets/images/OurBrands/PremiumDatesBg1.jpg"
-import SelectDateBg from "@/assets/images/OurBrands/SelectDateBg1.jpg"
-import ShaaneKhajoorBg from "@/assets/images/OurBrands/ShaanEKhajoorBg1.jpg"
-import GGPBanner from "@/assets/images/OurBrands/ggpbanner.png"
-import ggpProduct from "@/assets/images/OurBrands/newggpProduct.png"
-import newGGP02 from "@/assets/images/OurBrands/newggp02.png"
-import InfusedHoney from "@/assets/images/OurBrands/Infused-Honey.png"
+import DatesV1 from "@/assets/images/OurBrands/ArabianPearls.jpg";
+import DatesV2 from "@/assets/images/OurBrands/ClassicDate.jpg";
+import DatesV3 from "@/assets/images/OurBrands/DeseededDate.jpg";
+import DatesV4 from "@/assets/images/OurBrands/DesertBliss.jpg";
+import DatesV5 from "@/assets/images/OurBrands/KalmiDates.jpg";
+import DatesV6 from "@/assets/images/OurBrands/PremiumDates.jpg";
+import DatesV7 from "@/assets/images/OurBrands/RoyalZahidi.jpg";
+import DatesV8 from "@/assets/images/OurBrands/SelectDate.jpg";
+import DatesV9 from "@/assets/images/OurBrands/ShaaneKhajoor.jpg";
+import DatesV10 from "@/assets/images/OurBrands/ShehenshahDate.jpg";
+import ShehenshahBG from "@/assets/images/OurBrands/ShehenshahDateBg1.jpg";
+import RoyalZahidiBg from "@/assets/images/OurBrands/RoyalZahidiBg1.jpg";
+import ArabianPearlsBg from "@/assets/images/OurBrands/ArabianPearlsBg1.jpg";
+import ClassicDateBg from "@/assets/images/OurBrands/ClassicDateBg1.jpg";
+import DeseededDateBg from "@/assets/images/OurBrands/DeseededDateBg1.jpg";
+import DesertBlissBg from "@/assets/images/OurBrands/DesertBlissBg1.jpg";
+import KalmiDatesBg from "@/assets/images/OurBrands/KalmiDatesBg1.jpg";
+import PremiumDatesBg from "@/assets/images/OurBrands/PremiumDatesBg1.jpg";
+import SelectDateBg from "@/assets/images/OurBrands/SelectDateBg1.jpg";
+import ShaaneKhajoorBg from "@/assets/images/OurBrands/ShaanEKhajoorBg1.jpg";
+import GGPBanner from "@/assets/images/OurBrands/ggpbanner.png";
+import ggpProduct from "@/assets/images/OurBrands/newggpProduct.png";
+import newGGP02 from "@/assets/images/OurBrands/newggp02.png";
+import InfusedHoney from "@/assets/images/OurBrands/Infused-Honey.png";
 import NutrashipProducts from "@/assets/images/OurBrands/Nutrasip-Lemon-Honey-new.png";
 import NutrashipProductDesc from "@/assets/images/OurBrands/Nutrasip-product-desc.png";
 
@@ -227,48 +227,33 @@ import NutrashipIcon1 from "@/assets/images/OurBrands/Detox-Nutrasip-Icon.png";
 import NutrashipIcon2 from "@/assets/images/OurBrands/Power-of-8-Herbs-Nutrasip-Icon.png";
 import NutrashipIcon3 from "@/assets/images/OurBrands/Zero-BitternessNutrasip-Icon.png";
 
-
 import DatesNewIcons1 from "@/assets/images/OurBrands/Anti-Inflamatry-Date-Icon.png";
 import DatesNewIcons2 from "@/assets/images/OurBrands/High-Anti-oxidants-Date-Icon.png";
 import DatesNewIcons3 from "@/assets/images/OurBrands/High-Energy-&-Low-Fat-Date-Icon.png";
-import DatesNewIcons4 from  "@/assets/images/OurBrands/High-in-Fibre_Date_Icon.png";
-
+import DatesNewIcons4 from "@/assets/images/OurBrands/High-in-Fibre_Date_Icon.png";
 
 import VermicalliFinal from "@/assets/images/OurBrands/vermicaliFinal1.png";
 import RegularHoneyFinal from "@/assets/images/OurBrands/regular-honey-final.png";
 import HimalayaHoneyFinal from "@/assets/images/OurBrands/himalaya-honey-final.png";
 import InfusedHoneyFinal from "@/assets/images/OurBrands/infused-honey-final.png";
 
+import VermicalliIcon1 from "@/assets/images/OurBrands/Low-Cholestrol-Vermicelli.png";
+import VermicalliIcon2 from "@/assets/images/OurBrands/Low-Iodine-Vermicelli.png";
+import VermicalliIcon3 from "@/assets/images/OurBrands/Source-of-Protein-Vermicelli.png";
+import VermicalliIcon4 from "@/assets/images/OurBrands/Source-of-Dietry-Fibre-Vermicelli.png";
 
-import VermicalliIcon1 from "@/assets/images/OurBrands/Low-Cholestrol-Vermicelli.png"
-import VermicalliIcon2 from "@/assets/images/OurBrands/Low-Iodine-Vermicelli.png"
-import VermicalliIcon3 from "@/assets/images/OurBrands/Source-of-Protein-Vermicelli.png"
-import VermicalliIcon4 from "@/assets/images/OurBrands/Source-of-Dietry-Fibre-Vermicelli.png"
+import vermicalliFinalFixed from "@/assets/images/OurBrands/vermicalliFinalFixed.png";
 
-import vermicalliFinalFixed from "@/assets/images/OurBrands/vermicalliFinalFixed.png"
-
-import SoyaChunksFinalIcon1 from "@/assets/images/OurBrands/protein-fixed-001.png"
-import SoyaChunksFinalIcon2 from "@/assets/images/OurBrands/Zero-Fat-Soya-Chunks-002.png"
-import SoyaChunksFinalIcon3 from "@/assets/images/OurBrands/rich-icon-fixed-003.png"
-import SoyaChunksFinalIcon4 from "@/assets/images/OurBrands/easy-digest-004.png"
+import SoyaChunksFinalIcon1 from "@/assets/images/OurBrands/protein-fixed-001.png";
+import SoyaChunksFinalIcon2 from "@/assets/images/OurBrands/Zero-Fat-Soya-Chunks-002.png";
+import SoyaChunksFinalIcon3 from "@/assets/images/OurBrands/rich-icon-fixed-003.png";
+import SoyaChunksFinalIcon4 from "@/assets/images/OurBrands/easy-digest-004.png";
 import slugify from "./utils";
-
-
-
-
-
-
-
-
-
-
-
 
 // import OrganicHoneyMenu from "@/assets/images"
 
 //  import Blog8 from '@/assets/images/our-blog/blog08.png';
 //  import Blog5 from '@/assets/images/our-blog/Blog0.jpg';
-
 
 export const PRODUCT_NAME = "AIL";
 
@@ -344,7 +329,6 @@ export const STATUS_CODE = {
 //   }
 // ]
 export const PRODUCT_DATA = [
-
   {
     id: 1,
     title: "Organic",
@@ -402,7 +386,7 @@ export const PRODUCT_DATA = [
         secondary_color: "",
       },
 
-       {
+      {
         id: 3,
         name: "Infused Honey",
         img: NutrashipProductDesc,
@@ -429,10 +413,7 @@ export const PRODUCT_DATA = [
         secondary_color: "",
       },
     ],
-
-
   },
-
 
   {
     id: 2,
@@ -465,7 +446,7 @@ export const PRODUCT_DATA = [
           "Honey has been used for aesthetic purposes especially to return vigour and beauty to skin. When applied together with milk, honey creates a smooth, flawless skin. Real honey is also used for softening hair texture and for glowing skin.",
         primary_color: "",
         secondary_color: "",
-        shelfLife: "24 months"
+        shelfLife: "24 months",
       },
       {
         id: 2,
@@ -590,7 +571,6 @@ export const PRODUCT_DATA = [
         primary_color: "",
         secondary_color: "",
       },
-
 
       {
         id: 7,
@@ -744,10 +724,6 @@ export const PRODUCT_DATA = [
     ],
   },
 
-  
-
-
-
   {
     id: 3,
     title: "Breakfast Range",
@@ -838,7 +814,7 @@ export const PRODUCT_DATA = [
       //   id: 1,
       //   name: "Cooking Paste",
       //   img: CoolingPaste,
-      //   back_img: HoneyBg, 
+      //   back_img: HoneyBg,
       //   rect_color: "bg-[#FFC660]",
       //   title_color: "text-[#9F7B49]",
       //   desc_color: "text-black",
@@ -932,12 +908,6 @@ export const PRODUCT_DATA = [
     ],
   },
 
-
-
-  
-
-
-  
   // {
   //   id: 5,
   //   title: "Beverage",
@@ -970,21 +940,20 @@ export const PRODUCT_DATA = [
   // }
 ];
 
-
 export const NEWS_DATA = [
   {
     img: MediaImage01,
     name: NewsName1,
     desc: "AIL Unveils New Product to Drive Fitness.",
     date: "04 JANUARY, 2024 / PRESS RELEASES",
-    link: "https://smestreet.in/infocus/apis-india-unveils-new-product-to-drive-fitness-and-wellness-revolution-2318097"
+    link: "https://smestreet.in/infocus/apis-india-unveils-new-product-to-drive-fitness-and-wellness-revolution-2318097",
   },
   {
     img: apisNews3,
     name: NewsName3,
     desc: "Organic Honey from AIL",
     date: "10 JANUARY, 2024 / PRESS RELEASES",
-    link: "https://bwhotelier.com/article/organic-honey-from-apis-india-505447"
+    link: "https://bwhotelier.com/article/organic-honey-from-apis-india-505447",
   },
 
   {
@@ -992,14 +961,14 @@ export const NEWS_DATA = [
     name: NewsName4,
     desc: "Product launch from AIL",
     date: "09 JANUARY, 2024 / PRESS RELEASES",
-    link: "https://www.youtube.com/watch?v=8A3SeOYH8ww"
+    link: "https://www.youtube.com/watch?v=8A3SeOYH8ww",
   },
   {
     img: MediaImage02,
     name: NewsName2,
     desc: "AIL aims Rs 500 CR revenue in FY25",
     date: "09 JANUARY, 2024 / PRESS RELEASES",
-    link: "https://www.business-standard.com/companies/news/apis-india-to-expand-product-portfolio-aims-rs-500-cr-revenue-in-fy25-124010900680_1.html"
+    link: "https://www.business-standard.com/companies/news/apis-india-to-expand-product-portfolio-aims-rs-500-cr-revenue-in-fy25-124010900680_1.html",
   },
 
   {
@@ -1007,38 +976,36 @@ export const NEWS_DATA = [
     name: NewsName5,
     desc: "AIL launch of Hazelnut Chocolate spread",
     date: "11 APRIL, 2023 / PRESS RELEASES",
-    link: "https://www.ifttrade.com/news/Apis-India-expands-its-Spread-Category-with-the-launch-of-Hazelnut-Chocolate-spread"
+    link: "https://www.ifttrade.com/news/Apis-India-expands-its-Spread-Category-with-the-launch-of-Hazelnut-Chocolate-spread",
   },
   {
     img: apisNews6,
     name: NewsName6,
     desc: "A Perfect Blend of Nutrition & Taste by Apis",
     date: "06 APRIL, 2023 / PRESS RELEASES",
-    link: "https://biznewsdesk.com/business/a-perfect-blend-of-nutrition-tradition-taste-by-apis/"
+    link: "https://biznewsdesk.com/business/a-perfect-blend-of-nutrition-tradition-taste-by-apis/",
   },
-
-
 
   {
     img: apisNews7,
     name: NewsName6,
     desc: "AIL launches Peanut Butter in two variants",
     date: "24 MARCH, 2023 / PRESS RELEASES",
-    link: "https://lifeandmore.in/life-style/food/apis-india-launches-peanut-butter/"
+    link: "https://lifeandmore.in/life-style/food/apis-india-launches-peanut-butter/",
   },
   {
     img: apisNews8,
     name: NewsName6,
     desc: "Apis campaign for Ramadan speaks of personal",
     date: "23 MARCH, 2023 / PRESS RELEASES",
-    link: "https://www.exchange4media.com/advertising-news/apis-campaign-for-ramadan-speaks-of-personal-well-being-126132.html"
+    link: "https://www.exchange4media.com/advertising-news/apis-campaign-for-ramadan-speaks-of-personal-well-being-126132.html",
   },
   {
     img: apisNews9,
     name: NewsName6,
     desc: "You Didn’t Know These Ways To Use Honey",
     date: "10 JANUARY, 2023 / PRESS RELEASES",
-    link: "https://www.slurrp.com/article/we-bet-you-didnt-know-these-creative-ways-to-use-honey-1672830183803"
+    link: "https://www.slurrp.com/article/we-bet-you-didnt-know-these-creative-ways-to-use-honey-1672830183803",
   },
 
   {
@@ -1046,290 +1013,289 @@ export const NEWS_DATA = [
     name: NewsName6,
     desc: "Pride of India Brands 2021",
     date: "JANUARY, 2022 / PRESS RELEASES",
-    link: "https://www.linkedin.com/posts/exchange4media_e4mprideofindia-activity-6922891424749215745-aYje?utm_source=linkedin_share&utm_medium=android_app"
+    link: "https://www.linkedin.com/posts/exchange4media_e4mprideofindia-activity-6922891424749215745-aYje?utm_source=linkedin_share&utm_medium=android_app",
   },
   {
     img: apisNews12,
     name: NewsName6,
     desc: "Pride of India Brands 2021                    ",
     date: "JANUARY, 2022 / PRESS RELEASES",
-    link: "https://www.exchange4media.com/marketing-news/e4m-pride-of-india-brands-2021-series-to-tell-success-stories-of-top-smbs-118044.html"
+    link: "https://www.exchange4media.com/marketing-news/e4m-pride-of-india-brands-2021-series-to-tell-success-stories-of-top-smbs-118044.html",
   },
   {
     img: apisnews13New,
     name: NewsName6,
     desc: "Afaqs                                      ",
     date: "DECEMBER, 2021 / PRESS RELEASES",
-    link: "https://www.afaqs.com/people-spotting/apis-india-appoints-sharad-vatss-as-marketing-and-sales-head"
+    link: "https://www.afaqs.com/people-spotting/apis-india-appoints-sharad-vatss-as-marketing-and-sales-head",
   },
   {
     img: apisNews14,
     name: NewsName6,
     desc: "Apis' Exclusive Interview                   ",
     date: "DECEMBER, 2021 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/ApisExclusiveInterview.pdf"
+    link: "https://apisindia.com/pdf/ApisExclusiveInterview.pdf",
   },
   {
     img: apisNews15,
     name: NewsName6,
     desc: "Economic Times News",
     date: "16/August, 2021 / PRESS RELEASES",
-    link: "https://brandequity.economictimes.indiatimes.com/news/advertising/apis-india-ropes-in-milind-soman-as-the-brand-ambassador/85362992"
+    link: "https://brandequity.economictimes.indiatimes.com/news/advertising/apis-india-ropes-in-milind-soman-as-the-brand-ambassador/85362992",
   },
   {
     img: apisNews10,
     name: NewsName6,
     desc: "AIL #ShuddhAurSaccha Campaign                 ",
     date: "14 DECEMBER, 2022 / PRESS RELEASES",
-    link: "https://www.uniindia.com/apis-india-launches-shuddhaursaccha-campaign-promoting-its-honey-for-healthy-winters/press-releases/news/2878783.html"
+    link: "https://www.uniindia.com/apis-india-launches-shuddhaursaccha-campaign-promoting-its-honey-for-healthy-winters/press-releases/news/2878783.html",
   },
   {
     img: apisNews16,
     name: NewsName6,
     desc: "PTI News                                             ",
     date: "23/APRIL, 2021 / PRESS RELEASES",
-    link: "https://www.ptinews.com/pressrelease/46509_press-subAPIS-India-Launches-Digital-Campaign-During-Ramadan----SehatKaSaath"
+    link: "https://www.ptinews.com/pressrelease/46509_press-subAPIS-India-Launches-Digital-Campaign-During-Ramadan----SehatKaSaath",
   },
   {
     img: apisNews17,
     name: NewsName6,
     desc: "Campaign",
     date: "23/APRIL, 2021 / PRESS RELEASES",
-    link: "https://www.campaignindia.in/video/for-ramadan-apis-india-highlights-the-beauty-of-bonding-over-food/469169#:~:text=FMCG%20brand%20Apis%20India%20has,led%20digital%20campaign%20for%20Ramadan.&text=Pankaj%20Mishra%2C%20CEO%2C%20Apis%20India,has%20been%20realised%20by%20all"
+    link: "https://www.campaignindia.in/video/for-ramadan-apis-india-highlights-the-beauty-of-bonding-over-food/469169#:~:text=FMCG%20brand%20Apis%20India%20has,led%20digital%20campaign%20for%20Ramadan.&text=Pankaj%20Mishra%2C%20CEO%2C%20Apis%20India,has%20been%20realised%20by%20all",
   },
   {
     img: apisNews18,
     name: NewsName6,
     desc: "Afaqs",
     date: "23/APRIL, 2021 / PRESS RELEASES",
-    link: "https://www.afaqs.com/companies/apis-india-launches-digital-campaign-during-ramadan"
+    link: "https://www.afaqs.com/companies/apis-india-launches-digital-campaign-during-ramadan",
   },
   {
     img: apisNews19,
     name: NewsName6,
     desc: "FoodTechBiz Desk",
     date: "Published on : 22 Apr, 2021",
-    link: "https://www.foodtechbiz.com/business-updates/apis-india-launches-digital-campaign-during-ramadan"
+    link: "https://www.foodtechbiz.com/business-updates/apis-india-launches-digital-campaign-during-ramadan",
   },
   {
     img: apisNews20,
     name: NewsName6,
     desc: "Times Of India",
     date: "Published on: 20 Apr, 2021",
-    link: "https://timesofindia.indiatimes.com/business/india-business/sensex-nifty-extend-losses-in-choppy-trade-banking-it-stocks-drag/articleshow/82163654.cms"
+    link: "https://timesofindia.indiatimes.com/business/india-business/sensex-nifty-extend-losses-in-choppy-trade-banking-it-stocks-drag/articleshow/82163654.cms",
   },
   {
     img: apisNews21,
     name: NewsName6,
     desc: "Corperate Coverage Outlook Initiatives",
     date: "AIL Limited ",
-    link: "https://apisindia.com/media/Coporate%20Coverage_Dec_2020%20(2).pdf"
+    link: "https://apisindia.com/media/Coporate%20Coverage_Dec_2020%20(2).pdf",
   },
   {
     img: apisNews22,
     name: NewsName6,
     desc: "Times Of India.",
     date: "feat. Mr. Amit Ananad, Managing Director, AIL",
-    link: "https://timesofindia.indiatimes.com/business/india-business/after-a-sweet-start-with-apis-honey-apis-india-limited-is-in-expansion-mode-of-its-fmcg-portfolio/articleshow/78905307.cms?utm_source=whatsapp&utm_medium=social&utm_campaign=TOIMobile"
+    link: "https://timesofindia.indiatimes.com/business/india-business/after-a-sweet-start-with-apis-honey-apis-india-limited-is-in-expansion-mode-of-its-fmcg-portfolio/articleshow/78905307.cms?utm_source=whatsapp&utm_medium=social&utm_campaign=TOIMobile",
   },
   {
     img: apisNews23,
     name: NewsName6,
     desc: "SMB Story",
     date: "Feat. Mr. Pankaj Mishra, CEO, AIL",
-    link: "https://yourstory.com/smbstory/honey-brand-apis-dabur-patanjali-business"
+    link: "https://yourstory.com/smbstory/honey-brand-apis-dabur-patanjali-business",
   },
   {
     img: apisNews24,
     name: NewsName6,
     desc: "Forbes India ",
     date: "Feat. Mr. Pankaj Mishra, CEO, AIL ",
-    link: "https://www.forbesindia.com/article/brand-connect/pankaj-mishra-ceo-apis-india-driving-growth-and-expansion/62931/1"
+    link: "https://www.forbesindia.com/article/brand-connect/pankaj-mishra-ceo-apis-india-driving-growth-and-expansion/62931/1",
   },
   {
     img: apisNews25,
     name: NewsName6,
     desc: "Apis - RR Partnership ",
     date: "Business Today ",
-    link: "https://www.businesstoday.in/latest/corporate/story/unique-digital-experiences-first-time-advertisers-ipl-2020-different-273470-2020-09-19"
+    link: "https://www.businesstoday.in/latest/corporate/story/unique-digital-experiences-first-time-advertisers-ipl-2020-different-273470-2020-09-19",
   },
   {
     img: apisNews26,
     name: NewsName6,
     desc: "Apis - RR Partnership ",
     date: "Press Release",
-    link: "https://apisindiafoodforum.com/posts/apis-honey-announces-partnership-with-rajasthan-royals-for-upcoming-ipl-2020/"
+    link: "https://apisindiafoodforum.com/posts/apis-honey-announces-partnership-with-rajasthan-royals-for-upcoming-ipl-2020/",
   },
   {
     img: apisNews27,
     name: NewsName6,
     desc: "Apis - RR Partnership ",
     date: "Business Inc",
-    link: "https://apisindia.com/media/APIS%20-%20RR.jpeg"
+    link: "https://apisindia.com/media/APIS%20-%20RR.jpeg",
   },
   {
     img: apisNews28,
     name: NewsName6,
     desc: "The most Admirable Brand 2019-20 ",
     date: "Mr. Amit Anand, MD, AIL ",
-    link: "https://www.youtube.com/watch?v=J0LitwjNpKs"
+    link: "https://www.youtube.com/watch?v=J0LitwjNpKs",
   },
   {
     img: apisNews29,
     name: NewsName6,
     desc: "Promising Brand Economic Times 2019 ",
     date: "Mr. Pankaj Mishra, CEO, AIL ",
-    link: "https://www.youtube.com/watch?v=ts9T-KK26Io"
+    link: "https://www.youtube.com/watch?v=ts9T-KK26Io",
   },
   {
     img: apisNews30,
     name: NewsName6,
     desc: "EMERGING FMCG BRAND, Times Of India ",
     date: "Mr. Pankaj Mishra,CEO",
-    link: "https://apisindia.com/pdf/11.pdf"
+    link: "https://apisindia.com/pdf/11.pdf",
   },
   {
     img: apisNews31,
     name: NewsName6,
     desc: "SME World 1 ",
     date: "APRIL 01, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/22.pdf"
+    link: "https://apisindia.com/pdf/22.pdf",
   },
   {
     img: apisNews32,
     name: NewsName6,
     desc: "SME World 2",
     date: "APRIL 01, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/33.pdf"
+    link: "https://apisindia.com/pdf/33.pdf",
   },
   {
     img: apisNews33,
     name: NewsName6,
     desc: "Hospitality Talk",
     date: "MARCH, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/media/Hospitality%20Talk.jpg"
+    link: "https://apisindia.com/media/Hospitality%20Talk.jpg",
   },
   {
     img: apisNews34,
     name: NewsName6,
     desc: "Hospitality Biz",
     date: "FEBRUARY, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Hospitality%20Biz.pdf"
+    link: "https://apisindia.com/pdf/Hospitality%20Biz.pdf",
   },
   {
     img: apisNews35,
     name: NewsName6,
     desc: "Fhrai",
     date: "FEBRUARY, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/FHRAI_Feb-2017.pdf"
+    link: "https://apisindia.com/pdf/FHRAI_Feb-2017.pdf",
   },
   {
     img: apisNews36,
     name: NewsName6,
     desc: "Aviation Times - Promotion",
     date: "FEBRUARY, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Aviation-Times-Promotion-page-3.pdf"
+    link: "https://apisindia.com/pdf/Aviation-Times-Promotion-page-3.pdf",
   },
   {
     img: apisNews37,
     name: NewsName6,
     desc: "Apis Progressive Grocer ",
     date: "MARCH, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Apis-Progressive-Grocer.pdf"
+    link: "https://apisindia.com/pdf/Apis-Progressive-Grocer.pdf",
   },
   {
     img: apisNews38,
     name: NewsName6,
     desc: "Agri Business & Food Industry ",
     date: "JUNE 06, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/1.pdf"
+    link: "https://apisindia.com/pdf/1.pdf",
   },
   {
     img: apisNews39,
     name: NewsName6,
     desc: "Financial Chronicle ",
     date: "MARCH 21, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/corporate.pdf"
+    link: "https://apisindia.com/pdf/corporate.pdf",
   },
   {
     img: apisNews40,
     name: NewsName6,
     desc: "Business India, Corporate Reports",
     date: " FEBRUARY 27, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Business-India-Corporate-Report.pdf"
+    link: "https://apisindia.com/pdf/Business-India-Corporate-Report.pdf",
   },
   {
     img: apisNews41,
     name: NewsName6,
     desc: "Himalaya-Vartha Prabha",
     date: "JANUARY 28, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Himalaya-Vartha-Prabha-28th-Jan-2017-Pg3.pdf"
+    link: "https://apisindia.com/pdf/Himalaya-Vartha-Prabha-28th-Jan-2017-Pg3.pdf",
   },
   {
     img: apisNews42,
     name: NewsName6,
     desc: "Himalaya Suvarana Times Of Karnataka",
     date: "JANUARY 28, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/2.pdf"
+    link: "https://apisindia.com/pdf/2.pdf",
   },
   {
     img: apisNews43,
     name: NewsName6,
     desc: "Himalaya-Sanjevani",
     date: "JANUARY 27, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Himalaya-Sanjevani-27th-Jan-2017-Pg7.pdf"
+    link: "https://apisindia.com/pdf/Himalaya-Sanjevani-27th-Jan-2017-Pg7.pdf",
   },
   {
     img: apisNews44,
     name: NewsName6,
     desc: "Himalaya-Sanjesamachara",
     date: "JANUARY 27, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Himalaya-Sanjesamachara-27th-Jan-2017-Pg4.pdf"
+    link: "https://apisindia.com/pdf/Himalaya-Sanjesamachara-27th-Jan-2017-Pg4.pdf",
   },
   {
     img: apisNews45,
     name: NewsName6,
     desc: "Business India Edition",
     date: "JANUARY, 2017 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Business-India-January-Edition.pdf"
+    link: "https://apisindia.com/pdf/Business-India-January-Edition.pdf",
   },
   {
     img: apisNews46,
     name: NewsName6,
     desc: "Economic Times",
     date: "DECEMBER, 2016 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/Press-Economic-Times.pdf"
+    link: "https://apisindia.com/pdf/Press-Economic-Times.pdf",
   },
   {
     img: apisNews47,
     name: NewsName6,
     desc: "India.com",
     date: "DECEMBER, 2016 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/indiapress.pdf"
+    link: "https://apisindia.com/pdf/indiapress.pdf",
   },
   {
     img: apisNews48,
     name: NewsName6,
     desc: "Business Standard",
     date: " DECEMBER, 2016 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/businessstandardspress.pdf"
+    link: "https://apisindia.com/pdf/businessstandardspress.pdf",
   },
   {
     img: apisNews48,
     name: NewsName6,
     desc: "India Live Today",
     date: " DECEMBER, 2016 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/indialivetodaypress.pdf"
+    link: "https://apisindia.com/pdf/indialivetodaypress.pdf",
   },
   {
     img: apisnews13New,
     name: NewsName6,
     desc: "India Times",
     date: " DECEMBER, 2016 / PRESS RELEASES",
-    link: "https://apisindia.com/pdf/indiatimespress.pdf"
-  }
+    link: "https://apisindia.com/pdf/indiatimespress.pdf",
+  },
 ];
-
 
 export const Blog_Data = [
   {
@@ -1359,8 +1325,7 @@ export const Blog_Data = [
 <p>By adding Apis Kesar to your sweets during Ramadan, you can enjoy its rich flavour and numerous health benefits.</p>
 <h2>In Conclusion</h2>
 <p>If you’re searching for ways to make your sehri and iftar even more delightful, then look no further than Apis products! With an extensive range of nutritious snacks and delectable dessert garnishes, Apis has got you covered. So, why not try them out this Ramadan and see for yourself?</p>
-    </div>`
-
+    </div>`,
   },
   {
     id: 2,
@@ -1392,8 +1357,7 @@ export const Blog_Data = [
 <p><strong>Makes Heart Healthy:</strong></p>
 <p>Dates are rich in potassium and fiber, which help regulate blood pressure and maintain cholesterol levels, which helps reduce the chances of heart disease.</p>
 <p>Dates are an essential part of Ramadan traditions. Muslims prefer them because of the cultural and religious values they hold.</p>
-    </div>`
-
+    </div>`,
   },
   {
     id: 3,
@@ -1420,14 +1384,12 @@ export const Blog_Data = [
 <p>In addition to their nutritional value, APIS Dates are good in taste. They have a sweet and rich flavor that makes them a popular choice for snacking as well. Whether you are looking for an instant boost of energy during Sehri or a tasty treat to break your fast at Iftar, APIS Dates are a perfect choice.</p>
 <p><strong>Conclusion</strong></p>
 <p>Dates are delicious and nutritious food item that is perfect for consumption during Ramadan. Rich in vitamins, minerals, fiber, and antioxidants, these aid in maintaining your health during the fast. APIS Dates are an excellent option for people looking for high-quality dates. So this Ramadan, make sure to include dates in your Sehri and Iftar.</p>
-    </div>`
-
+    </div>`,
   },
   {
     id: 4,
     image: Blog4,
-    contentData:
-      `<div class="blog-content-wrap">
+    contentData: `<div class="blog-content-wrap">
                     <div class="entry-header mb-20">
                 <div class="entry-meta">
                     <a class="mr-2" href="https://blog.apisindia.com/posts/apis-campaign-for-ramadan-speaks-of-personal-well-being/" rel="bookmark"><i class="ion-ios-time-outline"></i> <time class="entry-date published updated" datetime="2023-03-30T09:47:30+00:00">March 30, 2023</time></a><span class="byline"><i class="ion-android-person"></i> <span class="screen-reader-text">Posted by</span><span class="author vcard"><a class="url fn n" href="https://blog.apisindia.com/author/admin/">admin</a></span></span>                </div><!-- .entry-meta -->
@@ -1441,14 +1403,12 @@ export const Blog_Data = [
 <p>Being a social media contest that engages the community, AIL is also relying on other factors to reach out to a broader community. Through influencers from the Muslim community, the brand aims to spread awareness, while maximising the influencers by using them as a catalyst to boost the activity. The brand is also focusing on targeted ads during this holy month to amplify its online campaign.</p>
 <p>To expand its reach beyond the digital sphere, the brand also includes hoardings, billboards, and banners to complement the social media campaign. In addition, the brand will organise an on-ground activity inspired by its video advertisement which conveyed the message of togetherness across religious lines and promoted the brand as an icon bringing people together.</p>
 <p>The on-ground activity will see Apis visiting areas in the national capital with a significant Muslim population and distributing hampers containing Apis Dates and other products to the underprivileged during iftar. Through this initiative, Apis aims to increase consumer awareness about the significance of physical well-being during Ramadan and create a deeper bond within the community. By leveraging its campaign, Apis hopes to make a lasting impact on individuals and communities across the country.</p>
-    </div>`
-
+    </div>`,
   },
   {
     id: 5,
     image: Blog5,
-    contentData:
-      `<div class="blog-content-wrap">
+    contentData: `<div class="blog-content-wrap">
                     <div class="entry-header mb-20">
                 <div class="entry-meta">
                     <a class="mr-2" href="https://blog.apisindia.com/posts/apis-india-launches/" rel="bookmark"><i class="ion-ios-time-outline"></i> <time class="entry-date published" datetime="2023-01-11T12:47:00+00:00">January 11, 2023</time></a><span class="byline"><i class="ion-android-person"></i> <span class="screen-reader-text">Posted by</span><span class="author vcard"><a class="url fn n" href="https://blog.apisindia.com/author/admin/">admin</a></span></span>                </div><!-- .entry-meta -->
@@ -1509,14 +1469,12 @@ export const Blog_Data = [
 <p>Apishimalaya Honey has a lot to offer, from its antioxidant properties to its position as a pleasant natural sweetener and preservative.</p>
 <p>Apart from its taste and health benefits, it can be used as a natural remedy for medicinal problems.</p>
 <p>You can buy Apishimalaya honey online or get it from your nearby stores.</p>
-    </div>`
-
+    </div>`,
   },
   {
     id: 6,
     image: Blog6,
-    contentData:
-      `<div class="blog-content-wrap">
+    contentData: `<div class="blog-content-wrap">
                     <div class="entry-header mb-20">
                 <div class="entry-meta">
                     <a class="mr-2" href="https://blog.apisindia.com/posts/apis-india-launches-shuddhaursaccha-campaign-promoting-its-honey-for-healthy-winters/" rel="bookmark"><i class="ion-ios-time-outline"></i> <time class="entry-date published updated" datetime="2022-12-14T13:26:01+00:00">December 14, 2022</time></a><span class="byline"><i class="ion-android-person"></i> <span class="screen-reader-text">Posted by</span><span class="author vcard"><a class="url fn n" href="https://blog.apisindia.com/author/admin/">admin</a></span></span>                </div><!-- .entry-meta -->
@@ -1532,14 +1490,12 @@ export const Blog_Data = [
 <p>With the growing concerns of people consuming sugar which has led to ill effects on the body, the company leveraged the benefits of honey to promote its unique Apis Himalaya Honey brand.</p>
 <p>Currently, the company is positioned as one of the top three honey brands with over 4 lakh conventional retail outlets. When it comes to Apis Honey, it is easy to associate it with marking the standards of purity. AIL holds numerous certifications promoting its purity which includes BRC Global, APEDA, NON-GMO, KOSHER, and ISO 22000 by Intertek. It is also FSSAI compliant and registered with USFDA. According to the company, its honey is also free from any additional preservatives and additives, so consumers may enjoy the pure taste of honey with its health benefits like – weight loss, protection from cold &amp; cough, improved metabolism, and rich source of antioxidants and nutrients.</p>
 <p>&nbsp;</p>
-    </div>`
-
+    </div>`,
   },
   {
     id: 7,
     image: Blog7,
-    contentData:
-      `<div class="blog-content-wrap">
+    contentData: `<div class="blog-content-wrap">
                     <div class="entry-header mb-20">
                 <div class="entry-meta">
                     <a class="mr-2" href="https://blog.apisindia.com/posts/honey-and-amla-a-unique-and-healthful-combination/" rel="bookmark"><i class="ion-ios-time-outline"></i><time class="updated" datetime="2022-11-22T13:28:21+00:00">November 22, 2022</time></a><span class="byline"><i class="ion-android-person"></i> <span class="screen-reader-text">Posted by</span><span class="author vcard"><a class="url fn n" href="https://blog.apisindia.com/author/admin/">admin</a></span></span>                </div><!-- .entry-meta -->
@@ -1574,8 +1530,7 @@ export const Blog_Data = [
 <p>You can benefit from the rare pairing of amla and honey in addition to the ways listed above, and it also aids in internal cleansing, clearing, and restoration. It also functions as an effective anti-treatment that aids in slowing down skin ageing.</p>
 <p>You can rely on APIS’s 100% pure Himalaya honey to be excellent.Apishoney &nbsp;crafted with love and care so that you, your family and friends can grab the essential benefits. So, what are you waiting for?</p>
 <p>Order your honey jar now!</p>
-    </div>`
-
+    </div>`,
   },
   //   {
   //       id: 8,
@@ -1785,7 +1740,6 @@ export const RECIPIES_DATA = [
     time: "Prep 10 min",
     name: "Soya Chunks Kebab",
     descreption: "Apis Soya Chunks Kebab Recipe | Kebab Recipes | Seekh Kebab",
-
   },
   {
     video: "https://www.youtube.com/embed/XDzOMTZy_n0?si=ShwydgtGqI1ynaE9",
@@ -1793,28 +1747,28 @@ export const RECIPIES_DATA = [
     time: "Prep 10 min",
     name: "Himalaya Honey",
     descreption: "Apis Recipes : Honey BBQ Chicken Recipe",
-
   },
   {
     video: "https://www.youtube.com/embed/9VRrtyF0OEA?si=WbZwBC44wQnpI7pn",
     title: "Apis Dates Halwa | khajoor ka halwa",
     time: "Prep 10 min",
     name: "Himalaya Honey",
-    descreption: "Apis Dates Halwa | khajoor ka halwa | डेट्स (खजूर) हलवा रेसिपी | With Apis Honey | No Sugar",
+    descreption:
+      "Apis Dates Halwa | khajoor ka halwa | डेट्स (खजूर) हलवा रेसिपी | With Apis Honey | No Sugar",
   },
   {
     video: "https://www.youtube.com/embed/9VRrtyF0OEA?si=WbZwBC44wQnpI7pn",
     title: "Apis Dates Halwa | khajoor ka halwa",
     time: "Prep 10 min",
     name: "Arebian Pearls apis Dates",
-    descreption: "Apis Dates Halwa | khajoor ka halwa | डेट्स (खजूर) हलवा रेसिपी | With Apis Honey | No Sugar",
+    descreption:
+      "Apis Dates Halwa | khajoor ka halwa | डेट्स (खजूर) हलवा रेसिपी | With Apis Honey | No Sugar",
   },
   {
     video: "https://www.youtube.com/embed/NeL3kvnYyXQ?si=u1soO1g7rznNRBAU",
     title: "Apis Recipes | Honey Glazed Carrots",
     time: "Prep 10 min",
     descreption: "Apis Recipes | Honey Glazed Carrots",
-
   },
   {
     video: "https://www.youtube.com/embed/hf4P8aFybvQ?si=zeR0fknIV7KgkDCH",
@@ -1838,7 +1792,6 @@ export const RECIPIES_DATA = [
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
     descreption: "Honey Chocolate Tart Recipe",
-
   },
   {
     video: "https://www.youtube.com/embed/jIcuAKg2O88?si=0LTbXtYGURxaySPj",
@@ -1846,7 +1799,6 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-
   },
   {
     video: "https://www.youtube.com/embed/kGOJpsTJNI8?si=O87ESoR3CvnLWqqR",
@@ -1854,7 +1806,6 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Lemon Honey Dhokla Recipe - Apis Himalaya Honey",
-
   },
   {
     video: "https://www.youtube.com/embed/nqjVqM4IVMc?si=w7eJU292rmcAf1XX",
@@ -1862,7 +1813,7 @@ export const RECIPIES_DATA = [
     name: "Chocho Flakes",
     time: "Prep 10 min",
     descreption: "Apis Chocoflakes Chocolate Cluster Recipe",
-    type: "4"
+    type: "4",
   },
   {
     video: "https://www.youtube.com/embed/sp7PAZwkvqc?si=AcuSlmnUaZ38mqnm",
@@ -1870,7 +1821,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Apis Himalaya Honey Chicken Thighs Recipe",
-    type: "4"
+    type: "4",
   },
   {
     video: "https://www.youtube.com/embed/UaKnrJ7jxUA?si=mWn1ppflQj1BT6nr",
@@ -1878,7 +1829,7 @@ export const RECIPIES_DATA = [
     name: "Corn Flakes",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "4"
+    type: "4",
   },
   {
     video: "https://www.youtube.com/embed/LJIVoHMoEfo?si=Hv-wWlfnVSoJQALl",
@@ -1886,7 +1837,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Apis Cornflakes Recipe",
-    type: "4"
+    type: "4",
   },
   {
     video: "https://www.youtube.com/embed/LJIVoHMoEfo?si=Hv-wWlfnVSoJQALl",
@@ -1894,7 +1845,7 @@ export const RECIPIES_DATA = [
     name: "Corn Flakes",
     time: "Prep 10 min",
     descreption: "Apis Cornflakes Recipe",
-    type: "4"
+    type: "4",
   },
   {
     video: "https://www.youtube.com/embed/ZKam7KXIJaE?si=lvYKoIIVkm07Utd0",
@@ -1902,7 +1853,7 @@ export const RECIPIES_DATA = [
     name: "",
     time: "Prep 10 min",
     descreption: "Apis Dates Gujiya Recipe",
-    type: "5"
+    type: "5",
   },
   {
     video: "https://www.youtube.com/embed/NDDaneL4K8s?si=ckZmFV1TSC48SGTu",
@@ -1910,7 +1861,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "5"
+    type: "5",
   },
   {
     video: "https://www.youtube.com/embed/kL9am3QFjaM?si=xJ0NTliB6jMy-I0y",
@@ -1918,7 +1869,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Dates Pie Recipe - Apis",
-    type: "6"
+    type: "6",
   },
   {
     video: "https://www.youtube.com/embed/kL9am3QFjaM?si=xJ0NTliB6jMy-I0y",
@@ -1926,7 +1877,7 @@ export const RECIPIES_DATA = [
     name: "Arebian Pearls apis Dates",
     time: "Prep 10 min",
     descreption: "Dates Pie Recipe - Apis",
-    type: "6"
+    type: "6",
   },
   {
     video: "https://www.youtube.com/embed/H1oXlytb3l8?si=uYXSIjv7lCQU69gd",
@@ -1934,7 +1885,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "6"
+    type: "6",
   },
   {
     video: "https://www.youtube.com/embed/4eiIcOnV-3k?si=kNyYKr0v99wG50w8",
@@ -1942,7 +1893,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "6"
+    type: "6",
   },
   {
     video: "https://www.youtube.com/embed/ng5x3ntnvAM?si=No7g71v_dE0uolVx",
@@ -1950,7 +1901,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "6"
+    type: "6",
   },
   {
     video: "https://www.youtube.com/embed/ng5x3ntnvAM?si=No7g71v_dE0uolVx",
@@ -1958,7 +1909,7 @@ export const RECIPIES_DATA = [
     name: "apis jam Fruit Blast",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "6"
+    type: "6",
   },
   {
     video: "https://www.youtube.com/embed/mL1OH9Vkx0I?si=02y06eQfCnDG7vxt",
@@ -1966,7 +1917,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "7"
+    type: "7",
   },
   {
     video: "https://www.youtube.com/embed/7I8bVTLLrm0?si=AeJnSKtlIzzH0weQ",
@@ -1974,7 +1925,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "7"
+    type: "7",
   },
   {
     video: "https://www.youtube.com/embed/9-PdKpY0QCw?si=U48XE5KZ-tmcp6AX",
@@ -1982,7 +1933,7 @@ export const RECIPIES_DATA = [
     name: "Apis Seviyan Vermicelli",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "7"
+    type: "7",
   },
   {
     video: "https://www.youtube.com/embed/oe_fjXxhAW8?si=tCdL5_6Wk-Jf7T4O",
@@ -1990,7 +1941,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "7"
+    type: "7",
   },
   {
     video: "https://www.youtube.com/embed/U7--fls2cNc?si=X7CUDtLqzM5PhPqa",
@@ -1998,7 +1949,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "8"
+    type: "8",
   },
   // {
   //   img: "https://www.youtube.com/embed/F5C7jqf0H-U?si=gjPQni7XvofFJoRW",
@@ -2015,8 +1966,7 @@ export const RECIPIES_DATA = [
     name: "Royal Zahidi Dates",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "8"
-
+    type: "8",
   },
   {
     video: "https://www.youtube.com/embed/87JI_nXS9ag?si=g1tpsFUiFql0MaIj",
@@ -2025,7 +1975,7 @@ export const RECIPIES_DATA = [
 
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "8"
+    type: "8",
   },
   {
     video: "https://www.youtube.com/embed/Jw0pZzvcF6g?si=jzM0PZzRlkA9L9F8",
@@ -2033,7 +1983,7 @@ export const RECIPIES_DATA = [
     name: "Arebian Pearls apis Dates",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/j8pBbVwBiow?si=a13UI-VbyCqj0PrO",
@@ -2041,7 +1991,7 @@ export const RECIPIES_DATA = [
     name: "Arebian Pearls apis Dates",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/tRU-1Dx1Bz8?si=fCo9BSOKXEXXq5wG",
@@ -2049,7 +1999,7 @@ export const RECIPIES_DATA = [
     name: "Arebian Pearls apis Dates",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   // {
   //   img: "https://www.youtube.com/embed/qDtahUI7-rI?si=s6O926yCvMmmq8ep",
@@ -2065,7 +2015,7 @@ export const RECIPIES_DATA = [
     name: "Organic Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/uPa7-205ahw?si=SnXYrMwJN7q6I5UG",
@@ -2073,7 +2023,7 @@ export const RECIPIES_DATA = [
     name: "Organic Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/H4DMfIObK3U?si=C7VEIJxvupBY0wYw",
@@ -2081,7 +2031,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/WunWrdpvzT4?si=09OOdC_zS01Nrzfh",
@@ -2089,7 +2039,7 @@ export const RECIPIES_DATA = [
     name: "Organic Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/hy-x8vGo5rE?si=WvQ5qAQ5l0w-qXFw",
@@ -2097,7 +2047,7 @@ export const RECIPIES_DATA = [
     name: "Himalaya Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/iqAZpmKUKCk?si=gL5ZjbLC9U9yfobi",
@@ -2105,7 +2055,7 @@ export const RECIPIES_DATA = [
     name: "Organic Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/uPa7-205ahw?si=0s2rG7hdfSvH6Q_F",
@@ -2113,7 +2063,7 @@ export const RECIPIES_DATA = [
     name: "Organic Honey",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
   {
     video: "https://www.youtube.com/embed/GD8Qij22kUI?si=-FCgwOXtU024bNiX",
@@ -2121,7 +2071,7 @@ export const RECIPIES_DATA = [
     name: "Royal Zahidi Dates",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "9"
+    type: "9",
   },
 ];
 // const RECEIPE_TYPE_DATA = [
@@ -2148,122 +2098,274 @@ export const RECEIPE_DATA = [
   "Vermicelli",
   // "Royal Zahidi Dates",
   "Organic Honey",
-  "Garlic Paste"
-
+  "Garlic Paste",
 ];
-
 
 export const WORLD_APPERIENCE = [
-  { "id": 1, "name": "Outcome of Board Meeting : November-09-2023", "path": "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting091123.pdf" },
-  { "id": 2, "name": "Notice of Board Meeting : October-31-2023", "path": "https://apisindia.com/pdf/2023/Notice-of-Board-Meeting311023.pdf" },
-  { "id": 3, "name": "Outcome of Board Metting : August-13-2022", "path": "https://apisindia.com/pdf/2022/Outcome-of-board-meeting-082022.pdf" },
-  { "id": 4, "name": "Covering Letter January-04-2021", "path": "https://apisindia.com/pdf/2020/Covering_Letter_2021.pdf" },
-  { "id": 5, "name": "Disclosure under Reg.30 Appt of Director January-15-2021", "path": "https://apisindia.com/pdf/2020/DISCLOSURE-UNDER-REG-30-APPT-OF-DIRECTOR.pdf" },
-  { "id": 6, "name": "Notice of BM in Newspaper February-03-21", "path": "https://apisindia.com/pdf/2020/NOTICE_OF_BM_IN_NEWSPAPAR-2021.pdf" },
-  { "id": 7, "name": "Outcome of the Board Meeting February-13-21", "path": "https://apisindia.com/pdf/2020/Outcome_of_the_Board_Meeting--2021.pdf" },
-  { "id": 8, "name": "Notice of Board Meeting Stock Exchange February-02-21", "path": "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-2021.pdf" },
-  { "id": 9, "name": "Outcome of Board Meeting : 15th September, 2020", "path": "https://apisindia.com/pdf/2020/Outcome%20of%20the%20Board%20Meeting%20-%2015ht%20September.pdf" },
-  { "id": 10, "name": "FINANCIAL RESULTS (2019-2020) Q1 Results", "path": "https://apisindia.com/pdf/AGM%20Results.pdf" },
-  { "id": 11, "name": "Q2 Results", "path": "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf" },
-  { "id": 12, "name": "Q3 Results", "path": "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf" },
-  { "id": 13, "name": "Q4 Results", "path": "https://apisindia.com/pdf/2020/Outcome%20of%20Board%20Meeting-final.pdf" },
-  { "id": 14, "name": "Outcome of Board Meeting : Date 14th Feb, 2020", "path": "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf" },
-  { "id": 15, "name": "Outcome of Board Meeting, 14th Nov., 2019", "path": "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf" },
-  { "id": 16, "name": "Outcome of 37th General Meeting", "path": "https://apisindia.com/pdf/AGM%20Results.pdf" },
-  { "id": 17, "name": "Outcome + Audited Financial Results: 31st March 2019", "path": "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf" },
-  { "id": 18, "name": "FINANCIAL RESULTS (AUDITED RESULTS - 2018-2019) Q1 Results", "path": "https://apisindia.com/investorelation-pdf/2019/Results-June.pdf" },
-  { "id": 19, "name": "Q2 Results", "path": "https://apisindia.com/investorelation-pdf/2019/Results_September.pdf" },
-  { "id": 20, "name": "Q3 Results", "path": "https://apisindia.com/investorelation-pdf/2019/Results_December.pdf" },
-  { "id": 21, "name": "Revised Final Financial Results 2017-18", "path": "https://apisindia.com/investorelation-pdf/2018/Revised-Fianncial-Results_31%20March_2018.pdf" },
-  { "id": 27, "name": "Audited Final Financial Report 2016-2017", "path": "https://apisindia.com/investorelation-pdf/2016/AUDITED-Financial-Report-2016-17.pdf" },
-  { "id": 22, "name": "FINANCIAL RESULTS AUDITED APRIL 2017 Q1 LLR ApisIndia", "path": "https://apisindia.com/investorelation-pdf/2016/Q1_LLR_apisIndia.pdf" },
-  { "id": 23, "name": "Q1 UFR June 2016", "path": "https://apisindia.com/investorelation-pdf/2016/Q1_UFR_JUNE2016.pdf" },
-  { "id": 24, "name": "Q2 Results", "path": "https://apisindia.com/investorelation-pdf/2016/Q2.pdf" },
-  { "id": 25, "name": "Q2 UFR September 2016", "path": "https://apisindia.com/investorelation-pdf/2016/Q2_UFR_September_2016.pdf" },
-  { "id": 31, "name": "Q4 Audited FR March 2016", "path": "https://apisindia.com/investorelation-pdf/2015/Q4_Audited-FR_March-2016.pdf" },
-  { "id": 26, "name": "Q3 Report of UAFR, Dec 2016", "path": "https://apisindia.com/investorelation-pdf/2016/Q3-Report-of-UAFR-(Dec-2016).pdf" },
-  { "id": 28, "name": "FINANCIAL RESULTS (AUDITED MARCH 2015-16) Q1 UFR June 2015", "path": "https://apisindia.com/investorelation-pdf/2015/Q1-UFR_June-2015.pdf" },
-  { "id": 29, "name": "Q2 September 2015", "path": "https://apisindia.com/investorelation-pdf/2015/Q2_September-2015.pdf" },
-  { "id": 30, "name": "Q3 December 2015", "path": "https://apisindia.com/investorelation-pdf/2015/Q3_December-2015.pdf" },
-  { "id": 32, "name": "FINANCIAL RESULTS (AUDITED MARCH 2014-15) Q1 UFR June 2014", "path": "https://apisindia.com/investorelation-pdf/2014/Q1_UFR_June-2014.pdf" },
-  { "id": 35, "name": "Q4 Audited FR March 2015", "path": "https://apisindia.com/investorelation-pdf/2014/Q4_Audited-FR_March2015.pdf" },
-  { "id": 33, "name": "Q2 UFR September 2014", "path": "https://apisindia.com/investorelation-pdf/2014/Q2_UFR_September-2014.pdf" },
-  { "id": 34, "name": "Q3 UFR December 2014", "path": "https://apisindia.com/investorelation-pdf/2014/Q3_UFR_December-2014.pdf" },
-  { "id": 39, "name": "Q4 Financial Audited Result March, 2014", "path": "https://apisindia.com/investorelation-pdf/2013/Q4_Financial-Audited-Result_March-2014.pdf" },
-  { "id": 36, "name": "FINANCIAL RESULTS (AUDITED MARCH 2013-14) Q1 UFR June 2013", "path": "https://apisindia.com/investorelation-pdf/2013/Q1_UFR_June-2013.pdf" },
-  { "id": 37, "name": "Q2 UFR Sep 2013", "path": "https://apisindia.com/investorelation-pdf/2013/Q2_UFR_Sep_2013.pdf" },
-  { "id": 38, "name": "Q3 Limited Review report Q3 (11th Feb, 2013)", "path": "https://apisindia.com/investorelation-pdf/2013/Q3_Limited-Review-report-Q3-(11th=Feb-2013.pdf" },
+  {
+    id: 1,
+    name: "Outcome of Board Meeting : November-09-2023",
+    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting091123.pdf",
+  },
+  {
+    id: 2,
+    name: "Notice of Board Meeting : October-31-2023",
+    path: "https://apisindia.com/pdf/2023/Notice-of-Board-Meeting311023.pdf",
+  },
+  {
+    id: 3,
+    name: "Outcome of Board Metting : August-13-2022",
+    path: "https://apisindia.com/pdf/2022/Outcome-of-board-meeting-082022.pdf",
+  },
+  {
+    id: 4,
+    name: "Covering Letter January-04-2021",
+    path: "https://apisindia.com/pdf/2020/Covering_Letter_2021.pdf",
+  },
+  {
+    id: 5,
+    name: "Disclosure under Reg.30 Appt of Director January-15-2021",
+    path: "https://apisindia.com/pdf/2020/DISCLOSURE-UNDER-REG-30-APPT-OF-DIRECTOR.pdf",
+  },
+  {
+    id: 6,
+    name: "Notice of BM in Newspaper February-03-21",
+    path: "https://apisindia.com/pdf/2020/NOTICE_OF_BM_IN_NEWSPAPAR-2021.pdf",
+  },
+  {
+    id: 7,
+    name: "Outcome of the Board Meeting February-13-21",
+    path: "https://apisindia.com/pdf/2020/Outcome_of_the_Board_Meeting--2021.pdf",
+  },
+  {
+    id: 8,
+    name: "Notice of Board Meeting Stock Exchange February-02-21",
+    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-2021.pdf",
+  },
+  {
+    id: 9,
+    name: "Outcome of Board Meeting : 15th September, 2020",
+    path: "https://apisindia.com/pdf/2020/Outcome%20of%20the%20Board%20Meeting%20-%2015ht%20September.pdf",
+  },
+  {
+    id: 10,
+    name: "FINANCIAL RESULTS (2019-2020) Q1 Results",
+    path: "https://apisindia.com/pdf/AGM%20Results.pdf",
+  },
+  {
+    id: 11,
+    name: "Q2 Results",
+    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf",
+  },
+  {
+    id: 12,
+    name: "Q3 Results",
+    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf",
+  },
+  {
+    id: 13,
+    name: "Q4 Results",
+    path: "https://apisindia.com/pdf/2020/Outcome%20of%20Board%20Meeting-final.pdf",
+  },
+  {
+    id: 14,
+    name: "Outcome of Board Meeting : Date 14th Feb, 2020",
+    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf",
+  },
+  {
+    id: 15,
+    name: "Outcome of Board Meeting, 14th Nov., 2019",
+    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf",
+  },
+  {
+    id: 16,
+    name: "Outcome of 37th General Meeting",
+    path: "https://apisindia.com/pdf/AGM%20Results.pdf",
+  },
+  {
+    id: 17,
+    name: "Outcome + Audited Financial Results: 31st March 2019",
+    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf",
+  },
+  {
+    id: 18,
+    name: "FINANCIAL RESULTS (AUDITED RESULTS - 2018-2019) Q1 Results",
+    path: "https://apisindia.com/investorelation-pdf/2019/Results-June.pdf",
+  },
+  {
+    id: 19,
+    name: "Q2 Results",
+    path: "https://apisindia.com/investorelation-pdf/2019/Results_September.pdf",
+  },
+  {
+    id: 20,
+    name: "Q3 Results",
+    path: "https://apisindia.com/investorelation-pdf/2019/Results_December.pdf",
+  },
+  {
+    id: 21,
+    name: "Revised Final Financial Results 2017-18",
+    path: "https://apisindia.com/investorelation-pdf/2018/Revised-Fianncial-Results_31%20March_2018.pdf",
+  },
+  {
+    id: 27,
+    name: "Audited Final Financial Report 2016-2017",
+    path: "https://apisindia.com/investorelation-pdf/2016/AUDITED-Financial-Report-2016-17.pdf",
+  },
+  {
+    id: 22,
+    name: "FINANCIAL RESULTS AUDITED APRIL 2017 Q1 LLR ApisIndia",
+    path: "https://apisindia.com/investorelation-pdf/2016/Q1_LLR_apisIndia.pdf",
+  },
+  {
+    id: 23,
+    name: "Q1 UFR June 2016",
+    path: "https://apisindia.com/investorelation-pdf/2016/Q1_UFR_JUNE2016.pdf",
+  },
+  {
+    id: 24,
+    name: "Q2 Results",
+    path: "https://apisindia.com/investorelation-pdf/2016/Q2.pdf",
+  },
+  {
+    id: 25,
+    name: "Q2 UFR September 2016",
+    path: "https://apisindia.com/investorelation-pdf/2016/Q2_UFR_September_2016.pdf",
+  },
+  {
+    id: 31,
+    name: "Q4 Audited FR March 2016",
+    path: "https://apisindia.com/investorelation-pdf/2015/Q4_Audited-FR_March-2016.pdf",
+  },
+  {
+    id: 26,
+    name: "Q3 Report of UAFR, Dec 2016",
+    path: "https://apisindia.com/investorelation-pdf/2016/Q3-Report-of-UAFR-(Dec-2016).pdf",
+  },
+  {
+    id: 28,
+    name: "FINANCIAL RESULTS (AUDITED MARCH 2015-16) Q1 UFR June 2015",
+    path: "https://apisindia.com/investorelation-pdf/2015/Q1-UFR_June-2015.pdf",
+  },
+  {
+    id: 29,
+    name: "Q2 September 2015",
+    path: "https://apisindia.com/investorelation-pdf/2015/Q2_September-2015.pdf",
+  },
+  {
+    id: 30,
+    name: "Q3 December 2015",
+    path: "https://apisindia.com/investorelation-pdf/2015/Q3_December-2015.pdf",
+  },
+  {
+    id: 32,
+    name: "FINANCIAL RESULTS (AUDITED MARCH 2014-15) Q1 UFR June 2014",
+    path: "https://apisindia.com/investorelation-pdf/2014/Q1_UFR_June-2014.pdf",
+  },
+  {
+    id: 35,
+    name: "Q4 Audited FR March 2015",
+    path: "https://apisindia.com/investorelation-pdf/2014/Q4_Audited-FR_March2015.pdf",
+  },
+  {
+    id: 33,
+    name: "Q2 UFR September 2014",
+    path: "https://apisindia.com/investorelation-pdf/2014/Q2_UFR_September-2014.pdf",
+  },
+  {
+    id: 34,
+    name: "Q3 UFR December 2014",
+    path: "https://apisindia.com/investorelation-pdf/2014/Q3_UFR_December-2014.pdf",
+  },
+  {
+    id: 39,
+    name: "Q4 Financial Audited Result March, 2014",
+    path: "https://apisindia.com/investorelation-pdf/2013/Q4_Financial-Audited-Result_March-2014.pdf",
+  },
+  {
+    id: 36,
+    name: "FINANCIAL RESULTS (AUDITED MARCH 2013-14) Q1 UFR June 2013",
+    path: "https://apisindia.com/investorelation-pdf/2013/Q1_UFR_June-2013.pdf",
+  },
+  {
+    id: 37,
+    name: "Q2 UFR Sep 2013",
+    path: "https://apisindia.com/investorelation-pdf/2013/Q2_UFR_Sep_2013.pdf",
+  },
+  {
+    id: 38,
+    name: "Q3 Limited Review report Q3 (11th Feb, 2013)",
+    path: "https://apisindia.com/investorelation-pdf/2013/Q3_Limited-Review-report-Q3-(11th=Feb-2013.pdf",
+  },
 ];
-
 
 export const CORPORATE_GOVERNANACE = [
   {
     id: 1,
     name: "PERFORMANCE EVALUATION POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/PERFORMANCE-EVALUATION-POLICY.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/PERFORMANCE-EVALUATION-POLICY.pdf",
   },
   {
     id: 2,
     name: "POLICY FOR DETERMINING MATERIAL SUBSIDIARY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/POLICY-FOR-DETERMINING-MATERIAL-SUBSIDIARY.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/POLICY-FOR-DETERMINING-MATERIAL-SUBSIDIARY.pdf",
   },
   {
     id: 3,
     name: "FAMILIARISATION PROGRAMME FOR INDEPENDENT DIRECTORS",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Familiarisation-Programme-for-Independent-Directors.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Familiarisation-Programme-for-Independent-Directors.pdf",
   },
   {
     id: 4,
     name: "POLICY FOR DETERMINATION OF MATERIALITY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Policy-for-Determination-of-Materiality.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Policy-for-Determination-of-Materiality.pdf",
   },
   {
     id: 5,
     name: "RISK MANAGEMENT POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Risk-Management-Policy-.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Risk-Management-Policy-.pdf",
   },
   {
     id: 6,
     name: "RELATED PARTY TRANSACTION POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Related_Party_Policy.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Related_Party_Policy.pdf",
   },
   {
     id: 7,
     name: "AIL CSR POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/APIS-INDIA-LMITED-CSR-Policy-%5B165606%5D.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/APIS-INDIA-LMITED-CSR-Policy-%5B165606%5D.pdf",
   },
   {
     id: 8,
     name: "NOMINATION AND REMUNERATION POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/NOMINATION-AND-REMUNERATION-POLICY-(for-apis-2016)-%5B165604%5D.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/NOMINATION-AND-REMUNERATION-POLICY-(for-apis-2016)-%5B165604%5D.pdf",
   },
   {
     id: 9,
     name: "POLICY ON PREVENTION OF S.H.W",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Policy-on-Preservation-of-Documents.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Policy-on-Preservation-of-Documents.pdf",
   },
   {
     id: 10,
     name: "VIGIL MECHANISM POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/vigil_mechanism_policy.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/vigil_mechanism_policy.pdf",
   },
   {
     id: 11,
     name: "WEBSITE CONTENT ARCHIVAL POLICY",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Website_content_archival_policy.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Website_content_archival_policy.pdf",
   },
   {
     id: 12,
     name: "COMPOSITION OF COMMITTEES OF BOARD OF DIRECTORS",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Code_of_conduct.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Code_of_conduct.pdf",
   },
   {
     id: 13,
     name: "TERM AND CONDITION OF INDEPENDENT DIRECTORS",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Term-and-condition-of-Independent-Directors+(1).pdf"
-  }
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/corporate_governance/Term-and-condition-of-Independent-Directors+(1).pdf",
+  },
 ];
-
 
 // src/data/codeOfConduct.js
 
@@ -2271,20 +2373,19 @@ export const CODE_OF_CONDUCT = [
   {
     id: 1,
     name: "CODE OF CONDUCT AND PROCEDURE FOR FAIR DISCLOSURE OF UNPUBLISHED PRICE SENSITIVE INFORMATION",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/code_of_conduct/PERFORMANCE-EVALUATION-POLICY+(1).pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/code_of_conduct/PERFORMANCE-EVALUATION-POLICY+(1).pdf",
   },
   {
     id: 2,
     name: "CODE OF CONDUCT FOR REGULATING AND MONITORING TRADING BY INSIDERS",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/code_of_conduct/Code-of-Conduct-for-Regulating-and-Monitoring-Trading-by-Insiders.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/code_of_conduct/Code-of-Conduct-for-Regulating-and-Monitoring-Trading-by-Insiders.pdf",
   },
   {
     id: 3,
     name: "Code of Conduct for Board of Directors and Senior Management of ‘AIL Limited’",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/code_of_conduct/Code_of_conduct+(2).pdf"
-  }
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/code_of_conduct/Code_of_conduct+(2).pdf",
+  },
 ];
-
 
 // src/data/annualReports.js
 
@@ -2292,88 +2393,88 @@ export const ANNUAL_REPORTS = [
   {
     id: 1,
     name: "MGT-7 2022-2023",
-    path: "https://apisindia.com/pdf/2023/MGT-7-23.pdf"
+    path: "https://apisindia.com/pdf/2023/MGT-7-23.pdf",
   },
   {
     id: 2,
     name: "ANNUAL REPORT 2022-2023",
-    path: "https://apisindia.com/pdf/Annual-Report-2023.pdf"
+    path: "https://apisindia.com/pdf/Annual-Report-2023.pdf",
   },
   {
     id: 3,
     name: "ANNUAL REPORT 2021-2022",
-    path: "https://apisindia.com/pdf/Annual%20Report%202021-22.pdf"
+    path: "https://apisindia.com/pdf/Annual%20Report%202021-22.pdf",
   },
   {
     id: 4,
     name: "MGT-7 2021-2022",
-    path: "https://apisindia.com/pdf/2022/MGT-7.pdf"
+    path: "https://apisindia.com/pdf/2022/MGT-7.pdf",
   },
   {
     id: 5,
     name: "ANNUAL REPORT 2020-2021",
-    path: "https://apisindia.com/pdf/2022/Annual-Report-2020-21-Final.pdf"
+    path: "https://apisindia.com/pdf/2022/Annual-Report-2020-21-Final.pdf",
   },
   {
     id: 6,
     name: "ANNUAL REPORT 2019-20",
-    path: "https://apisindia.com/pdf/2020/Annual%20Report-2020.pdf"
+    path: "https://apisindia.com/pdf/2020/Annual%20Report-2020.pdf",
   },
   {
     id: 7,
     name: "ANNUAL REPORT 2018 - 2019",
-    path: "https://apisindia.com/pdf/report/Annual%20Report%20Final%202018-19.pdf"
+    path: "https://apisindia.com/pdf/report/Annual%20Report%20Final%202018-19.pdf",
   },
   {
     id: 8,
     name: "ANNUAL REPORT 2017 - 2018",
-    path: "https://apisindia.com/pdf/report/ANNUAL-REPORT.pdf"
+    path: "https://apisindia.com/pdf/report/ANNUAL-REPORT.pdf",
   },
   {
     id: 9,
     name: "ANNUAL REPORT 2016 - 2017",
-    path: "https://apisindia.com/pdf/report/Annual-Report-APIS-2017.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-APIS-2017.pdf",
   },
   {
     id: 10,
     name: "ANNUAL REPORT 2015 - 2016",
-    path: "https://apisindia.com/pdf/report/Final-Annual-Report-2015-16-(1).pdf"
+    path: "https://apisindia.com/pdf/report/Final-Annual-Report-2015-16-(1).pdf",
   },
   {
     id: 11,
     name: "ANNUAL REPORT 2014 - 2015",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2014-2015.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-2014-2015.pdf",
   },
   {
     id: 12,
     name: "ANNUAL REPORT 2013 - 2014",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2013-14.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-2013-14.pdf",
   },
   {
     id: 13,
     name: "ANNUAL REPORT 2012 - 2013",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2012-13.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-2012-13.pdf",
   },
   {
     id: 14,
     name: "ANNUAL REPORT 2011 - 2012",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2011-12.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-2011-12.pdf",
   },
   {
     id: 15,
     name: "ANNUAL REPORT 2010 - 2011",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2010-2011.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-2010-2011.pdf",
   },
   {
     id: 16,
     name: "ANNUAL REPORT 2009 - 2010",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2009-2010.pdf"
+    path: "https://apisindia.com/pdf/report/Annual-Report-2009-2010.pdf",
   },
   {
     id: 17,
     name: "ANNUAL REPORT 2008 - 2009",
-    path: "https://apisindia.com/pdf/report/Annual-Report-2009-2010.pdf"
-  }
+    path: "https://apisindia.com/pdf/report/Annual-Report-2009-2010.pdf",
+  },
 ];
 
 // src/data/subsidiaryFinancials.js
@@ -2382,40 +2483,39 @@ export const FINANCIALS = [
   {
     id: 1,
     name: "APIS Subsidiary Financials - Anantadrishti",
-    path: "https://apisindia.com/pdf/newupdates/Balance%20Sheet_Anantadrishti_2018.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Balance%20Sheet_Anantadrishti_2018.pdf",
   },
   {
     id: 2,
     name: "Balance Sheet - 31.03.2019 - Anantadrishti",
-    path: "https://apisindia.com/pdf/newupdates/Balance%20Sheet_Anantadrishti_Anantadrishti_2019.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Balance%20Sheet_Anantadrishti_Anantadrishti_2019.pdf",
   },
   {
     id: 3,
     name: "Balance Sheet - 31.03.2020 - Anantadrishti - Consolidated",
-    path: "https://apisindia.com/pdf/newupdates/Anantadrishti/Consolidated%20Balance%20Sheet.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Anantadrishti/Consolidated%20Balance%20Sheet.pdf",
   },
   {
     id: 4,
     name: "Balance Sheet - 31.03.2020 - Anantadrishti - Standalone",
-    path: "https://apisindia.com/pdf/newupdates/Anantadrishti/Standalone%20Balance%20Sheet.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Anantadrishti/Standalone%20Balance%20Sheet.pdf",
   },
   {
     id: 5,
     name: "Balance Sheet - 31.03.2023 - Anantadrishti",
-    path: "https://apisindia.com/pdf/newupdates/Anantadrishti/Balance-Sheet-Anantadrishti-Smart.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Anantadrishti/Balance-Sheet-Anantadrishti-Smart.pdf",
   },
   {
     id: 6,
     name: "Balance Sheet - 31.03.2023 - Kapil Anand Agro - Standalone",
-    path: "https://apisindia.com/pdf/newupdates/Balalnce-Sheet-Kapil-Anand-Agro.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Balalnce-Sheet-Kapil-Anand-Agro.pdf",
   },
   {
     id: 7,
     name: "Balance Sheet - 31.03.2023 - NFTPL",
-    path: "https://apisindia.com/pdf/newupdates/Balance-Sheet-NFTPL-2023.pdf"
-  }
+    path: "https://apisindia.com/pdf/newupdates/Balance-Sheet-NFTPL-2023.pdf",
+  },
 ];
-
 
 // src/data/boardMeetingAndFinancialResults.js
 
@@ -2423,500 +2523,498 @@ export const BOARD_MEETING_FINACIALRESULTS = [
   {
     id: 1,
     name: "FINANCIAL RESULTS (2023-2024) - Results",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q1+Results____.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q1+Results____.pdf",
   },
   {
     id: 1,
     name: "FINANCIAL RESULTS (2023-2024) - Results",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q2+Results____.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q2+Results____.pdf",
   },
   {
     id: 1,
     name: "FINANCIAL RESULTS (2023-2024) - Results",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q3+Results____.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q3+Results____.pdf",
   },
   {
     id: 1,
     name: "FINANCIAL RESULTS (2023-2024) - Results",
-    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q4+Results____.pdf"
+    path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/financial_Results/2024/Q4+Results____.pdf",
   },
   {
     id: 1,
     name: "Outcome of Board Meeting : November-09-2023",
-    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting091123.pdf"
+    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting091123.pdf",
   },
   {
     id: 2,
     name: "Notice of Board Meeting : October-31-2023",
-    path: "https://apisindia.com/pdf/2023/Notice-of-Board-Meeting311023.pdf"
+    path: "https://apisindia.com/pdf/2023/Notice-of-Board-Meeting311023.pdf",
   },
   {
     id: 3,
     name: "Outcome of Board Meeting : August-13-2022",
-    path: "https://apisindia.com/pdf/2022/Outcome-of-board-meeting-082022.pdf"
+    path: "https://apisindia.com/pdf/2022/Outcome-of-board-meeting-082022.pdf",
   },
   {
     id: 4,
     name: "Covering Letter January-04-2021",
-    path: "https://apisindia.com/pdf/2020/Covering_Letter_2021.pdf"
+    path: "https://apisindia.com/pdf/2020/Covering_Letter_2021.pdf",
   },
   {
     id: 5,
     name: "Disclosure under Reg.30 Appt of Director January-15-2021",
-    path: "https://apisindia.com/pdf/2020/DISCLOSURE-UNDER-REG-30-APPT-OF-DIRECTOR.pdf"
+    path: "https://apisindia.com/pdf/2020/DISCLOSURE-UNDER-REG-30-APPT-OF-DIRECTOR.pdf",
   },
   {
     id: 6,
     name: "Notice of BM in Newspaper February-03-21",
-    path: "https://apisindia.com/pdf/2020/NOTICE_OF_BM_IN_NEWSPAPAR-2021.pdf"
+    path: "https://apisindia.com/pdf/2020/NOTICE_OF_BM_IN_NEWSPAPAR-2021.pdf",
   },
   {
     id: 7,
     name: "Outcome of the Board Meeting February-13-21",
-    path: "https://apisindia.com/pdf/2020/Outcome_of_the_Board_Meeting--2021.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome_of_the_Board_Meeting--2021.pdf",
   },
   {
     id: 8,
     name: "Notice of Board Meeting Stock Exchange February-02-21",
-    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-2021.pdf"
+    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-2021.pdf",
   },
   {
     id: 9,
     name: "Outcome of Board Meeting : Date 15th September, 2020",
-    path: "https://apisindia.com/pdf/2020/Outcome%20of%20the%20Board%20Meeting%20-%2015ht%20September.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome%20of%20the%20Board%20Meeting%20-%2015ht%20September.pdf",
   },
   {
     id: 10,
     name: "FINANCIAL RESULTS (2019-2020) - Results",
-    path: "https://apisindia.com/pdf/AGM%20Results.pdf"
+    path: "https://apisindia.com/pdf/AGM%20Results.pdf",
   },
   {
     id: 11,
     name: "FINANCIAL RESULTS (2019-2020) - Q2 Results",
-    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf",
   },
   {
     id: 12,
     name: "FINANCIAL RESULTS (2019-2020) - Q3 Results",
-    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf",
   },
   {
     id: 13,
     name: "FINANCIAL RESULTS (2019-2020) - Q4 Results",
-    path: "https://apisindia.com/pdf/2020/Outcome%20of%20Board%20Meeting-final.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome%20of%20Board%20Meeting-final.pdf",
   },
   {
     id: 14,
     name: "Outcome of Board Meeting : Date 14th Feb, 2020",
-    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf",
   },
   {
     id: 15,
     name: "Outcome of Board Meeting, 14th Nov., 2019",
-    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf",
   },
   {
     id: 16,
     name: "Results of 37th Annual General Meeting - 30th September, 2019",
-    path: "https://apisindia.com/pdf/AGM%20Results.pdf"
+    path: "https://apisindia.com/pdf/AGM%20Results.pdf",
   },
   {
     id: 17,
     name: "Outcome of Board Meeting (May 30, 2019) & Financial Results (31st March, 2019)",
-    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf"
+    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf",
   },
   {
     id: 18,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2018-2019) - Q1 Results",
-    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf"
+    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf",
   },
   {
     id: 19,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2018-2019) - Q2 Results",
-    path: "https://apisindia.com/investorelation-pdf/2019/Results_September.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2019/Results_September.pdf",
   },
   {
     id: 20,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2018-2019) - Q3 Results",
-    path: "https://apisindia.com/investorelation-pdf/2019/Results_December.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2019/Results_December.pdf",
   },
   {
     id: 21,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2017-2018) - Q1 Results",
-    path: "https://apisindia.com/investorelation-pdf/2018/Results-June.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2018/Results-June.pdf",
   },
   {
     id: 22,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2017-2018) - Q2 Results",
-    path: "https://apisindia.com/investorelation-pdf/2018/Results_September.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2018/Results_September.pdf",
   },
   {
     id: 23,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2017-2018) - Q3 Results",
-    path: "https://apisindia.com/investorelation-pdf/2018/Results_December.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2018/Results_December.pdf",
   },
   {
     id: 24,
     name: "FINANCIAL RESULTS (AUDITED RESULTS - 2017-2018) - Revised Final Financial Results 2017-18",
-    path: "https://apisindia.com/investorelation-pdf/2018/Revised-Fianncial-Results_31%20March_2018.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2018/Revised-Fianncial-Results_31%20March_2018.pdf",
   },
   {
     id: 25,
     name: "FINANCIAL RESULTS AUDITED APRIL 2017 - Q1 LLR ApisIndia",
-    path: "https://apisindia.com/investorelation-pdf/2016/Q1_LLR_apisIndia.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2016/Q1_LLR_apisIndia.pdf",
   },
   {
     id: 26,
     name: "FINANCIAL RESULTS AUDITED APRIL 2017 - Q1 UFR June 2016",
-    path: "https://apisindia.com/investorelation-pdf/2016/Q1_UFR_JUNE2016.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2016/Q1_UFR_JUNE2016.pdf",
   },
   {
     id: 27,
     name: "FINANCIAL RESULTS AUDITED APRIL 2017 - Q2 Results",
-    path: "https://apisindia.com/investorelation-pdf/2016/Q2.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2016/Q2.pdf",
   },
   {
     id: 28,
     name: "FINANCIAL RESULTS AUDITED APRIL 2017 - Q2 UFR September 2016",
-    path: "https://apisindia.com/investorelation-pdf/2016/Q2_UFR_September_2016.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2016/Q2_UFR_September_2016.pdf",
   },
   {
     id: 29,
     name: "FINANCIAL RESULTS AUDITED APRIL 2017 - Q3 Report of UAFR, Dec 2016",
-    path: "https://apisindia.com/investorelation-pdf/2016/Q3-Report-of-UAFR-(Dec-2016).pdf"
+    path: "https://apisindia.com/investorelation-pdf/2016/Q3-Report-of-UAFR-(Dec-2016).pdf",
   },
   {
     id: 30,
     name: "FINANCIAL RESULTS AUDITED APRIL 2017 - Audited Final Financial Report 2016-2017",
-    path: "https://apisindia.com/investorelation-pdf/2016/AUDITED-Financial-Report-2016-17.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2016/AUDITED-Financial-Report-2016-17.pdf",
   },
   {
     id: 31,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2015-16) - Q1 UFR June 2015",
-    path: "https://apisindia.com/investorelation-pdf/2015/Q1-UFR_June-2015.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2015/Q1-UFR_June-2015.pdf",
   },
   {
     id: 32,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2015-16) - Q2 September 2015",
-    path: "https://apisindia.com/investorelation-pdf/2015/Q2_September-2015.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2015/Q2_September-2015.pdf",
   },
   {
     id: 33,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2015-16) - Q3 December 2015",
-    path: "https://apisindia.com/investorelation-pdf/2015/Q3_December-2015.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2015/Q3_December-2015.pdf",
   },
   {
     id: 34,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2015-16) - Q4 Audited FR March 2016",
-    path: "https://apisindia.com/investorelation-pdf/2015/Q4_Audited-FR_March-2016.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2015/Q4_Audited-FR_March-2016.pdf",
   },
   {
     id: 35,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2014-15) - Q1 UFR June 2014",
-    path: "https://apisindia.com/investorelation-pdf/2014/Q1_UFR_June-2014.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2014/Q1_UFR_June-2014.pdf",
   },
   {
     id: 36,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2014-15) - Q2 UFR September 2014",
-    path: "https://apisindia.com/investorelation-pdf/2014/Q2_UFR_September-2014.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2014/Q2_UFR_September-2014.pdf",
   },
   {
     id: 37,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2014-15) - Q3 UFR December 2014",
-    path: "https://apisindia.com/investorelation-pdf/2014/Q3_UFR_December-2014.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2014/Q3_UFR_December-2014.pdf",
   },
   {
     id: 38,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2014-15) - Q4 Audited FR March 2015",
-    path: "https://apisindia.com/investorelation-pdf/2014/Q4_Audited-FR_March2015.pdf"
+    path: "https://apisindia.com/investorelation-pdf/2014/Q4_Audited-FR_March2015.pdf",
   },
   {
     id: 39,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2013-14) - Q1 UFR June 2013",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 40,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2013-14) - Q2 UFR Sep 2013",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 41,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2013-14) - Q3 Limited Review report Q3 (11th Feb, 2013)",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 42,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2013-14) - Q4 Financial Audited Result March, 2014",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 43,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2012-13) - Q1 UFR June 2012",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 44,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2012-13) - Q2 UFR Sep 2012",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 45,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2012-13) - Q3 UAFR 31st Dec 2012",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 46,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2012-13) - Q4 AFR 31st March 2013",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 47,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2011-12) - Q1 UFR June 2011",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 48,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2011-12) - Q2 UFR September 2011",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 49,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2011-12) - Q3 UFR December 2011",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 50,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2011-12) - Q4 AFR March 2012",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 51,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2010-11) - Q1 UFR June 2010",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 52,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2010-11) - Q2 UFR September 2010",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 53,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2010-11) - Q3 UFR December 2010",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 54,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2010-11) - Q4 AFR March 2011",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 55,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2009-10) - Q1 UFR June 2009",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 56,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2009-10) - Q2 UFR September 2009",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 57,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2009-10) - Q3 UFR December 2009",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 58,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2009-10) - Q4 AFR March 2010",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 59,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2009-10) - Q4 UFR March 2010",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 60,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2008-09) - Q2 UAFR Sep 2008",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 61,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2008-09) - Q3 UAFR Dec 2008",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 62,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2008-09) - Q4 AFR March 2008",
-    path: "View/Download" // Placeholder for actual URL
+    path: "View/Download", // Placeholder for actual URL
   },
   {
     id: 63,
     name: "FINANCIAL RESULTS (AUDITED MARCH 2008-09) - Q4 Audited Financial Result March 2009",
-    path: "View/Download" // Placeholder for actual URL
-  }
+    path: "View/Download", // Placeholder for actual URL
+  },
 ];
-
 
 export const shareholdingPatterns = [
   {
     id: 1,
     year: "2016-17",
     name: "Shareholding Pattern for the Quarter ended June, 2016",
-    path: "https://apisindia.com/pdf/Q1_SHP_June2015.pdf"
+    path: "https://apisindia.com/pdf/Q1_SHP_June2015.pdf",
   },
   {
     id: 2,
     year: "2015-16",
     name: "Shareholding Pattern for the Quarter ended June, 2015",
-    path: "https://apisindia.com/pdf/Q1_SHP_June2015.pdf"
+    path: "https://apisindia.com/pdf/Q1_SHP_June2015.pdf",
   },
   {
     id: 3,
     year: "2015-16",
     name: "Shareholding Pattern for the Quarter ended September, 2015",
-    path: "https://apisindia.com/pdf/Q2_share-holding-pattern_Sep-2015.pdf"
+    path: "https://apisindia.com/pdf/Q2_share-holding-pattern_Sep-2015.pdf",
   },
   {
     id: 4,
     year: "2015-16",
     name: "Shareholding Pattern for the Quarter ended December, 2015",
-    path: "https://apisindia.com/pdf/Q3_shareholding-pattern_Dec-2015.pdf"
+    path: "https://apisindia.com/pdf/Q3_shareholding-pattern_Dec-2015.pdf",
   },
   {
     id: 5,
     year: "2015-16",
     name: "Shareholding Pattern for the Quarter ended March, 2016",
-    path: "https://apisindia.com/pdf/Shareholding-Q4.pdf"
+    path: "https://apisindia.com/pdf/Shareholding-Q4.pdf",
   },
   {
     id: 6,
     year: "2014-15",
     name: "Shareholding Pattern for the Quarter ended June, 2014",
-    path: "https://apisindia.com/pdf/Q1_SHP_June2014.pdf"
+    path: "https://apisindia.com/pdf/Q1_SHP_June2014.pdf",
   },
   {
     id: 7,
     year: "2014-15",
     name: "Shareholding Pattern for the Quarter ended September, 2014",
-    path: "https://apisindia.com/pdf/Q2_SHP_Sep14.pdf"
+    path: "https://apisindia.com/pdf/Q2_SHP_Sep14.pdf",
   },
   {
     id: 8,
     year: "2014-15",
     name: "Shareholding Pattern for the Quarter ended December, 2014",
-    path: "https://apisindia.com/pdf/Q3_SHP_Dec14.pdf"
+    path: "https://apisindia.com/pdf/Q3_SHP_Dec14.pdf",
   },
   {
     id: 9,
     year: "2014-15",
     name: "Shareholding Pattern for the Quarter ended March, 2015",
-    path: "https://apisindia.com/pdf/Q4_SHP_March15.pdf"
+    path: "https://apisindia.com/pdf/Q4_SHP_March15.pdf",
   },
   {
     id: 10,
     year: "2013-14, 2012-13, 2011-12, 2010-09, 2009-08",
     name: "Shareholding Pattern for the Quarter ended September, 2013",
-    path: "https://apisindia.com/pdf/September-2013.xlsx"
+    path: "https://apisindia.com/pdf/September-2013.xlsx",
   },
   {
     id: 11,
     year: "2013-14",
     name: "Shareholding Pattern for the Quarter ended December, 2013",
-    path: "https://apisindia.com/pdf/December-2013.xlsx"
+    path: "https://apisindia.com/pdf/December-2013.xlsx",
   },
   {
     id: 12,
     year: "2012-13",
     name: "Shareholding Pattern for the Quarter ended March, 2012",
-    path: "https://apisindia.com/pdf/march2012.pdf"
+    path: "https://apisindia.com/pdf/march2012.pdf",
   },
   {
     id: 13,
     year: "2013-14",
     name: "Shareholding Pattern for the Quarter ended March, 2013",
-    path: "https://apisindia.com/pdf/march2013.xlsx"
+    path: "https://apisindia.com/pdf/march2013.xlsx",
   },
   {
     id: 14,
     year: "2013-14",
     name: "Shareholding Pattern for the Quarter ended June, 2013",
-    path: "https://apisindia.com/pdf/June-2013.xlsx"
+    path: "https://apisindia.com/pdf/June-2013.xlsx",
   },
   {
     id: 15,
     year: "2011-12",
     name: "Shareholding Pattern for the Quarter ended June, 2011",
-    path: "https://apisindia.com/pdf/shareholding-pattern-june-2011.pdf"
+    path: "https://apisindia.com/pdf/shareholding-pattern-june-2011.pdf",
   },
   {
     id: 16,
     year: "2011-12",
     name: "Shareholding Pattern for the Quarter ended September, 2011",
-    path: "https://apisindia.com/pdf/Shareholding-Pattern_Sep2011.pdf"
+    path: "https://apisindia.com/pdf/Shareholding-Pattern_Sep2011.pdf",
   },
   {
     id: 17,
     year: "2011-12",
     name: "Shareholding Pattern for the Quarter ended December, 2011",
-    path: "https://apisindia.com/pdf/shareholding-pattern-dec2011.pdf"
+    path: "https://apisindia.com/pdf/shareholding-pattern-dec2011.pdf",
   },
   {
     id: 18,
     year: "2010-11",
     name: "Shareholding Pattern for the Quarter ended December, 2010",
-    path: "https://apisindia.com/pdf/SHP_Dec2010.pdf"
+    path: "https://apisindia.com/pdf/SHP_Dec2010.pdf",
   },
   {
     id: 19,
     year: "2011-12",
     name: "Shareholding Pattern for the Quarter ended December, 2011",
-    path: "https://apisindia.com/pdf/december2011.pdf"
+    path: "https://apisindia.com/pdf/december2011.pdf",
   },
   {
     id: 20,
     year: "2011-12",
     name: "Shareholding Pattern for the Quarter ended March, 2011",
-    path: "https://apisindia.com/pdf/Shareholding-PatternMar11.pdf"
+    path: "https://apisindia.com/pdf/Shareholding-PatternMar11.pdf",
   },
   {
     id: 21,
     year: "2010-11",
     name: "Shareholding Pattern for the Quarter ended March, 2010",
-    path: "https://apisindia.com/pdf/Apis-India_Cl35_March2010.pdf"
+    path: "https://apisindia.com/pdf/Apis-India_Cl35_March2010.pdf",
   },
   {
     id: 22,
     year: "2010-11",
     name: "Shareholding Pattern for the Quarter ended June, 2010",
-    path: "https://apisindia.com/pdf/Apis-India_Cl35_June2010.pdf"
+    path: "https://apisindia.com/pdf/Apis-India_Cl35_June2010.pdf",
   },
   {
     id: 23,
     year: "2010-11",
     name: "Shareholding Pattern for the Quarter ended September, 2010",
-    path: "https://apisindia.com/pdf/Apis-India_Cl35_Sept.2010.pdf"
+    path: "https://apisindia.com/pdf/Apis-India_Cl35_Sept.2010.pdf",
   },
   {
     id: 24,
     year: "2009-10",
     name: "Shareholding Pattern for the Quarter ended June, 2009",
-    path: "https://apisindia.com/pdf/Share-holding-Pattern-Clause-35-June-09.pdf"
+    path: "https://apisindia.com/pdf/Share-holding-Pattern-Clause-35-June-09.pdf",
   },
   {
     id: 25,
     year: "2009-10",
     name: "Shareholding Pattern for the Quarter ended September, 2009",
-    path: "https://apisindia.com/pdf/Cl-35-sep-2009.pdf"
+    path: "https://apisindia.com/pdf/Cl-35-sep-2009.pdf",
   },
   {
     id: 26,
     year: "2009-10",
     name: "Shareholding Pattern for the Quarter ended December, 2009",
-    path: "https://apisindia.com/pdf/Cl-35Dec-2009.pdf"
-  }
+    path: "https://apisindia.com/pdf/Cl-35Dec-2009.pdf",
+  },
 ];
-
 
 // src/data/corporateDisclosures.js
 
@@ -2924,458 +3022,458 @@ export const corporateDisclosures = [
   {
     id: 1,
     name: "Outcome of Board Meeting",
-    path: "https://apisindia.com/pdf/2024/Outcome-of-Board-Meeting0624.pdf"
+    path: "https://apisindia.com/pdf/2024/Outcome-of-Board-Meeting0624.pdf",
   },
   {
     id: 2,
     name: "Intimation of Product Launch under",
-    path: "https://apisindia.com/pdf/2023/Corporate-Annoucement-Product-Launch210124.pdf"
+    path: "https://apisindia.com/pdf/2023/Corporate-Annoucement-Product-Launch210124.pdf",
   },
   {
     id: 3,
     name: "Proceedings of the 41st Annual General Meeting",
-    path: "https://apisindia.com/pdf/2023/AGM-Proceedings.pdf"
+    path: "https://apisindia.com/pdf/2023/AGM-Proceedings.pdf",
   },
   {
     id: 4,
     name: "Disclosure of Voting Results of the 41st Annual General Meeting",
-    path: "https://apisindia.com/pdf/2023/Voting-Results.pdf"
+    path: "https://apisindia.com/pdf/2023/Voting-Results.pdf",
   },
   {
     id: 5,
     name: "Newspaper Advertisement under Section 160 of the Companies Act",
-    path: "https://apisindia.com/pdf/2023/Notice-under-Section-160.pdf"
+    path: "https://apisindia.com/pdf/2023/Notice-under-Section-160.pdf",
   },
   {
     id: 6,
     name: "Intimation under Reg.30-Credit Rating",
-    path: "https://apisindia.com/pdf/2023/Intimation-under-Reg-30-Credit-Rating-16082023.pdf"
+    path: "https://apisindia.com/pdf/2023/Intimation-under-Reg-30-Credit-Rating-16082023.pdf",
   },
   {
     id: 7,
     name: "Outcome of Board Meeting",
-    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting-14082023.pdf"
+    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting-14082023.pdf",
   },
   {
     id: 8,
     name: "Postal Ballot Notice",
-    path: "https://apisindia.com/pdf/2023/Postal-Ballot-NoticeAugust1423.pdf"
+    path: "https://apisindia.com/pdf/2023/Postal-Ballot-NoticeAugust1423.pdf",
   },
   {
     id: 9,
     name: "Notice of Board Meeting",
-    path: "https://apisindia.com/pdf/2023/Notice-of-Board-Meeting-02082023.pdf"
+    path: "https://apisindia.com/pdf/2023/Notice-of-Board-Meeting-02082023.pdf",
   },
   {
     id: 10,
     name: "Postal Ballot Notice",
-    path: "https://apisindia.com/pdf/2023/Postal-Ballot-NoticeJuly1523.pdf"
+    path: "https://apisindia.com/pdf/2023/Postal-Ballot-NoticeJuly1523.pdf",
   },
   {
     id: 11,
     name: "Submission of Newspaper Cutting",
-    path: "https://apisindia.com/pdf/2023/Newspaper-Advertisement.pdf"
+    path: "https://apisindia.com/pdf/2023/Newspaper-Advertisement.pdf",
   },
   {
     id: 12,
     name: "Outcome of Board Meeting",
-    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting2023.pdf"
+    path: "https://apisindia.com/pdf/2023/Outcome-of-Board-Meeting2023.pdf",
   },
   {
     id: 13,
     name: "Submission of Annual Secretarial Compliance Report",
-    path: "https://apisindia.com/pdf/2023/Annual-Secretarial-Compliance-Report.pdf"
+    path: "https://apisindia.com/pdf/2023/Annual-Secretarial-Compliance-Report.pdf",
   },
   {
     id: 14,
     name: "Intimation of closure of trading window",
-    path: "https://apisindia.com/pdf/2022/Intimation_of_closure_of_trading_window.pdf"
+    path: "https://apisindia.com/pdf/2022/Intimation_of_closure_of_trading_window.pdf",
   },
   {
     id: 15,
     name: "Outcome of Board Meeting",
-    path: "https://apisindia.com/pdf/2022/Outcome_of_Board_Meeting-FINAL.pdf"
+    path: "https://apisindia.com/pdf/2022/Outcome_of_Board_Meeting-FINAL.pdf",
   },
   {
     id: 16,
     name: "Postal Ballot Notice",
-    path: "https://apisindia.com/pdf/2022/Postal-Ballot-Notice.pdf"
+    path: "https://apisindia.com/pdf/2022/Postal-Ballot-Notice.pdf",
   },
   {
     id: 17,
     name: "Intimation of closure of trading window",
-    path: "https://apisindia.com/pdf/2022/Intimation_of_closure_of_trading_window.pdf"
+    path: "https://apisindia.com/pdf/2022/Intimation_of_closure_of_trading_window.pdf",
   },
   {
     id: 18,
     name: "Intimation under Reg.30-Credit Rating",
-    path: "https://apisindia.com/pdf/2022/Intimation-under-Reg.30-Credit-Rating.pdf"
+    path: "https://apisindia.com/pdf/2022/Intimation-under-Reg.30-Credit-Rating.pdf",
   },
   {
     id: 19,
     name: "Disclosure Calendar of Event of Postal Ballot",
-    path: "https://apisindia.com/pdf/2022/Disclosure_Calender_of_Event_of_Postal_Ballot.pdf"
+    path: "https://apisindia.com/pdf/2022/Disclosure_Calender_of_Event_of_Postal_Ballot.pdf",
   },
   {
     id: 20,
     name: "Intimation under Reg.30 Appointment of Director",
-    path: "https://apisindia.com/pdf/2022/Intimation_under_Reg.30-Appointment_of_Director.pdf"
+    path: "https://apisindia.com/pdf/2022/Intimation_under_Reg.30-Appointment_of_Director.pdf",
   },
   {
     id: 21,
     name: "FORM ISR-4- Request For Issue Of Duplicate Certificate and Other Service Request",
-    path: "https://apisindia.com/pdf/2022/Form-ISR-4.pdf"
+    path: "https://apisindia.com/pdf/2022/Form-ISR-4.pdf",
   },
   {
     id: 22,
     name: "Intimation To Shareholders Holding Shares in Physical Mode",
-    path: "https://apisindia.com/pdf/2022/Intimation-to-Physical-Shareholder.pdf"
+    path: "https://apisindia.com/pdf/2022/Intimation-to-Physical-Shareholder.pdf",
   },
   {
     id: 23,
     name: "Intimation under Reg.30 Newspaper Advertisement Results",
-    path: "https://apisindia.com/pdf/2022/Intimation-under-Reg.30-Newspeper-Advertisement.pdf"
+    path: "https://apisindia.com/pdf/2022/Intimation-under-Reg.30-Newspeper-Advertisement.pdf",
   },
   {
     id: 24,
     name: "Outcome of the Board Meeting",
-    path: "https://apisindia.com/pdf/2022/Outcome_of_the_Board_Meeting.pdf"
+    path: "https://apisindia.com/pdf/2022/Outcome_of_the_Board_Meeting.pdf",
   },
   {
     id: 25,
     name: "Intimation under Reg.30 Newspaper Advertisement Results",
-    path: "https://apisindia.com/pdf/2021/Intimation_under_Reg.30-Newspeper_Advertisement-Results.pdf"
+    path: "https://apisindia.com/pdf/2021/Intimation_under_Reg.30-Newspeper_Advertisement-Results.pdf",
   },
   {
     id: 26,
     name: "Intimation of Book Closure-AGM-Dividend Payment",
-    path: "https://apisindia.com/pdf/2021/Intimaton%20of%20Book%20Clsoure-AGM-Dividend%20Payment.pdf"
+    path: "https://apisindia.com/pdf/2021/Intimaton%20of%20Book%20Clsoure-AGM-Dividend%20Payment.pdf",
   },
   {
     id: 27,
     name: "Outcome Of The Board Meeting",
-    path: "https://apisindia.com/pdf/2021/Outcome_of_the_Board_Meeting.pdf"
+    path: "https://apisindia.com/pdf/2021/Outcome_of_the_Board_Meeting.pdf",
   },
   {
     id: 28,
     name: "Intimation For Appointment Of Statutory Auditor",
-    path: "https://apisindia.com/pdf/2021/Outcome_of_the_Board_Meeting.pdf"
+    path: "https://apisindia.com/pdf/2021/Outcome_of_the_Board_Meeting.pdf",
   },
   {
     id: 29,
     name: "Intimation For Penalty",
-    path: "https://apisindia.com/pdf/2021/Intimation_for_panelty.pdf"
+    path: "https://apisindia.com/pdf/2021/Intimation_for_panelty.pdf",
   },
   {
     id: 30,
     name: "Covering Letter",
-    path: "https://apisindia.com/pdf/2021/Covering_Letter.pdf"
+    path: "https://apisindia.com/pdf/2021/Covering_Letter.pdf",
   },
   {
     id: 31,
     name: "Revised Outcome of Board Meeting Final",
-    path: "https://apisindia.com/pdf/2021/Revised%20Outcome_of_Board_Meeting-FINAL.pdf"
+    path: "https://apisindia.com/pdf/2021/Revised%20Outcome_of_Board_Meeting-FINAL.pdf",
   },
   {
     id: 32,
     name: "Covering Letter",
-    path: "https://apisindia.com/pdf/2020/Covering_Letter_2021.pdf"
+    path: "https://apisindia.com/pdf/2020/Covering_Letter_2021.pdf",
   },
   {
     id: 33,
     name: "Disclosure under Reg.30 Appt of Director",
-    path: "https://apisindia.com/pdf/2020/DISCLOSURE-UNDER-REG-30-APPT-OF-DIRECTOR.pdf"
+    path: "https://apisindia.com/pdf/2020/DISCLOSURE-UNDER-REG-30-APPT-OF-DIRECTOR.pdf",
   },
   {
     id: 34,
     name: "Notice of BM in Newspaper",
-    path: "https://apisindia.com/pdf/2020/NOTICE_OF_BM_IN_NEWSPAPAR-2021.pdf"
+    path: "https://apisindia.com/pdf/2020/NOTICE_OF_BM_IN_NEWSPAPAR-2021.pdf",
   },
   {
     id: 35,
     name: "Outcome of the Board Meeting",
-    path: "https://apisindia.com/pdf/2020/Outcome_of_the_Board_Meeting--2021.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome_of_the_Board_Meeting--2021.pdf",
   },
   {
     id: 36,
     name: "Notice of Board Meeting Stock Exchange",
-    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-2021.pdf"
+    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-2021.pdf",
   },
   {
     id: 37,
     name: "Covering Letter",
-    path: "https://apisindia.com/pdf/2020/Covering_Letter_November-13-2020.pdf"
+    path: "https://apisindia.com/pdf/2020/Covering_Letter_November-13-2020.pdf",
   },
   {
     id: 38,
     name: "Intimation under Reg.30 Newspaper Advertisement-November-03-2020",
-    path: "https://apisindia.com/pdf/2020/Intimation_under_Reg.30-Newspeper_Advertisement-November-03-2020.pdf"
+    path: "https://apisindia.com/pdf/2020/Intimation_under_Reg.30-Newspeper_Advertisement-November-03-2020.pdf",
   },
   {
     id: 39,
     name: "Notice of Board Meeting Stock Exchange-November-02-2020",
-    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-November-02-2020.pdf"
+    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange-November-02-2020.pdf",
   },
   {
     id: 40,
     name: "Outcome of the Board Meeting-November-12-2020",
-    path: "https://apisindia.com/pdf/2020/Outcome-of-the-Board-Meeting-November-12-2020.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome-of-the-Board-Meeting-November-12-2020.pdf",
   },
   {
     id: 41,
     name: "Voting Results - Annual General Meetings - 30th September",
-    path: "https://apisindia.com/pdf/newupdates/Voting%20Results%20-%20Annual%20General%20Meeting%20-%2030th%20September.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Voting%20Results%20-%20Annual%20General%20Meeting%20-%2030th%20September.pdf",
   },
   {
     id: 42,
     name: "Proceeding of the AGM",
-    path: "https://apisindia.com/pdf/newupdates/Proceeding%20of%20the%20AGM.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Proceeding%20of%20the%20AGM.pdf",
   },
   {
     id: 43,
     name: "Notice of Closure of Trading Window - 30th September",
-    path: "https://apisindia.com/pdf/newupdates/Proceeding%20of%20the%20AGM.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Proceeding%20of%20the%20AGM.pdf",
   },
   {
     id: 44,
     name: "Intimation under Reg.30-Newspaper Advertisement -16th September",
-    path: "https://apisindia.com/pdf/2020/Intimaton%20under%20Reg.30-Newspaper%20Publicaiton.pdf"
+    path: "https://apisindia.com/pdf/2020/Intimaton%20under%20Reg.30-Newspaper%20Publicaiton.pdf",
   },
   {
     id: 45,
     name: "Outcome of the Board Meeting : 15th September 2020",
-    path: "https://apisindia.com/pdf/2020/Outcome%20of%20the%20Board%20Meeting%20-%2015ht%20September.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome%20of%20the%20Board%20Meeting%20-%2015ht%20September.pdf",
   },
   {
     id: 46,
     name: "Intimation under Reg.30-Newspaper Advertisement -5th September",
-    path: "https://apisindia.com/pdf/2020/Intimation%20udner%20Reg.30-%205th%20September.pdf"
+    path: "https://apisindia.com/pdf/2020/Intimation%20udner%20Reg.30-%205th%20September.pdf",
   },
   {
     id: 47,
     name: "Intimation under Reg.30-Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/2020/Intimation_under_Reg.30-Newspeper_Advertisement.pdf"
+    path: "https://apisindia.com/pdf/2020/Intimation_under_Reg.30-Newspeper_Advertisement.pdf",
   },
   {
     id: 48,
     name: "Notice of Board Meeting Stock Exchange - 2nd September",
-    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange%20-%202nd%20September.pdf"
+    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange%20-%202nd%20September.pdf",
   },
   {
     id: 49,
     name: "Outcome of Board Meeting - 31st July, 2020",
-    path: "https://apisindia.com/pdf/2020/Outcome%20of%20Board%20Meeting-final.pdf"
+    path: "https://apisindia.com/pdf/2020/Outcome%20of%20Board%20Meeting-final.pdf",
   },
   {
     id: 50,
     name: "Covering Letter - June, 27, 20",
-    path: "https://apisindia.com/pdf/2020/Covering%20Letter.pdf"
+    path: "https://apisindia.com/pdf/2020/Covering%20Letter.pdf",
   },
   {
     id: 51,
     name: "Notice of Board Meeting Stock Exchange",
-    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange.pdf"
+    path: "https://apisindia.com/pdf/2020/Notice_of_Board_Meeting_Stock_Exchange.pdf",
   },
   {
     id: 52,
     name: "Intimation Under Reg.30 -Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/2020/Intimation_under_Reg.30-Newspeper_Advertisement_sw.pdf"
+    path: "https://apisindia.com/pdf/2020/Intimation_under_Reg.30-Newspeper_Advertisement_sw.pdf",
   },
   {
     id: 53,
     name: "Covering Letter - May 29, 20",
-    path: "https://apisindia.com/pdf/2020/Covering_Letter.pdf"
+    path: "https://apisindia.com/pdf/2020/Covering_Letter.pdf",
   },
   {
     id: 54,
     name: "Disclosure under Reg.30 commencement of operations",
-    path: "https://apisindia.com/pdf/2020/Disclosure_under_Reg.30_commencement_of_operations.pdf"
+    path: "https://apisindia.com/pdf/2020/Disclosure_under_Reg.30_commencement_of_operations.pdf",
   },
   {
     id: 55,
     name: "Notice of Closure of Trading Window",
-    path: "https://apisindia.com/pdf/newupdates/Notice_of_Closure_of_Trading_Window.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Notice_of_Closure_of_Trading_Window.pdf",
   },
   {
     id: 56,
     name: "Letter to BSE Lockdown - Covid 19 Impact",
-    path: "https://apisindia.com/pdf/newupdates/Letter%20to%20BSE_Lockdown.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Letter%20to%20BSE_Lockdown.pdf",
   },
   {
     id: 57,
     name: "Outcome of Board Meeting : Date 14th Feb, 2020",
-    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Outcome_of_the_Board_Meeting.pdf",
   },
   {
     id: 58,
     name: "Intimation of Notice of Board Meeting",
-    path: "https://apisindia.com/pdf/newupdates/Intimaton%20of%20Notice%20of%20Board%20Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Intimaton%20of%20Notice%20of%20Board%20Meeting.pdf",
   },
   {
     id: 59,
     name: "Intimation under Reg.30-Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/newupdates/Intimation%20under%20Reg.30-Newspeper%20Advertisement.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Intimation%20under%20Reg.30-Newspeper%20Advertisement.pdf",
   },
   {
     id: 60,
     name: "Outcome of Board Meeting, 14th Nov., 2019",
-    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Outcome%20of%20Board%20Meeting.pdf",
   },
   {
     id: 61,
     name: "Notice_of_Board_Meeting SE_sw",
-    path: "https://apisindia.com/pdf/newupdates/Notice_of_Board_Meeting-SE_sw.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Notice_of_Board_Meeting-SE_sw.pdf",
   },
   {
     id: 62,
     name: "Intimation under Reg-30 sw",
-    path: "https://apisindia.com/pdf/newupdates/Intimation_under_Reg-30_sw.pdf"
+    path: "https://apisindia.com/pdf/newupdates/Intimation_under_Reg-30_sw.pdf",
   },
   {
     id: 63,
     name: "Results of 37th Annual General Meeting - 30th September, 2019",
-    path: "https://apisindia.com/pdf/AGM%20Results.pdf"
+    path: "https://apisindia.com/pdf/AGM%20Results.pdf",
   },
   {
     id: 64,
     name: "Notice Of Board Meeting - 2nd August 2019",
-    path: "https://apisindia.com/pdf/Notice%20of%20Board%20Meeting%20July%202019.pdf"
+    path: "https://apisindia.com/pdf/Notice%20of%20Board%20Meeting%20July%202019.pdf",
   },
   {
     id: 65,
     name: "Disclosure of Related party transactions under_Reg_23(9)",
-    path: "https://apisindia.com/pdf/Disclousre-of-Related-party-transactions-under_Reg_23(9).pdf"
+    path: "https://apisindia.com/pdf/Disclousre-of-Related-party-transactions-under_Reg_23(9).pdf",
   },
   {
     id: 66,
     name: "Intimation to Board Meeting : May 2019",
-    path: "https://apisindia.com/pdf/Intimation_to_Board_Meeting_to_SE.pdf"
+    path: "https://apisindia.com/pdf/Intimation_to_Board_Meeting_to_SE.pdf",
   },
   {
     id: 67,
     name: "Intimation under Reg.30 Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/Intimation_to_Board_Meeting_to_SE.pdf"
+    path: "https://apisindia.com/pdf/Intimation_to_Board_Meeting_to_SE.pdf",
   },
   {
     id: 68,
     name: "Outcome of the Board Meeting final : May 2019",
-    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf"
+    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf",
   },
   {
     id: 69,
     name: "Intimation under Reg.30",
-    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf"
+    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting_final.pdf",
   },
   {
     id: 70,
     name: "Outcome Of The Board Meeting : February 2019",
-    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting%20Feb%2014.pdf"
+    path: "https://apisindia.com/pdf/Outcome_of_the_Board_Meeting%20Feb%2014.pdf",
   },
   {
     id: 71,
     name: "Intimation under Reg.30 Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/Intimation_under_Reg.30-Newspeper_Advertisement-sw.pdf"
+    path: "https://apisindia.com/pdf/Intimation_under_Reg.30-Newspeper_Advertisement-sw.pdf",
   },
   {
     id: 72,
     name: "Intimation under Reg.30 Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/Intimation-under-Reg-30-Newspeper-Advertisement.pdf"
+    path: "https://apisindia.com/pdf/Intimation-under-Reg-30-Newspeper-Advertisement.pdf",
   },
   {
     id: 73,
     name: "Outcome Of The Board Meeting : November 2018",
-    path: "https://apisindia.com/pdf/OUTCOME-OF-THE-BOARD-MEETING.pdf"
+    path: "https://apisindia.com/pdf/OUTCOME-OF-THE-BOARD-MEETING.pdf",
   },
   {
     id: 74,
     name: "Notice of Board Meeting Stock Exchange",
-    path: "https://apisindia.com/pdf/Notice_of_Board_Meeting_Stock_Exchange.pdf"
+    path: "https://apisindia.com/pdf/Notice_of_Board_Meeting_Stock_Exchange.pdf",
   },
   {
     id: 75,
     name: "May 22, 2018 Notice of Closure of Trading Window Of The Company",
-    path: "https://apisindia.com/pdf/Notice-of-Board-Meeting.pdf"
+    path: "https://apisindia.com/pdf/Notice-of-Board-Meeting.pdf",
   },
   {
     id: 76,
     name: "Intimation Under Reg.30 Newspaper Advertisement",
-    path: "https://apisindia.com/pdf/Intimation_under_Reg.30-Newspeper_Advertisement_sw.pdf"
+    path: "https://apisindia.com/pdf/Intimation_under_Reg.30-Newspeper_Advertisement_sw.pdf",
   },
   {
     id: 77,
     name: "Outcome of Board Meeting - 2018",
-    path: "https://apisindia.com/pdf/Outcome-of-the-Board-Meeting.pdf"
+    path: "https://apisindia.com/pdf/Outcome-of-the-Board-Meeting.pdf",
   },
   {
     id: 78,
     name: "January 31, 2017 BM Notice of 3rd Quarter (Dec 2016)",
-    path: "https://apisindia.com/pdf/BM_notice_3rd%20Quater_Dec_2016...pdf"
+    path: "https://apisindia.com/pdf/BM_notice_3rd%20Quater_Dec_2016...pdf",
   },
   {
     id: 79,
     name: "Annual General Meeting - September 28, 2012 - Outcome of 30th Annual General Meeting",
-    path: "https://apisindia.com/pdf/Annual-Report-2013-14.pdf"
+    path: "https://apisindia.com/pdf/Annual-Report-2013-14.pdf",
   },
   {
     id: 80,
     name: "Annual General Meeting - August 30, 2012 - Notice of 30th Annual General Meeting",
-    path: "https://apisindia.com/pdf/Annual-Report-Covering-Letter-2012-13.pdf"
+    path: "https://apisindia.com/pdf/Annual-Report-Covering-Letter-2012-13.pdf",
   },
   {
     id: 81,
     name: "Annual General Meeting - September 30, 2011 – Outcome of 29th Annual General Meeting",
-    path: "https://apisindia.com/pdf/Annual-Report-2010-2011.pdf"
+    path: "https://apisindia.com/pdf/Annual-Report-2010-2011.pdf",
   },
   {
     id: 82,
     name: "Annual General Meeting - September 03, 2011 – Notice of 29th Annual General Meeting",
-    path: "View / Download" // Placeholder for actual URL
+    path: "View / Download", // Placeholder for actual URL
   },
   {
     id: 83,
     name: "Annual General Meeting - September 30, 2010 - Outcome of 28th Annual General Meeting",
-    path: "https://apisindia.com/pdf/Annual-Report-2008-2009.pdf"
+    path: "https://apisindia.com/pdf/Annual-Report-2008-2009.pdf",
   },
   {
     id: 84,
     name: "Annual General Meeting - September 03, 2010 - Notice of 28th Annual General Meeting",
-    path: "https://apisindia.com/pdf/Annual-Report-2008-2009.pdf"
+    path: "https://apisindia.com/pdf/Annual-Report-2008-2009.pdf",
   },
   {
     id: 85,
     name: "Extra – Ordinary Meeting - October 26, 2010 – Outcome",
-    path: "https://apisindia.com/pdf/Outcome-of-E26102010.pdf"
+    path: "https://apisindia.com/pdf/Outcome-of-E26102010.pdf",
   },
   {
     id: 86,
     name: "Extra – Ordinary Meeting - September 29, 2010 – Notice",
-    path: "https://apisindia.com/pdf/Notice-EGM26102010.pdf"
+    path: "https://apisindia.com/pdf/Notice-EGM26102010.pdf",
   },
   {
     id: 87,
     name: "Extra – Ordinary Meeting - May 19, 2010 – Outcome",
-    path: "https://apisindia.com/pdf/Outcome-of-EGM19052010.pdf"
+    path: "https://apisindia.com/pdf/Outcome-of-EGM19052010.pdf",
   },
   {
     id: 88,
     name: "Extra – Ordinary Meeting - April 19, 2010 – Notice",
-    path: "https://apisindia.com/pdf/Notice-EGM19052010.pdf"
+    path: "https://apisindia.com/pdf/Notice-EGM19052010.pdf",
   },
   {
     id: 89,
     name: "Extra – Ordinary Meeting - March 24, 2010 – Outcome",
-    path: "https://apisindia.com/pdf/Outcome_of_EGM_24032010.pdf"
+    path: "https://apisindia.com/pdf/Outcome_of_EGM_24032010.pdf",
   },
   {
     id: 90,
     name: "Extra – Ordinary Meeting - March 17, 2010 – Notice",
-    path: "https://apisindia.com/pdf/Notice_EGM_24032010.pdf"
+    path: "https://apisindia.com/pdf/Notice_EGM_24032010.pdf",
   },
   {
     id: 91,
     name: "Others - July 12, 2012 – Result of Postal Ballot",
-    path: "https://apisindia.com/pdf/result-of-postal-ballot2012.pdf"
-  }
+    path: "https://apisindia.com/pdf/result-of-postal-ballot2012.pdf",
+  },
 ];
 
 // src/data/financials.js
@@ -3385,65 +3483,64 @@ export const financialsSheet = {
     {
       id: 1,
       name: "Balance Sheet - 31.03.2018 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet_31.03.2018_APIS+Pure+Foodstuff+LLC.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet_31.03.2018_APIS+Pure+Foodstuff+LLC.pdf",
     },
     {
       id: 2,
       name: "Balance Sheet - 31.03.2019 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet_APIS+PURE_INR.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet_APIS+PURE_INR.pdf",
     },
     {
       id: 3,
       name: "Balance Sheet - 31.03.2020 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet+Apis+Pure+Food+Stuff+2020+.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet+Apis+Pure+Food+Stuff+2020+.pdf",
     },
     {
       id: 4,
       name: "Balance Sheet - 31.03.2021 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet-Apis+Pure-31.03.2021.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet-Apis+Pure-31.03.2021.pdf",
     },
     {
       id: 5,
       name: "Balance Sheet - 31.03.2022 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet-Apis+Pure-31.03.2022.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet-Apis+Pure-31.03.2022.pdf",
     },
     {
       id: 5,
       name: "Balance Sheet - 31.03.2023 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance-Sheet-2023-In-INR.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance-Sheet-2023-In-INR.pdf",
     },
     {
       id: 5,
       name: "Balance Sheet - 31.03.2024 APIS Pure Foodstuff LLC",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet-Apis+Pure+Foodstuff.pdf"
-    }
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/apisArabiaFood/Balance+Sheet-Apis+Pure+Foodstuff.pdf",
+    },
   ],
   subsidiaryFinancials: [
-
     {
       id: 1,
       name: "Balance Sheet - 31.03.2020 - Anantadrishti",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k20.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k20.pdf",
     },
     {
       id: 2,
       name: "Balance Sheet - 31.03.2021 - Anantadrishti - Consolidated",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k21.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k21.pdf",
     },
     {
       id: 3,
       name: "Balance Sheet - 31.03.2022 - Anantadrishti",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k22.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k22.pdf",
     },
     {
       id: 4,
       name: "Balance Sheet - 31.03.2023 - Anantadrishti",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balalnce-Sheet-Kapil-Anand-Agro.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balalnce-Sheet-Kapil-Anand-Agro.pdf",
     },
     {
       id: 5,
       name: "Balance Sheet - 31.03.2024 - Anantadrishti",
-      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k24.pdf"
+      path: "https://apisindia.s3.ap-south-1.amazonaws.com/apisPdf/kapilAnand/Balance+Sheet-k24.pdf",
     },
     // {
     //   id: 6,
@@ -3455,111 +3552,220 @@ export const financialsSheet = {
     //   name: "Balance Sheet - 31.03.2023 - NFTPL",
     //   path: "https://apisindia.com/pdf/newupdates/Balance-Sheet-NFTPL-2023.pdf"
     // }
-  ]
+  ],
 };
 
 export const LATEST_SLIDES = [
   {
     video:
       "https://apisindia.s3.ap-south-1.amazonaws.com/socialReviewVideo/testi1.mp4",
-    img:
-      Thumbnail_ApisLatest,
+    img: Thumbnail_ApisLatest,
   },
   {
     video:
       "https://apisindia.s3.ap-south-1.amazonaws.com/socialReviewVideo/testi3.mp4",
-    img:
-      Thumbnail_ApisLatest2,
+    img: Thumbnail_ApisLatest2,
   },
   {
     video:
       "https://apisindia.s3.ap-south-1.amazonaws.com/socialReviewVideo/testi4.mp4",
-    img:
-      Thumbnail_ApisLatest3,
+    img: Thumbnail_ApisLatest3,
   },
   {
     video:
       "https://apisindia.s3.ap-south-1.amazonaws.com/socialReviewVideo/testi2.mp4",
-    img:
-      Thumbnail_ApisLatest3,
+    img: Thumbnail_ApisLatest3,
   },
 ];
 export const LATEST_SLIDES_IMAGES = [
   {
-    img:
-      Thumbnail_ApisLatest,
+    img: Thumbnail_ApisLatest,
   },
   {
-    img:
-      Thumbnail_ApisLatest2,
+    img: Thumbnail_ApisLatest2,
   },
   {
-    img:
-      Thumbnail_ApisLatest3,
+    img: Thumbnail_ApisLatest3,
   },
   {
-    img:
-      Thumbnail_ApisLatest4,
+    img: Thumbnail_ApisLatest4,
   },
   {
-    img:
-      Thumbnail_ApisLatest5,
+    img: Thumbnail_ApisLatest5,
   },
 ];
 
 export const Corporate_Annoucement = [
-  { sNo: 1, name: "Outcome of Board Meeting", path: "/pdf/2024/Outcome_of_Board_Meeting_0624.pdf" },
-  { sNo: 2, name: "Intimation of Product Launch under", path: "/pdf/2023/Corporate_Announcement_Product_Launch_210124.pdf" },
-  { sNo: 3, name: "Proceedings of the 41st Annual General Meeting", path: "/pdf/2023/AGM_Proceedings.pdf" },
-  { sNo: 4, name: "Disclosure of Voting Results of the 41st Annual General Meeting", path: "/pdf/2023/Voting_Results.pdf" },
-  { sNo: 5, name: "Newspaper Advertisement under Section 160 of the Companies Act", path: "/pdf/2023/Notice_Under_Section_160.pdf" },
-  { sNo: 6, name: "Intimation under Reg.30-Credit Rating", path: "/pdf/2023/Intimation_Under_Reg_30_Credit_Rating_16082023.pdf" },
-  { sNo: 7, name: "Outcome of Board Meeting", path: "/pdf/2023/Outcome_of_Board_Meeting_14082023.pdf" },
-  { sNo: 8, name: "Postal Ballot Notice", path: "/pdf/2023/Postal_Ballot_Notice_August_1423.pdf" },
-  { sNo: 9, name: "Notice of Board Meeting", path: "/pdf/2023/Notice_of_Board_Meeting_02082023.pdf" },
-  { sNo: 10, name: "Postal Ballot Notice", path: "/pdf/2023/Postal_Ballot_Notice_July_1523.pdf" },
-  { sNo: 11, name: "Submission of Newspaper Cutting", path: "/pdf/2023/Newspaper_Advertisement.pdf" },
-  { sNo: 12, name: "Outcome of Board Meeting", path: "/pdf/2023/Outcome_of_Board_Meeting_2023.pdf" },
-  { sNo: 13, name: "Submission of Annual Secretarial Compliance Report", path: "/pdf/2023/Annual_Secretarial_Compliance_Report.pdf" },
-  { sNo: 14, name: "Intimation of closure of trading window", path: "/pdf/2022/Intimation_of_Closure_of_Trading_Window.pdf" },
-  { sNo: 15, name: "Outcome of Board Meeting", path: "/pdf/2022/Outcome_of_Board_Meeting_FINAL.pdf" },
-  { sNo: 16, name: "Postal Ballot Notice", path: "/pdf/2022/Postal_Ballot_Notice.pdf" },
-  { sNo: 17, name: "Intimation of closure of trading window", path: "/pdf/2022/Intimation_of_Closure_of_Trading_Window_2.pdf" },
-  { sNo: 18, name: "Intimation under Reg.30-Credit Rating", path: "/pdf/2022/Intimation_Under_Reg_30_Credit_Rating.pdf" },
-  { sNo: 19, name: "Disclosure Calendar of Event of Postal Ballot", path: "/pdf/2022/Disclosure_Calendar_of_Event_of_Postal_Ballot.pdf" },
-  { sNo: 20, name: "Intimation under Reg.30 Appointment of Director", path: "/pdf/2022/Intimation_Under_Reg_30_Appointment_of_Director.pdf" },
-  { sNo: 21, name: "FORM ISR-4- Request For Issue Of Duplicate Certificate and Other Service Request", path: "/pdf/2022/Form_ISR_4.pdf" },
-  { sNo: 22, name: "Intimation To Shareholders Holding Shares in Physical Mode", path: "/pdf/2022/Intimation_to_Physical_Shareholder.pdf" },
-  { sNo: 23, name: "Intimation under Reg.30 Newspaper Advertisement Results", path: "/pdf/2022/Intimation_Under_Reg_30_Newspaper_Advertisement.pdf" },
-  { sNo: 24, name: "Outcome of the Board Meeting", path: "/pdf/2022/Outcome_of_the_Board_Meeting.pdf" },
-  { sNo: 25, name: "Intimation under Reg.30 Newspaper Advertisement Results", path: "/pdf/2021/Intimation_Under_Reg_30_Newspaper_Advertisement_Results.pdf" },
-  { sNo: 26, name: "Intimation of Book Closure-AGM-Dividend Payment", path: "/pdf/2021/Intimation_of_Book_Closure_AGM_Dividend_Payment.pdf" },
-  { sNo: 27, name: "Outcome of the Board Meeting", path: "/pdf/2021/Outcome_of_the_Board_Meeting_2.pdf" },
-  { sNo: 28, name: "Intimation For Appointment Of Statutory Auditor", path: "/pdf/2021/Appointment_of_Statutory_Auditor.pdf" },
-  { sNo: 29, name: "Intimation For Penalty", path: "/pdf/2021/Intimation_for_Penalty.pdf" },
+  {
+    sNo: 1,
+    name: "Outcome of Board Meeting",
+    path: "/pdf/2024/Outcome_of_Board_Meeting_0624.pdf",
+  },
+  {
+    sNo: 2,
+    name: "Intimation of Product Launch under",
+    path: "/pdf/2023/Corporate_Announcement_Product_Launch_210124.pdf",
+  },
+  {
+    sNo: 3,
+    name: "Proceedings of the 41st Annual General Meeting",
+    path: "/pdf/2023/AGM_Proceedings.pdf",
+  },
+  {
+    sNo: 4,
+    name: "Disclosure of Voting Results of the 41st Annual General Meeting",
+    path: "/pdf/2023/Voting_Results.pdf",
+  },
+  {
+    sNo: 5,
+    name: "Newspaper Advertisement under Section 160 of the Companies Act",
+    path: "/pdf/2023/Notice_Under_Section_160.pdf",
+  },
+  {
+    sNo: 6,
+    name: "Intimation under Reg.30-Credit Rating",
+    path: "/pdf/2023/Intimation_Under_Reg_30_Credit_Rating_16082023.pdf",
+  },
+  {
+    sNo: 7,
+    name: "Outcome of Board Meeting",
+    path: "/pdf/2023/Outcome_of_Board_Meeting_14082023.pdf",
+  },
+  {
+    sNo: 8,
+    name: "Postal Ballot Notice",
+    path: "/pdf/2023/Postal_Ballot_Notice_August_1423.pdf",
+  },
+  {
+    sNo: 9,
+    name: "Notice of Board Meeting",
+    path: "/pdf/2023/Notice_of_Board_Meeting_02082023.pdf",
+  },
+  {
+    sNo: 10,
+    name: "Postal Ballot Notice",
+    path: "/pdf/2023/Postal_Ballot_Notice_July_1523.pdf",
+  },
+  {
+    sNo: 11,
+    name: "Submission of Newspaper Cutting",
+    path: "/pdf/2023/Newspaper_Advertisement.pdf",
+  },
+  {
+    sNo: 12,
+    name: "Outcome of Board Meeting",
+    path: "/pdf/2023/Outcome_of_Board_Meeting_2023.pdf",
+  },
+  {
+    sNo: 13,
+    name: "Submission of Annual Secretarial Compliance Report",
+    path: "/pdf/2023/Annual_Secretarial_Compliance_Report.pdf",
+  },
+  {
+    sNo: 14,
+    name: "Intimation of closure of trading window",
+    path: "/pdf/2022/Intimation_of_Closure_of_Trading_Window.pdf",
+  },
+  {
+    sNo: 15,
+    name: "Outcome of Board Meeting",
+    path: "/pdf/2022/Outcome_of_Board_Meeting_FINAL.pdf",
+  },
+  {
+    sNo: 16,
+    name: "Postal Ballot Notice",
+    path: "/pdf/2022/Postal_Ballot_Notice.pdf",
+  },
+  {
+    sNo: 17,
+    name: "Intimation of closure of trading window",
+    path: "/pdf/2022/Intimation_of_Closure_of_Trading_Window_2.pdf",
+  },
+  {
+    sNo: 18,
+    name: "Intimation under Reg.30-Credit Rating",
+    path: "/pdf/2022/Intimation_Under_Reg_30_Credit_Rating.pdf",
+  },
+  {
+    sNo: 19,
+    name: "Disclosure Calendar of Event of Postal Ballot",
+    path: "/pdf/2022/Disclosure_Calendar_of_Event_of_Postal_Ballot.pdf",
+  },
+  {
+    sNo: 20,
+    name: "Intimation under Reg.30 Appointment of Director",
+    path: "/pdf/2022/Intimation_Under_Reg_30_Appointment_of_Director.pdf",
+  },
+  {
+    sNo: 21,
+    name: "FORM ISR-4- Request For Issue Of Duplicate Certificate and Other Service Request",
+    path: "/pdf/2022/Form_ISR_4.pdf",
+  },
+  {
+    sNo: 22,
+    name: "Intimation To Shareholders Holding Shares in Physical Mode",
+    path: "/pdf/2022/Intimation_to_Physical_Shareholder.pdf",
+  },
+  {
+    sNo: 23,
+    name: "Intimation under Reg.30 Newspaper Advertisement Results",
+    path: "/pdf/2022/Intimation_Under_Reg_30_Newspaper_Advertisement.pdf",
+  },
+  {
+    sNo: 24,
+    name: "Outcome of the Board Meeting",
+    path: "/pdf/2022/Outcome_of_the_Board_Meeting.pdf",
+  },
+  {
+    sNo: 25,
+    name: "Intimation under Reg.30 Newspaper Advertisement Results",
+    path: "/pdf/2021/Intimation_Under_Reg_30_Newspaper_Advertisement_Results.pdf",
+  },
+  {
+    sNo: 26,
+    name: "Intimation of Book Closure-AGM-Dividend Payment",
+    path: "/pdf/2021/Intimation_of_Book_Closure_AGM_Dividend_Payment.pdf",
+  },
+  {
+    sNo: 27,
+    name: "Outcome of the Board Meeting",
+    path: "/pdf/2021/Outcome_of_the_Board_Meeting_2.pdf",
+  },
+  {
+    sNo: 28,
+    name: "Intimation For Appointment Of Statutory Auditor",
+    path: "/pdf/2021/Appointment_of_Statutory_Auditor.pdf",
+  },
+  {
+    sNo: 29,
+    name: "Intimation For Penalty",
+    path: "/pdf/2021/Intimation_for_Penalty.pdf",
+  },
   { sNo: 30, name: "Covering Letter", path: "/pdf/2021/Covering_Letter.pdf" },
   // Continue adding entries as needed
 ];
 
-
 export const SLIDES = [
   {
     img: TrustSlide1,
-    content: "Organic honey is a natural, nutrient-rich sweetener with health benefits, perfect for enhancing flavor in foods and beverages.",
+    content:
+      "Organic honey is a natural, nutrient-rich sweetener with health benefits, perfect for enhancing flavor in foods and beverages.",
     title: "Organic Honey",
-    path: "https://www.amazon.in/Apis-Organic-honey-450gm-Certified/dp/B0CS6WWLDD"
+    path: "https://www.amazon.in/Apis-Organic-honey-450gm-Certified/dp/B0CS6WWLDD",
   },
   {
     img: ClassicDates,
-    content: "Apis Classic Dates are sweet, nutrient-rich fruits ideal for snacking and adding flavor to dishes.",
+    content:
+      "Apis Classic Dates are sweet, nutrient-rich fruits ideal for snacking and adding flavor to dishes.",
     title: "Apis Shahenshah Dates",
-    path: "https://www.amazon.in/Apis-Classic-Dates-500g/dp/B0CJXWN5Q6"
+    path: "https://www.amazon.in/Apis-Classic-Dates-500g/dp/B0CJXWN5Q6",
   },
   {
     img: Muesli,
-    content: "Muesli crafted with wholesome ingredients for a nourishing start to your day",
+    content:
+      "Muesli crafted with wholesome ingredients for a nourishing start to your day",
     title: "Muesli",
-    path: ""
+    path: "",
   },
   // {
   //   img:  ChocolateSpread,
@@ -3571,21 +3777,23 @@ export const SLIDES = [
 
   {
     img: AlmondHoney,
-    content: "Apis Corn Flakes are a crunchy, nutritious breakfast cereal made from premium corn.",
+    content:
+      "Apis Corn Flakes are a crunchy, nutritious breakfast cereal made from premium corn.",
     title: "Corn Flakes",
-    path: "https://www.amazon.in/Apis-Cornflakes-1kg-Zip-Pouch/dp/B099FRBQ4C?th=1"
+    path: "https://www.amazon.in/Apis-Cornflakes-1kg-Zip-Pouch/dp/B099FRBQ4C?th=1",
   },
   {
     img: Saffron1,
-    content: "Apis Saffron is a high-quality spice prized for its rich aroma, color, and health benefits.",
+    content:
+      "Apis Saffron is a high-quality spice prized for its rich aroma, color, and health benefits.",
     title: "Saffron",
-    path: "https://www.amazon.in/Apis-Saffron-Kesar/dp/B08NFFST31"
+    path: "https://www.amazon.in/Apis-Saffron-Kesar/dp/B08NFFST31",
   },
   {
     img: SoyaChunks1,
     content: "Soya chunks are protein-rich, plant-based meat alternatives.",
     title: "Soya Chunk",
-    path: "https://uniqrr.com/products/apis-india-soya-chunks-50-gm"
+    path: "https://uniqrr.com/products/apis-india-soya-chunks-50-gm",
   },
 
   // {
@@ -3593,7 +3801,6 @@ export const SLIDES = [
   //   content: "Lemon honey green tea: refreshing, antioxidant-rich blend.",
   //   title:"Lemon Honey Green Tea"
   // },
-
 
   // {
   //   img: TrustSlide1,
@@ -3613,11 +3820,17 @@ export const SLIDES = [
 ];
 
 export const AVAILABILITY_SLIDE = [
-  { img: AmazonLogo, path: "https://www.amazon.in/s?k=apis&crid=2CJFWNXIDZI1V&sprefix=apis%2Caps%2C429&ref=nb_sb_noss_1" },
+  {
+    img: AmazonLogo,
+    path: "https://www.amazon.in/s?k=apis&crid=2CJFWNXIDZI1V&sprefix=apis%2Caps%2C429&ref=nb_sb_noss_1",
+  },
   { img: JioMart, path: "https://www.jiomart.com/search/apis" },
   { img: BigBasket, path: "https://www.bigbasket.com/ps/?q=apis&nc=as" },
   { img: BlinkIt, path: "https://blinkit.com/s/?q=apis" },
-  { img: JioMart2, path: "https://www.jiomart.com/search/apis/in/prod_mart_master_vertical?prod_mart_master_vertical%5BhierarchicalMenu%5D%5Bcategory_tree.level0%5D%5B0%5D=Category" },
+  {
+    img: JioMart2,
+    path: "https://www.jiomart.com/search/apis/in/prod_mart_master_vertical?prod_mart_master_vertical%5BhierarchicalMenu%5D%5Bcategory_tree.level0%5D%5B0%5D=Category",
+  },
   { img: DMart, path: "https://www.dmart.in/search?searchTerm=apis" },
 ];
 
@@ -3698,7 +3911,6 @@ export const HEALTH_DATE = [
   },
 ];
 
-
 // export const SHAHANSAH_DATE = [
 //   {
 //     id: 1,
@@ -3746,7 +3958,7 @@ export const HEALTH_JAM = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const HEALTH_FLAKES = [
   {
     id: 1,
@@ -3787,7 +3999,7 @@ export const HEALTH_FLAKES = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const HEALTH_VERNACALLI = [
   {
     id: 1,
@@ -3825,7 +4037,7 @@ export const HEALTH_VERNACALLI = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 
 export const HEALTH_MACRONI = [
   {
@@ -3865,7 +4077,7 @@ export const HEALTH_MACRONI = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const HEALTH_SPEARD = [
   {
     id: 1,
@@ -3907,7 +4119,7 @@ export const HEALTH_SPEARD = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const COOKING_PASTE = [
   {
     id: 1,
@@ -3948,7 +4160,7 @@ export const COOKING_PASTE = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const SOYA_CHUNK = [
   {
     id: 1,
@@ -3990,7 +4202,7 @@ export const SOYA_CHUNK = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const SAFFRON = [
   {
     id: 1,
@@ -4032,7 +4244,7 @@ export const SAFFRON = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const GREEN_TEA = [
   {
     id: 1,
@@ -4074,8 +4286,7 @@ export const GREEN_TEA = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
-
+];
 
 export const GGP = [
   {
@@ -4118,7 +4329,7 @@ export const GGP = [
     shadowClass: "shadow-custom-yellow",
     color: "bg-[#FFC660]",
   },
-]
+];
 export const RECIPIES_DATA1 = [
   {
     video: "https://www.youtube.com/embed/8xAEZMjoI7U?si=BCtDVosB050LS1Ci",
@@ -4139,7 +4350,6 @@ export const RECIPIES_DATA1 = [
     title: "Apis Recipes | Honey Glazed Carrots",
     time: "Prep 10 min",
     descreption: "Apis Recipes | Honey Glazed Carrots",
-
   },
   {
     video: "https://www.youtube.com/embed/ng5x3ntnvAM?si=No7g71v_dE0uolVx",
@@ -4147,7 +4357,7 @@ export const RECIPIES_DATA1 = [
     name: "apis jam Fruit Blast",
     time: "Prep 10 min",
     descreption: "Nature's golden nectar, pure and organic",
-    type: "6"
+    type: "6",
   },
 ];
 
@@ -4179,8 +4389,6 @@ export const GLIMPSES_SLIDES = [
   },
 ];
 
-
-
 export const NUTRASHIP = [
   {
     // title: "Antioxidant Boost",
@@ -4206,9 +4414,7 @@ export const NUTRASHIP = [
     img: NutrashipIcon3,
     // shadowClass: "shadow-custom-yellow",
   },
-
 ];
-
 
 export const Terms_Conditions = [
   {
@@ -4254,10 +4460,11 @@ export const Terms_Conditions = [
         (3) (A) The listed entity shall ensure that the contents of the website are correct.<br>
         (b) The listed entity shall update any change in the content of its website within two working days from the date of such change in content.
       </p>
-    </div>`
+    </div>`,
   },
   {
-    id: 2, content: `<div class="apis_bg">
+    id: 2,
+    content: `<div class="apis_bg">
       <div class="container">
         	<div class="row">
         		<div class="col-md-3">
@@ -4398,6 +4605,6 @@ export const Terms_Conditions = [
         		</div>
         	</div>
       </div><!-- container -->
-    </div>`
-  }
+    </div>`,
+  },
 ];

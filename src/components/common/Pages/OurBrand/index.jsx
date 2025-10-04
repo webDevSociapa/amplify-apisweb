@@ -18,7 +18,7 @@ export default function OurBrand({ onProductClick }) {
   const [selectedBrand, setSelectedBrand] = useState(BRAND_DATA[0].id);
   const [openDropdown, setOpenDropdown] = useState(null); // NEW: track open dropdown
 
-  const TAB_DATA = ["Apis", "Misk", "Nutrasip"];
+  const TAB_DATA = ["Apis", "Misk"];
 
   const [hoveredProduct, setHoveredProduct] = useState(null);
 

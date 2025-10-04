@@ -67,3 +67,31 @@ pnpm run fix-all
 ## Post merge husky hook
 
 After merge, the husky hook will run the pnpm patch version script, for next commit.
+
+## How to Update On AWS EC2
+
+1. Update the code in `main` branch of the repo (WebDevSociapa / ApisWeb).
+
+2. Connect to `EC2 instance` and under the `ApisWeb Folder` in `EC2 console` pull the code from `main` branch
+
+```bash
+git pull origin main
+```
+
+3. Now do the following commands in order in `EC2 console`
+
+```bash
+npm run build
+```
+
+```bash
+pm2 start npm --name "next-app" -- start
+```
+
+```bash
+sudo npm install -g pm2
+```
+
+```bash
+pm2 restart all
+```

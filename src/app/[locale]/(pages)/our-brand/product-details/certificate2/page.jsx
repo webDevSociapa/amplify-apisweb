@@ -1,68 +1,70 @@
-'use client'
+"use client";
 import ImageBanner from "@/components/common/Layout/Banner";
 import Image from "next/image";
 import Banner from "@/assets/images/OurBrands/HoneyBack.png";
 import React, { useState } from "react";
 import Ring1 from "@/assets/images/OurBrands/Ring-4.png";
 import GurrentyBadge from "@/assets/images/OurBrands/GurrentyBadge.png";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import PureHoneyIcon1 from "@/assets/images/OurBrands/pureHoneyIcon1.png";
 import PureHoneyIcon2 from "@/assets/images/OurBrands/pureHoneyIcon2.png";
 
 const page = () => {
-  const [batchNumber, setBatchNumber] = useState('');
-  const [name, setName] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
+  const [batchNumber, setBatchNumber] = useState("");
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
   const router = useRouter();
 
- const handleSubmit = async (e) => {
-  e.preventDefault();
-  setMessage('');
-  setError('');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setMessage("");
+    setError("");
 
-  // ✅ Allowed batch numbers list
-  const allowedBatchNumbers = [
-   'DS21KF255',
-    'DS28KF257',
-    'DS20AG280',
-    'DS31AG285',
-    'DS23BG292',
-    'DS31HG043',
-    'DS02LG091',
-    'DS04AH099',
-    'DS13BH115'
-  ];
+    // ✅ Allowed batch numbers list
+    const allowedBatchNumbers = [
+      "DS21KF255",
+      "DS28KF257",
+      "DS20AG280",
+      "DS31AG285",
+      "DS23BG292",
+      "DS31HG043",
+      "DS02LG091",
+      "DS04AH099",
+      "DS13BH115",
+      "DS26HH057", // new batch number
+    ];
 
-  // ✅ Check if entered batch number is in the allowed list
-  if (!allowedBatchNumbers.includes(batchNumber)) {
-    setError('Invalid batch number. Please enter a valid one.');
-    return;
-  }
-
-  try {
-    const response = await fetch('/api/checkReportOrganic', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ batch_number: batchNumber }),
-    });
-    console.log('response', response);
-
-    if (response.ok) {
-      setMessage("Batch Number is valid");
-      router.push(`/generate-pdf2?batchNumber=${batchNumber}`);
-    } else {
-      setError('Batch number not found in database. Please check and try again.');
+    // ✅ Check if entered batch number is in the allowed list
+    if (!allowedBatchNumbers.includes(batchNumber)) {
+      setError("Invalid batch number. Please enter a valid one.");
+      return;
     }
-  } catch (error) {
-    console.error('Error:', error);
-    setError('An error occurred. Please try again later.');
-  }
-};
 
+    try {
+      const response = await fetch("/api/checkReportOrganic", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ batch_number: batchNumber }),
+      });
+      console.log("response", response);
+
+      if (response.ok) {
+        setMessage("Batch Number is valid");
+        router.push(`/generate-pdf2?batchNumber=${batchNumber}`);
+      } else {
+        setError(
+          "Batch number not found in database. Please check and try again."
+        );
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setError("An error occurred. Please try again later.");
+    }
+  };
 
   return (
     <>
@@ -74,7 +76,7 @@ const page = () => {
         />
       </div>
       <p className="font-bold text-[#84663C] md:text-[40px] text-[20px] w-[75%] capitalize text-center">
-        dddBringing Purity and Responsibility with every jar we deliver
+        Bringing Purity and Responsibility with every jar we deliver
       </p>
       <div className="w-full flex flex-col items-center justify-center">
         <div className="w-[90%] md:w-[50%]">
@@ -196,7 +198,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };
