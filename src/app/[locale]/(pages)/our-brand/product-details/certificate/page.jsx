@@ -1,67 +1,69 @@
-'use client'
+"use client";
 import ImageBanner from "@/components/common/Layout/Banner";
 import Image from "next/image";
 import Banner from "@/assets/images/OurBrands/HoneyBack.png";
 import React, { useState } from "react";
 import Ring1 from "@/assets/images/OurBrands/Ring-4.png";
 import GurrentyBadge from "@/assets/images/OurBrands/GurrentyBadge.png";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import PureHoneyIcon1 from "@/assets/images/OurBrands/pureHoneyIcon1.png";
 import PureHoneyIcon2 from "@/assets/images/OurBrands/pureHoneyIcon2.png";
 
 const page = () => {
-  const [batchNumber, setBatchNumber] = useState('');
-  const [name, setName] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
+  const [batchNumber, setBatchNumber] = useState("");
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
   const router = useRouter();
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setMessage('');
-  setError('');
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setMessage("");
+    setError("");
 
-  // ❌ Disallowed batch numbers list
-  const disallowedBatchNumbers = [
-    'DS21KF255',
-    'DS28KF257',
-    'DS20AG280',
-    'DS31AG285',
-    'DS23BG292',
-    'DS31HG043',
-    'DS02LG091',
-    'DS04AH099',
-    'DS13BH115'
-  ];
+    // ❌ Disallowed batch numbers list
+    const disallowedBatchNumbers = [
+      "DS21KF255",
+      "DS28KF257",
+      "DS20AG280",
+      "DS31AG285",
+      "DS23BG292",
+      "DS31HG043",
+      "DS02LG091",
+      "DS04AH099",
+      "DS13BH115",
+    ];
 
-  // ✅ Check if entered batch number is in the disallowed list
-  if (disallowedBatchNumbers.includes(batchNumber)) {
-    setError('This batch number is not allowed. Please check and enter a valid batch number.');
-    return;
-  }
-
-  try {
-    const response = await fetch('/api/checkReport', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ batch_number: batchNumber }),
-    });
-    console.log('response', response);
-
-    if (response.ok) {
-      setMessage("Batch Number is valid");
-      router.push(`/generate-pdf?batchNumber=${batchNumber}`);
-    } else {
-      setError('Batch number not found. Please check and try again.');
+    // ✅ Check if entered batch number is in the disallowed list
+    if (disallowedBatchNumbers.includes(batchNumber)) {
+      setError(
+        "This batch number is not allowed. Please check and enter a valid batch number."
+      );
+      return;
     }
-  } catch (error) {
-    console.error('Error:', error);
-    setError('An error occurred. Please try again later.');
-  }
-};
+
+    try {
+      const response = await fetch("/api/checkReport", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ batch_number: batchNumber }),
+      });
+      console.log("response", response);
+
+      if (response.ok) {
+        setMessage("Batch Number is valid");
+        router.push(`/generate-pdf?batchNumber=${batchNumber}`);
+      } else {
+        setError("Batch number not found. Please check and try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setError("An error occurred. Please try again later.");
+    }
+  };
 
   return (
     <>
@@ -195,7 +197,6 @@ const handleSubmit = async (e) => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };
