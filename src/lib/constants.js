@@ -348,12 +348,12 @@ export const PRODUCT_DATA = [
         title_desc:
           "Discover The Purest Organic Honey From The Enchanting Valleys Of Kashmir",
         product_desc:
-          "Introducing Apis Organic Honey, sourced from the serene valleys of Kashmir. Our commitment to preserving this liquid gold ensures that every drop reflects the pristine beauty of the region.Nestled in the Himalayan foothills, Kashmir's valleys are famous for their fertile soil and diverse wildflowers. In this enchanting environment, our bees forage among a plethora of flowers, producing exceptional organic honey.Our meticulous organic farming practices avoid synthetic chemicals, ensuring our bees thrive in a toxin-free environment. This dedication protects our bees and preserves the natural purity of our honey",
+          "Introducing AIL Organic Honey, sourced from the serene valleys of Kashmir. Our commitment to preserving this liquid gold ensures that every drop reflects the pristine beauty of the region.Nestled in the Himalayan foothills, Kashmir's valleys are famous for their fertile soil and diverse wildflowers. In this enchanting environment, our bees forage among a plethora of flowers, producing exceptional organic honey.Our meticulous organic farming practices avoid synthetic chemicals, ensuring our bees thrive in a toxin-free environment. This dedication protects our bees and preserves the natural purity of our honey",
         product_img_1: TrustSlide1,
         product_img_2: HoneyImage11,
         product_img3: TrustSlide1,
         customer_says:
-          "I’ve tried many honeys, but Apis Organic Honey stands out for its authentic taste and quality. It’s perfect for my tea, baking, and even just a spoonful for a quick energy boost! Apis Honey truly stands out for its purity. It’s evident that they prioritize the natural essence of honey without any additives or artificial processing. The flavor is rich, smooth, and genuinely delightful, reflecting the untouched quality of the nectar.",
+          "I’ve tried many honeys, but AIL Organic Honey stands out for its authentic taste and quality. It’s perfect for my tea, baking, and even just a spoonful for a quick energy boost! AIL Honey truly stands out for its purity. It’s evident that they prioritize the natural essence of honey without any additives or artificial processing. The flavor is rich, smooth, and genuinely delightful, reflecting the untouched quality of the nectar.",
         health_benefits:
           "Honey is packed with antioxidants that boost your immune system and help fight off illnesses. Regular consumption of honey can strengthen your body’s defenses and promote overall health.",
         primary_color: "",
@@ -379,7 +379,7 @@ export const PRODUCT_DATA = [
         product_img_2: HoneyImage11,
         product_img3: TrustSlide1,
         customer_says:
-          "I’ve tried many honeys, but Apis Organic Honey stands out for its authentic taste and quality. It’s perfect for my tea, baking, and even just a spoonful for a quick energy boost! Apis Honey truly stands out for its purity. It’s evident that they prioritize the natural essence of honey without any additives or artificial processing. The flavor is rich, smooth, and genuinely delightful, reflecting the untouched quality of the nectar.",
+          "I’ve tried many honeys, but AIL Organic Honey stands out for its authentic taste and quality. It’s perfect for my tea, baking, and even just a spoonful for a quick energy boost! AIL Honey truly stands out for its purity. It’s evident that they prioritize the natural essence of honey without any additives or artificial processing. The flavor is rich, smooth, and genuinely delightful, reflecting the untouched quality of the nectar.",
         health_benefits:
           "Honey is packed with antioxidants that boost your immune system and help fight off illnesses. Regular consumption of honey can strengthen your body’s defenses and promote overall health.",
         primary_color: "",
@@ -401,12 +401,12 @@ export const PRODUCT_DATA = [
         title_desc:
           "Discover The Purest Organic Honey From The Enchanting Valleys Of Kashmir",
         product_desc:
-          "Apis Infused Honey blends the natural sweetness of pure honey with the richness of carefully chosen flavors. Whether drizzled over desserts, stirred into tea, or added to savory dishes, it brings a delightful burst of taste and goodness to every bite. Our promise of purity ensures every drop is pure, flavorful, and made to bring you the true taste of high-quality honey.",
+          "AIL Infused Honey blends the natural sweetness of pure honey with the richness of carefully chosen flavors. Whether drizzled over desserts, stirred into tea, or added to savory dishes, it brings a delightful burst of taste and goodness to every bite. Our promise of purity ensures every drop is pure, flavorful, and made to bring you the true taste of high-quality honey.",
         product_img_1: NutrashipProducts,
         product_img_2: HoneyImage11,
         product_img3: TrustSlide1,
         customer_says:
-          "I never knew honey could be this exciting! The Apis infused honey range adds the perfect twist to my daily routine whether I’m adding zing to my green tea, a kick to my toast, or a calming touch to my lemon water. The flavors are bold, natural, and absolutely delicious",
+          "I never knew honey could be this exciting! The AIL infused honey range adds the perfect twist to my daily routine whether I’m adding zing to my green tea, a kick to my toast, or a calming touch to my lemon water. The flavors are bold, natural, and absolutely delicious",
         health_benefits:
           "Honey is packed with antioxidants that boost your immune system and help fight off illnesses. Regular consumption of honey can strengthen your body’s defenses and promote overall health.",
         primary_color: "",
@@ -615,7 +615,7 @@ export const PRODUCT_DATA = [
         product_img_1: DatesV9,
         product_img_2: DatesProduct,
         customer_says:
-          "Apis Shaan-e-Kajoor has been a game-changer for my snacking! The dates are unbelievably soft, fresh, and naturally sweet exactly how they should be. Every bite feels like a burst of pure goodness, making them perfect for a quick energy boost or a guilt-free treat. The best part? No artificial additives, just wholesome nutrition. Safe to say, they’ve earned a permanent spot in my pantry!",
+          "AIL's Shaan-e-Kajoor has been a game-changer for my snacking! The dates are unbelievably soft, fresh, and naturally sweet exactly how they should be. Every bite feels like a burst of pure goodness, making them perfect for a quick energy boost or a guilt-free treat. The best part? No artificial additives, just wholesome nutrition. Safe to say, they’ve earned a permanent spot in my pantry!",
         health_benefits:
           "Royal Zahidi are rich in essential nutrients like fiber, potassium, magnesium, and vitamins B6 and K. These nutrients support various bodily functions, including bone health, muscle function, and energy metabolism.",
         primary_color: "",

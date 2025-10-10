@@ -8,26 +8,43 @@ import Ring3 from "@/assets/images/OurBrands/Ring-3.png";
 import Ring4 from "@/assets/images/OurBrands/Ring-4.png";
 import Comma from "@/assets/images/OurBrands/Comma.png";
 import Image from "next/image";
-import CheckReportBanner from '@/assets/images/OurBrands/ProductBanner.png'
-import HimalayaHoney from "@/assets/images/OurBrands/himalayaHoney.png"
+import CheckReportBanner from "@/assets/images/OurBrands/ProductBanner.png";
+import HimalayaHoney from "@/assets/images/OurBrands/himalayaHoney.png";
 import { useState } from "react";
 import { useParams, useSearchParams } from "next/navigation";
 import { GGP, NEWS_DATA, NUTRASHIP, PRODUCT_DATA } from "@/lib/constants";
 import Link from "next/link";
-import FlowerRun from '@/assets/images/home-banner-section/flowerRun.gif'
-import Mockup500 from '@/assets/images/OurBrands/mockup500.png'
-import HimalayaHoney5rs from  '@/assets/images/OurBrands/5rsHimalayaHoney.png' 
-import HimalayaHoney500 from '@/assets/images/OurBrands/500gramHimalayaHoney.png'
-import HimalayaHoney1kg from '@/assets/images/OurBrands/1kgHimalayaHoney.png'
+import FlowerRun from "@/assets/images/home-banner-section/flowerRun.gif";
+import Mockup500 from "@/assets/images/OurBrands/mockup500.png";
+import HimalayaHoney5rs from "@/assets/images/OurBrands/5rsHimalayaHoney.png";
+import HimalayaHoney500 from "@/assets/images/OurBrands/500gramHimalayaHoney.png";
+import HimalayaHoney1kg from "@/assets/images/OurBrands/1kgHimalayaHoney.png";
 
- import RegularHoney1 from '@/assets/images/OurBrands/1kgRegularHoney.png';
- import RegularHoney400 from '@/assets/images/OurBrands/400gramSqueezyRegularHoney.png';
- import RegularHoney500 from '@/assets/images/OurBrands/500gramRegularHoney.png';
- import ChilliInfusedHoney from '@/assets/images/OurBrands/ChilliinfusedHoney_Front.png';
- import GingerInfusedHoney from '@/assets/images/OurBrands/GingerInfusedHoney.png';
- import LemonInfusedHoney from '@/assets/images/OurBrands/LemonInfusedHoney.png';
- import HimalayaHoneyCheckReport from "@/assets/images/OurBrands/himalayaHoneyCheck-fix.png"
-import { LATEST_SLIDES, SLIDES, HEALTH_BENEFITS, HEALTH_DATE, HEALTH_JAM, HEALTH_FLAKES, HEALTH_VERNACALLI, HEALTH_MACRONI, HEALTH_SPEARD, COOKING_PASTE, SOYA_CHUNK, SAFFRON, GREEN_TEA, RECIPIES_DATA1, AVAILABILITY_SLIDE, GLIMPSES_SLIDES } from "@/lib/constants";
+import RegularHoney1 from "@/assets/images/OurBrands/1kgRegularHoney.png";
+import RegularHoney400 from "@/assets/images/OurBrands/400gramSqueezyRegularHoney.png";
+import RegularHoney500 from "@/assets/images/OurBrands/500gramRegularHoney.png";
+import ChilliInfusedHoney from "@/assets/images/OurBrands/ChilliinfusedHoney_Front.png";
+import GingerInfusedHoney from "@/assets/images/OurBrands/GingerInfusedHoney.png";
+import LemonInfusedHoney from "@/assets/images/OurBrands/LemonInfusedHoney.png";
+import HimalayaHoneyCheckReport from "@/assets/images/OurBrands/himalayaHoneyCheck-fix.png";
+import {
+  LATEST_SLIDES,
+  SLIDES,
+  HEALTH_BENEFITS,
+  HEALTH_DATE,
+  HEALTH_JAM,
+  HEALTH_FLAKES,
+  HEALTH_VERNACALLI,
+  HEALTH_MACRONI,
+  HEALTH_SPEARD,
+  COOKING_PASTE,
+  SOYA_CHUNK,
+  SAFFRON,
+  GREEN_TEA,
+  RECIPIES_DATA1,
+  AVAILABILITY_SLIDE,
+  GLIMPSES_SLIDES,
+} from "@/lib/constants";
 import axios from "axios";
 
 const OPTIONS = { loop: true };
@@ -35,7 +52,7 @@ const OPTIONS = { loop: true };
 const ProductDetails = () => {
   const [slides, setSlides] = useState([]);
   const [selectedContent, setSelectedContent] = useState(null); // Hold the selected health benefit content
-   const { slug } = useParams();
+  const { slug } = useParams();
 
   // brand find jisme product ka slug match kare
   const selectedBrand = PRODUCT_DATA.find((brand) =>
@@ -43,12 +60,9 @@ const ProductDetails = () => {
   );
 
   // product find jo slug match kare
-  const selectedProduct = selectedBrand?.products.find(
-    (p) => p.slug === slug
-  );
+  const selectedProduct = selectedBrand?.products.find((p) => p.slug === slug);
   // const [mediaSection, setMediaSection] = useState([])
   const [hoveredId, setHoveredId] = useState(false); // State to track the hovered item
-
 
   // const openModal = (video) => {
 
@@ -57,20 +71,19 @@ const ProductDetails = () => {
   // };
 
   const handleImageClick = (content) => {
-    
     setSelectedContent(content);
-    setHoveredId(content.id)
+    setHoveredId(content.id);
   };
 
   const renderBenefits = (benefits) => {
     return benefits.map((itm) => (
-      <div 
+      <div
         key={itm.id}
         className="flex flex-col w-[48%] sm:w-[45%] md:w-[30%] items-center justify-center my-4"
       >
         <div
           className={`h-[110px] flex items-center justify-center w-[110px] border-[#9F7B49] 
-            ${hoveredId === itm.id ? 'shadow-lg' : ''} transition-shadow duration-200`}
+            ${hoveredId === itm.id ? "shadow-lg" : ""} transition-shadow duration-200`}
         >
           <Image
             src={itm?.img}
@@ -85,11 +98,8 @@ const ProductDetails = () => {
           {itm?.title}
         </p>
       </div>
-      
     ));
   };
-
-  
 
   useEffect(() => {
     // When the component mounts, set the initial content from the first benefit
@@ -112,24 +122,17 @@ const ProductDetails = () => {
       benefits = HEALTH_JAM;
     } else if (selectedBrand?.id === 3 && selectedProduct?.id === 2) {
       benefits = HEALTH_FLAKES;
-    }
-    else if (selectedBrand?.id === 3 && selectedProduct?.id === 3) {
+    } else if (selectedBrand?.id === 3 && selectedProduct?.id === 3) {
       benefits = HEALTH_VERNACALLI;
-    }
-    else if (selectedBrand?.id === 4 && selectedProduct?.id === 1) {
+    } else if (selectedBrand?.id === 4 && selectedProduct?.id === 1) {
       benefits = SOYA_CHUNK;
-    }
-    else if (selectedBrand?.id === 4 && selectedProduct?.id === 2) {
+    } else if (selectedBrand?.id === 4 && selectedProduct?.id === 2) {
       benefits = SAFFRON;
-    }
-    else if (selectedBrand?.id === 5 && selectedProduct?.id === 1) {
+    } else if (selectedBrand?.id === 5 && selectedProduct?.id === 1) {
       benefits = GREEN_TEA;
-    }
-    else if (selectedBrand?.id === 4 && selectedProduct?.id === 3) {
+    } else if (selectedBrand?.id === 4 && selectedProduct?.id === 3) {
       benefits = GGP;
-    }
-
-      else if (selectedBrand?.id === 1 && selectedProduct?.id === 3) {
+    } else if (selectedBrand?.id === 1 && selectedProduct?.id === 3) {
       benefits = NUTRASHIP;
     }
 
@@ -139,25 +142,21 @@ const ProductDetails = () => {
     }
   }, [selectedBrand, selectedProduct]); // Re-run when selectedBrand or selectedProduct changes
 
-  if (!selectedBrand || !selectedProduct) return <p>Product or Brand not found</p>;
-
+  if (!selectedBrand || !selectedProduct)
+    return <p>Product or Brand not found</p>;
 
   const validProducts = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-
   useEffect(() => {
-
     const addTasteProduct = async () => {
       try {
         const response = await axios.get("/api/HomePage/tasteProduct");
-        setSlides(response.data)
-      }
-      catch (error) {
+        setSlides(response.data);
+      } catch (error) {
         console.log("Error");
       }
-    }
-    addTasteProduct()
-
+    };
+    addTasteProduct();
 
     // const getMediaSection = async () => {
     //   try {
@@ -170,9 +169,7 @@ const ProductDetails = () => {
     //   }
     // }
     // getMediaSection()
-  }, [])
-
-
+  }, []);
 
   return (
     <div className="relative flex flex-col items-center justify-center w-full">
@@ -200,7 +197,7 @@ const ProductDetails = () => {
                       src={itm?.img}
                       alt="header-logo"
                       className=" border-4 border-[#9F7B49]"
-                    // className="h-[240px] md:h-[440px] w-[172px] md:w-[270px] max-w-max bg-opacity-40"
+                      // className="h-[240px] md:h-[440px] w-[172px] md:w-[270px] max-w-max bg-opacity-40"
                     />
                     {/* </div> */}
                   </div>
@@ -226,203 +223,217 @@ const ProductDetails = () => {
         </div>
       </div>
       {selectedBrand?.id === 2 && selectedProduct?.id === 1 ? (
-  <>
-    {/* Section Heading */}
-    <div className="flex flex-col items-center justify-center w-[80%] capitalize">
-      <p className="w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
-        Purity is our essence in food
-      </p>
-      <p className="text-[#454545] w-[80%] text-sm md:text-2xl text-center mt-4 font-jost md:mt-8">
-        {selectedProduct.product_desc}
-      </p>
-    </div>
+        <>
+          {/* Section Heading */}
+          <div className="flex flex-col items-center justify-center w-[80%] capitalize">
+            <p className="w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
+              Purity is our essence in food
+            </p>
+            <p className="text-[#454545] w-[80%] text-sm md:text-2xl text-center mt-4 font-jost md:mt-8">
+              {selectedProduct.product_desc}
+            </p>
+          </div>
 
-    {/* Product Carousel */}
-   <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
-  <EmblaCarousel options={OPTIONS} autoScroll>
-    {[
-      { name: "10gm", img: RegularHoney1, desc: "Sample pack" },
-      { name: "100gm", img: RegularHoney400, desc: "Medium pack" },
-      { name: "1kg", img: RegularHoney500, desc: "Family pack" },
-    ].map((itm, index) => (
-      <div className="embla__slide" key={index}>
-        {/* Same fixed height for all slides */}
-        <div className="embla__slide__number h-[400px] w-full flex flex-col items-center justify-start mt-10">
-          <Image
-            src={itm.img}
-            width={280}
-            height={280}
-            alt={itm.name}
-            className="h-[200px] md:h-[280px] w-auto object-contain"
-          />
-          <p className="mt-4 text-base md:text-lg font-semibold text-[#84663C]">
-            {itm.name}
-          </p>
-          {/* <p className="text-lg text-[#454545] mt-2">{itm.desc}</p> */}
-          <button className="border mt-4 border-[#9F7B49] bg-[#9F7B49] px-3 md:px-8 text-xs md:text-base py-1 md:py-3 font-bold text-white">
-            View Details
-          </button>
-        </div>
-      </div>
-    ))}
-  </EmblaCarousel>
-</div>
+          {/* Product Carousel */}
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+            <EmblaCarousel options={OPTIONS} autoScroll>
+              {[
+                { name: "10gm", img: RegularHoney1, desc: "Sample pack" },
+                { name: "100gm", img: RegularHoney400, desc: "Medium pack" },
+                { name: "1kg", img: RegularHoney500, desc: "Family pack" },
+              ].map((itm, index) => (
+                <div className="embla__slide" key={index}>
+                  {/* Same fixed height for all slides */}
+                  <div className="embla__slide__number h-[400px] w-full flex flex-col items-center justify-start mt-10">
+                    <Image
+                      src={itm.img}
+                      width={280}
+                      height={280}
+                      alt={itm.name}
+                      className="h-[200px] md:h-[280px] w-auto object-contain"
+                    />
+                    <p className="mt-4 text-base md:text-lg font-semibold text-[#84663C]">
+                      {itm.name}
+                    </p>
+                    {/* <p className="text-lg text-[#454545] mt-2">{itm.desc}</p> */}
+                    <button className="border mt-4 border-[#9F7B49] bg-[#9F7B49] px-3 md:px-8 text-xs md:text-base py-1 md:py-3 font-bold text-white">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </EmblaCarousel>
+          </div>
+        </>
+      ) : selectedBrand?.id === 1 && selectedProduct?.id === 2 ? (
+        <>
+          {/* Section Heading */}
+          <div className="flex flex-col items-center justify-center w-[80%] capitalize">
+            <p className="w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
+              Purity is our essence in food
+            </p>
+            <p className="text-[#454545] w-[80%] text-sm md:text-2xl text-center mt-4 font-jost md:mt-8">
+              {selectedProduct.product_desc}
+            </p>
+          </div>
 
-  </>
-) : selectedBrand?.id === 1 && selectedProduct?.id === 2 ? (
-  <>
-    {/* Section Heading */}
-    <div className="flex flex-col items-center justify-center w-[80%] capitalize">
-      <p className="w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
-        Purity is our essence in food
-      </p>
-      <p className="text-[#454545] w-[80%] text-sm md:text-2xl text-center mt-4 font-jost md:mt-8">
-        {selectedProduct.product_desc}
-      </p>
-    </div>
+          {/* Product Carousel */}
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+            <EmblaCarousel options={OPTIONS} autoScroll>
+              {[
+                { name: "10gm", img: HimalayaHoney1kg, desc: "2" },
+                { name: "100gm", img: HimalayaHoney5rs, desc: "2" },
+                { name: "1kg", img: HimalayaHoney500, desc: "2" },
+              ].map((itm, index) => (
+                <div className="embla__slide" key={index}>
+                  <div className="embla__slide__number h-[350px] w-full flex flex-col items-center justify-start mt-6">
+                    <Image
+                      src={itm.img}
+                      width={280}
+                      height={280}
+                      alt={itm.name}
+                      className="h-[200px] md:h-[240px] w-auto object-contain"
+                    />
+                    <p className="mt-4 text-base md:text-lg font-semibold text-[#84663C]">
+                      {itm.name}
+                    </p>
+                    {/* <p className="text-lg text-[#454545] mt-2">{itm.desc}</p> */}
+                    <button className="border mt-4 border-[#9F7B49] bg-[#9F7B49] px-3 md:px-8 text-xs md:text-base py-1 md:py-3 font-bold text-white">
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </EmblaCarousel>
+          </div>
+        </>
+      ) : selectedBrand?.id === 1 && selectedProduct?.id === 3 ? (
+        <>
+          {/* Section Heading */}
+          <div className="flex flex-col items-center justify-center w-[80%] capitalize">
+            <p className="w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
+              Nature’s Sweetness, Reimagined
+            </p>
+            <p className="text-[#454545] w-[80%] text-sm md:text-2xl text-center mt-4 font-jost md:mt-8">
+              {selectedProduct.product_desc}
+            </p>
+          </div>
 
-    {/* Product Carousel */}
-   <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
-  <EmblaCarousel options={OPTIONS} autoScroll>
-    {[
-      { name: "10gm", img: HimalayaHoney1kg, desc: "2" },
-      { name: "100gm", img: HimalayaHoney5rs, desc: "2" },
-      { name: "1kg", img: HimalayaHoney500, desc: "2" },
-    ].map((itm, index) => (
-      <div className="embla__slide" key={index}>
-        <div className="embla__slide__number h-[350px] w-full flex flex-col items-center justify-start mt-6">
-          <Image
-            src={itm.img}
-            width={280}
-            height={280}
-            alt={itm.name}
-            className="h-[200px] md:h-[240px] w-auto object-contain"
-          />
-          <p className="mt-4 text-base md:text-lg font-semibold text-[#84663C]">
-            {itm.name}
-          </p>
-          {/* <p className="text-lg text-[#454545] mt-2">{itm.desc}</p> */}
-          <button className="border mt-4 border-[#9F7B49] bg-[#9F7B49] px-3 md:px-8 text-xs md:text-base py-1 md:py-3 font-bold text-white">
-            View Details
-          </button>
-        </div>
-      </div>
-    ))}
-  </EmblaCarousel>
-</div>
-
-  </>
-) : selectedBrand?.id === 1 && selectedProduct?.id === 3 ? (
-  <>
-    {/* Section Heading */}
-    <div className="flex flex-col items-center justify-center w-[80%] capitalize">
-      <p className="w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
-        Nature’s Sweetness, Reimagined
-
-
-      </p>
-      <p className="text-[#454545] w-[80%] text-sm md:text-2xl text-center mt-4 font-jost md:mt-8">
-        {selectedProduct.product_desc}
-      </p>
-    </div>
-
-    {/* Product Carousel */}
-   <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
-  <EmblaCarousel options={OPTIONS} autoScroll>
-    {[
-      { name: "10gm", img: ChilliInfusedHoney, desc: "Chilli Infused Honey" },
-      { name: "100gm", img: GingerInfusedHoney, desc: "Ginger Infused Honey" },
-      { name: "1kg", img: LemonInfusedHoney, desc: "Lemon Infused Honey" },
-    ].map((itm, index) => (
-      <div className="embla__slide" key={index}>
-        <div className="embla__slide__number h-[350px] w-full flex flex-col items-center justify-start mt-6">
-          <Image
-            src={itm.img}
-            width={280}
-            height={280}
-            alt={itm.name}
-            className="h-[200px] md:h-[240px] w-auto object-contain"
-          />
-          {/* <p className="mt-4 text-base md:text-lg font-semibold text-[#84663C]">
+          {/* Product Carousel */}
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+            <EmblaCarousel options={OPTIONS} autoScroll>
+              {[
+                {
+                  name: "10gm",
+                  img: ChilliInfusedHoney,
+                  desc: "Chilli Infused Honey",
+                },
+                {
+                  name: "100gm",
+                  img: GingerInfusedHoney,
+                  desc: "Ginger Infused Honey",
+                },
+                {
+                  name: "1kg",
+                  img: LemonInfusedHoney,
+                  desc: "Lemon Infused Honey",
+                },
+              ].map((itm, index) => (
+                <div className="embla__slide" key={index}>
+                  <div className="embla__slide__number h-[350px] w-full flex flex-col items-center justify-start mt-6">
+                    <Image
+                      src={itm.img}
+                      width={280}
+                      height={280}
+                      alt={itm.name}
+                      className="h-[200px] md:h-[240px] w-auto object-contain"
+                    />
+                    {/* <p className="mt-4 text-base md:text-lg font-semibold text-[#84663C]">
             {itm.name}
           </p> */}
-          {/* <p className="text-lg text-[#454545] mt-2">{itm.desc}</p> */}
-          {/* <button className="border mt-4 border-[#9F7B49] bg-[#9F7B49] px-3 md:px-8 text-xs md:text-base py-1 md:py-3 font-bold text-white">
+                    {/* <p className="text-lg text-[#454545] mt-2">{itm.desc}</p> */}
+                    {/* <button className="border mt-4 border-[#9F7B49] bg-[#9F7B49] px-3 md:px-8 text-xs md:text-base py-1 md:py-3 font-bold text-white">
             View Details
           </button> */}
-        </div>
-      </div>
-    ))}
-  </EmblaCarousel>
-</div>
+                  </div>
+                </div>
+              ))}
+            </EmblaCarousel>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2">
+            {/* Text Section */}
+            <div className="flex flex-col items-center justify-center w-full px-4 md:px-0">
+              <p className="w-full max-w-[85%] text-[18px] md:text-[32px] font-bold text-center text-[#84663C] leading-snug">
+                {selectedBrand?.id === 1 && selectedProduct?.id === 3
+                  ? "Nature’s Sweetness, Reimagined"
+                  : "Purity is our essence in food"}
+              </p>
+              <p className="text-[#454545] w-full max-w-[75%] text-justify text-xs md:text-lg mt-4 md:mt-6 font-jost leading-relaxed">
+                {selectedProduct.product_desc}
+              </p>
+            </div>
 
-  </>
- ) :  (
-  <>
-   <div className="grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2">
-  {/* Text Section */}
-  <div className="flex flex-col items-center justify-center w-full px-4 md:px-0">
-    <p className="w-full max-w-[85%] text-[18px] md:text-[32px] font-bold text-center text-[#84663C] leading-snug">
-      {selectedBrand?.id === 1 && selectedProduct?.id === 3
-        ? "Nature’s Sweetness, Reimagined"
-        : "Purity is our essence in food"}
-    </p>
-    <p className="text-[#454545] w-full max-w-[75%] text-justify text-xs md:text-lg mt-4 md:mt-6 font-jost leading-relaxed">
-      {selectedProduct.product_desc}
-    </p>
-  </div>
+            {/* Image and Button Section */}
+            <div className="flex flex-col items-center justify-center px-4 md:px-0">
+              <Image
+                src={selectedProduct.product_img_1}
+                height={280}
+                alt="header-logo"
+                className="h-[180px] mt-8 w-auto md:h-[380px]"
+              />
+              <Link href={selectedProduct?.link} target="_blank">
+                <button className="border mt-8 border-[#9F7B49] bg-[#9F7B49] px-6 md:px-12 text-xs md:text-base py-2 md:py-3 font-bold text-white">
+                  Available on
+                </button>
+              </Link>
+            </div>
 
-  {/* Image and Button Section */}
-  <div className="flex flex-col items-center justify-center px-4 md:px-0">
-    <Image
-      src={selectedProduct.product_img_1}
-      height={280}
-      alt="header-logo"
-      className="h-[180px] mt-8 w-auto md:h-[380px]"
-    />
-    <Link href={selectedProduct?.link} target="_blank">
-      <button className="border mt-8 border-[#9F7B49] bg-[#9F7B49] px-6 md:px-12 text-xs md:text-base py-2 md:py-3 font-bold text-white">
-        Available on
-      </button>
-    </Link>
-  </div>
-
-  {/* Benefits Section */}
-  <div className="w-full flex flex-row flex-wrap md:flex-nowrap px-4 md:px-0 -mt-[40px]">
-    {selectedBrand?.id === 1 && selectedProduct?.id === 1
-      ? renderBenefits(HEALTH_BENEFITS)
-      : selectedBrand?.id === 2 && selectedProduct?.id === 1
-      ? renderBenefits(HEALTH_BENEFITS)
-      : selectedBrand?.id === 2 && selectedProduct?.id === 2
-      ? renderBenefits(HEALTH_DATE)
-      : selectedBrand?.id === 2 && validProducts.includes(selectedProduct?.id)
-      ? renderBenefits(HEALTH_VERNACALLI)
-      : selectedBrand?.id === 2 && selectedProduct?.id === 4
-      ? renderBenefits(HEALTH_MACRONI)
-      : selectedBrand?.id === 2 && selectedProduct?.id === 5
-      ? renderBenefits(HEALTH_SPEARD)
-      : selectedBrand?.id === 3 && selectedProduct?.id === 1
-      ? renderBenefits(HEALTH_JAM)
-      : selectedBrand?.id === 3 && selectedProduct?.id === 2
-      ? renderBenefits(HEALTH_FLAKES)
-      : selectedBrand?.id === 3 && selectedProduct?.id === 3
-      ? renderBenefits(HEALTH_VERNACALLI)
-      : selectedBrand?.id === 4 && selectedProduct?.id === 1
-      ? renderBenefits(SOYA_CHUNK)
-      : selectedBrand?.id === 4 && selectedProduct?.id === 2
-      ? renderBenefits(SAFFRON)
-      : selectedBrand?.id === 5 && selectedProduct?.id === 1
-      ? renderBenefits(GREEN_TEA)
-      : selectedBrand?.id === 4 && selectedProduct?.id === 3
-      ? renderBenefits(GGP)
-      : selectedBrand?.id === 1 && selectedProduct?.id === 3
-      ? renderBenefits(NUTRASHIP)
-      : ""}
-  </div>
-</div>
-
-  </>
-)}
+            {/* Benefits Section */}
+            <div className="w-full flex flex-row flex-wrap md:flex-nowrap px-4 md:px-0 -mt-[40px]">
+              {selectedBrand?.id === 1 && selectedProduct?.id === 1
+                ? renderBenefits(HEALTH_BENEFITS)
+                : selectedBrand?.id === 2 && selectedProduct?.id === 1
+                  ? renderBenefits(HEALTH_BENEFITS)
+                  : selectedBrand?.id === 2 && selectedProduct?.id === 2
+                    ? renderBenefits(HEALTH_DATE)
+                    : selectedBrand?.id === 2 &&
+                        validProducts.includes(selectedProduct?.id)
+                      ? renderBenefits(HEALTH_VERNACALLI)
+                      : selectedBrand?.id === 2 && selectedProduct?.id === 4
+                        ? renderBenefits(HEALTH_MACRONI)
+                        : selectedBrand?.id === 2 && selectedProduct?.id === 5
+                          ? renderBenefits(HEALTH_SPEARD)
+                          : selectedBrand?.id === 3 && selectedProduct?.id === 1
+                            ? renderBenefits(HEALTH_JAM)
+                            : selectedBrand?.id === 3 &&
+                                selectedProduct?.id === 2
+                              ? renderBenefits(HEALTH_FLAKES)
+                              : selectedBrand?.id === 3 &&
+                                  selectedProduct?.id === 3
+                                ? renderBenefits(HEALTH_VERNACALLI)
+                                : selectedBrand?.id === 4 &&
+                                    selectedProduct?.id === 1
+                                  ? renderBenefits(SOYA_CHUNK)
+                                  : selectedBrand?.id === 4 &&
+                                      selectedProduct?.id === 2
+                                    ? renderBenefits(SAFFRON)
+                                    : selectedBrand?.id === 5 &&
+                                        selectedProduct?.id === 1
+                                      ? renderBenefits(GREEN_TEA)
+                                      : selectedBrand?.id === 4 &&
+                                          selectedProduct?.id === 3
+                                        ? renderBenefits(GGP)
+                                        : selectedBrand?.id === 1 &&
+                                            selectedProduct?.id === 3
+                                          ? renderBenefits(NUTRASHIP)
+                                          : ""}
+            </div>
+          </div>
+        </>
+      )}
 
       <div className="w-[90%] border border-[#AE844A] rounded-[10px] flex mt-8 md:mt-20 items-center flex-col gap-4 md:gap-12">
         <div className="bg-white rounded-[10px] w-full h-[23px] md:h-[65px] flex items-center justify-between px-3 md:pt-2 pt-1 avaibility">
@@ -454,15 +465,15 @@ const ProductDetails = () => {
             alt="Check Report Banner"
           />
           <div className="absolute left-[31%] bottom-[15%]  sm: left-[70%] md:-2 transform -translate-x-1/2 md:left-[70%] lg:left-[70%] chckReportBtn">
-            <a href='/our-brand/product-details/certificate2'>
+            <a href="/our-brand/product-details/certificate2">
               <button className="border border-[#9F7B49] bg-[#9F7B49] px-2 sm: px-0 md:px-6 lg:px-12 text-xs sm:text-sm md:text-base py-1 sm:py-2 md:py-3 font-bold text-white whitespace-nowrap">
                 Check Report
               </button>
             </a>
           </div>
         </div>
-      ) :  (selectedBrand?.id === 2 && selectedProduct?.id === 1) || 
-    (selectedBrand?.id === 1 && selectedProduct?.id === 2) ? (
+      ) : (selectedBrand?.id === 2 && selectedProduct?.id === 1) ||
+        (selectedBrand?.id === 1 && selectedProduct?.id === 2) ? (
         <div className="w-[100%] relative">
           <Image
             src={HimalayaHoneyCheckReport}
@@ -471,7 +482,7 @@ const ProductDetails = () => {
             alt="Check Report Banner"
           />
           <div className="absolute left-[31%] bottom-[15%]  sm: left-[70%] md:-2 transform -translate-x-1/2 md:left-[70%] lg:left-[70%] chckReportBtn">
-            <a href='/our-brand/product-details/certificate'>
+            <a href="/our-brand/product-details/certificate">
               <button className="border border-[#9F7B49] bg-[#9F7B49] px-2 sm: px-0 md:px-6 lg:px-12 text-xs sm:text-sm md:text-base py-1 sm:py-2 md:py-3 font-bold text-white whitespace-nowrap">
                 Check Report
               </button>
@@ -482,13 +493,15 @@ const ProductDetails = () => {
       {/* </a> */}
 
       {selectedBrand?.id === 1 && selectedProduct?.id === 1 && (
-
         <div className="relative w-full flex items-center flex-col justify-center  overflow-hidden mt-[40px]">
           <p className="text-[20px] md:text-[40px] font-bold text-[#9F7B49]">
             Media Coverage
           </p>
           <div className="media-apis w-full max-w-7xl z-10 my-4 md:my-10 px-4 sm:px-0 ">
-            <EmblaCarousel options={OPTIONS} className="embla-close-arrows relative">
+            <EmblaCarousel
+              options={OPTIONS}
+              className="embla-close-arrows relative"
+            >
               {NEWS_DATA.slice(0, 4)?.map((itm, index) => (
                 <div
                   className="embla__slide flex-[0_0_280px] md:flex-[0_0_495px] min-w-0 px-2"
@@ -500,7 +513,10 @@ const ProductDetails = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="border border-[#85673D] embla__slide__number1 md:w-[460px] h-auto md:h-[590px] p-2 pb-0 flex flex-col !rounded-none bg-[#fff] apismedis  shadow-[5px_5px_0px_0px_rgba(109,40,217)]" style={{ maxWidth: '90%', margin: '0 auto' }}>
+                    <div
+                      className="border border-[#85673D] embla__slide__number1 md:w-[460px] h-auto md:h-[590px] p-2 pb-0 flex flex-col !rounded-none bg-[#fff] apismedis  shadow-[5px_5px_0px_0px_rgba(109,40,217)]"
+                      style={{ maxWidth: "90%", margin: "0 auto" }}
+                    >
                       <div className="relative w-full h-[200px] sm:h-[280px] md:h-[443px] overflow-hidden">
                         <Image
                           src={itm?.img}
@@ -512,7 +528,9 @@ const ProductDetails = () => {
                           className="bg-opacity-40 w-full h-full"
                         />
                       </div>
-                      <div className="py-2"> {/* Ensure text is left-aligned */}
+                      <div className="py-2">
+                        {" "}
+                        {/* Ensure text is left-aligned */}
                         <p className="font-bold text-[#85673D] text-sm md:text-xl mb-1 line-clamp-2 overflow-hidden">
                           {itm.desc}
                         </p>
@@ -544,7 +562,6 @@ const ProductDetails = () => {
           />
         </div>
       )}
-
 
       {/* <p className="text-[20px] md:text-[40px] py-4 md:py-10 font-bold text-[#9F7B49] font-literata">
         Content
@@ -621,15 +638,11 @@ const ProductDetails = () => {
         />
       </div>
 
-
-
-
       <div className="flex w-full  items-center justify-center flex-col">
-
         {selectedBrand?.id === 1 && selectedProduct?.id === 1 && (
           <div className="w-full py-6 md:py-20 bg-[#FFF9F0] flex flex-col items-center justify-center">
             <p className="text-sm text-center md:text-[22px] font-medium text-[#585858] font-jost">
-              Get to know more about Apis from our customers
+              Get to know more about AIL from our customers
             </p>
             <p className="text-[20px] md:text-[40px] font-bold text-[#9F7B49] py-2 font-literata">
               Our Social Reviews
@@ -684,7 +697,7 @@ const ProductDetails = () => {
               character & growth.
             </p> */}
             <h3 className="text-[20px] md:text-[40px] font-bold text-[#9F7B49] font-literata -mt-5">
-               Our Range
+              Our Range
             </h3>
           </div>
         </div>

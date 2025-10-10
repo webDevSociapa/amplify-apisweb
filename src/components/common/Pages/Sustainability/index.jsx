@@ -12,12 +12,12 @@ import Celebrations from "@/assets/images/Careers/Celebrations.png";
 import Engagements from "@/assets/images/Careers/Engagements.png";
 
 // sustain
-import sustainBility01 from "@/assets/images/Careers/s1.png"
-import sustainBility02 from "@/assets/images/Careers/s2.png"
-import sustainBility03 from "@/assets/images/Careers/s3.png"
-import sustainBility04 from "@/assets/images/Careers/s4.png"
-import sustainBility05 from "@/assets/images/Careers/s5.png"
-import sustainBility06 from "@/assets/images/Careers/s6.png"
+import sustainBility01 from "@/assets/images/Careers/s1.png";
+import sustainBility02 from "@/assets/images/Careers/s2.png";
+import sustainBility03 from "@/assets/images/Careers/s3.png";
+import sustainBility04 from "@/assets/images/Careers/s4.png";
+import sustainBility05 from "@/assets/images/Careers/s5.png";
+import sustainBility06 from "@/assets/images/Careers/s6.png";
 // import TrainingSession from "@/assets/images/Careers/Training&Session.png";
 import ImageBanner from "../../Layout/Banner";
 import {
@@ -33,33 +33,28 @@ import { Button } from "@mui/material";
 
 const SUSTAINABILITY_DATA = [
   {
-    video: 'https://www.youtube.com/embed/WrVpkXNKN0s?si=3KELcA1Kg-kkOWb8',
-    title:
-      "Celebrating Raksha Bandhan with the children of Mala Smriti Home.",
+    video: "https://www.youtube.com/embed/WrVpkXNKN0s?si=3KELcA1Kg-kkOWb8",
+    title: "Celebrating Raksha Bandhan with the children of Mala Smriti Home.",
   },
   {
-    video: 'https://www.youtube.com/embed/pdy5gJ36egw?si=XkMlb7RXfhCyegaQ',
-    title:
-      "It was a pleasure to associate with Lotus Petal Foundation",
+    video: "https://www.youtube.com/embed/pdy5gJ36egw?si=XkMlb7RXfhCyegaQ",
+    title: "It was a pleasure to associate with Lotus Petal Foundation",
   },
   {
-    video: 'https://www.youtube.com/embed/o1A2uGBuVRs?si=gk_zkJN1CtIWlTPk',
-    title:
-      "Sweet deal alert! Apis Organic Honey",
+    video: "https://www.youtube.com/embed/o1A2uGBuVRs?si=gk_zkJN1CtIWlTPk",
+    title: "Sweet deal alert! Apis Organic Honey",
   },
   {
-    video: 'https://www.youtube.com/embed/GApcDNHtgnE?si=iq73ny88KY04wK2X',
+    video: "https://www.youtube.com/embed/GApcDNHtgnE?si=iq73ny88KY04wK2X",
     title: "Celebrating Father’s Day",
   },
   {
-    video: 'https://www.youtube.com/embed/U6pkoQRrcNk?si=z7ZDd9KQWnBuouRO',
-    title:
-      "We celebrated mothers with Grihshobha",
+    video: "https://www.youtube.com/embed/U6pkoQRrcNk?si=z7ZDd9KQWnBuouRO",
+    title: "We celebrated mothers with Grihshobha",
   },
   {
-    video: 'https://www.youtube.com/embed/Vn6jwbZqfhA?si=iPz3NjklLnXpIBTI',
-    title:
-      "Apis Shapes The Future",
+    video: "https://www.youtube.com/embed/Vn6jwbZqfhA?si=iPz3NjklLnXpIBTI",
+    title: "Apis Shapes The Future",
   },
 ];
 
@@ -70,18 +65,47 @@ const SUSTAINBILITY_IMAGE = [
   { image: sustainBility04 },
   { image: sustainBility05 },
   { image: sustainBility06 },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/2_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/3_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/4_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/5_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/6_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/7_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/8_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/9_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/10_CSR+Images.jpg" },
-  { image: "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/11_CSR+Images.jpg" },
-
-]
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/2_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/3_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/4_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/5_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/6_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/7_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/8_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/9_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/10_CSR+Images.jpg",
+  },
+  {
+    image:
+      "https://apisindia.s3.ap-south-1.amazonaws.com/sustainBilitys/11_CSR+Images.jpg",
+  },
+];
 
 export default function Sustainability() {
   const [sustainBiltyData, setSustainBiltyData] = useState([]);
@@ -93,17 +117,16 @@ export default function Sustainability() {
 
   const [currentPage, setCurrentPage] = useState(1);
   const [showAllImages, setShowAllImages] = useState(false);
-const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const imagesPerPage = 8;
 
   const [selectedImage, setSelectedImage] = useState(null);
 
-
   const handleImageClick = (image) => {
     setSelectedImage(image);
   };
-  const OPTIONS1 = { loop: true }
+  const OPTIONS1 = { loop: true };
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -136,7 +159,9 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                   allowFullScreen
                   style={{ aspectRatio: "16/9" }}
                 ></iframe>
-                <p className="text-xs md:text-base font-normal mt-2">{itm.title}</p>
+                <p className="text-xs md:text-base font-normal mt-2">
+                  {itm.title}
+                </p>
               </div>
             </div>
           ))}
@@ -167,7 +192,13 @@ const [isModalOpen, setIsModalOpen] = useState(false);
     </section>
   );
 
-  const Pagination = ({ currentIndex, onPrevButtonClick, onNextButtonClick, totalItems, handleNumberClick }) => (
+  const Pagination = ({
+    currentIndex,
+    onPrevButtonClick,
+    onNextButtonClick,
+    totalItems,
+    handleNumberClick,
+  }) => (
     <div className="pagination w-[90%] mt-4 flex justify-between space-x-2">
       <PrevButton
         onClick={() => {
@@ -197,48 +228,57 @@ const [isModalOpen, setIsModalOpen] = useState(false);
     </div>
   );
 
-
-
   useEffect(() => {
     const fetchSustainBilty = async () => {
       try {
         const response = await axios.get("/api/sustainBility");
         console.log("response", response);
 
-        setSustainBiltyData(response.data)
-      } catch (error) {
-
-      }
-    }
-    fetchSustainBilty()
-  }, [])
-
+        setSustainBiltyData(response.data);
+      } catch (error) {}
+    };
+    fetchSustainBilty();
+  }, []);
 
   return (
     <>
-
       <Head>
         <title> Work Culture | Apis India</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey." />
+        <meta
+          name="description"
+          content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey."
+        />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
         <meta name="msnbot" content="index, follow" />
         <meta name="YahooSeeker" content="index, follow" />
         <meta property="og:title" content=" Work Culture | Apis India" />
-        <meta property="og:description" content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey." />
-        <meta property="og:site_name" content="http://www.apisindia.com/efo.php" />
+        <meta
+          property="og:description"
+          content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey."
+        />
+        <meta
+          property="og:site_name"
+          content="http://www.apisindia.com/efo.php"
+        />
         <meta name="twitter:title" content=" Work Culture | Apis India" />
-        <meta name="twitter:description" content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey." />
+        <meta
+          name="twitter:description"
+          content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey."
+        />
         <meta itemprop="title" content=" Work Culture | Apis India" />
-        <meta itemprop="description" content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey. " />
+        <meta
+          itemprop="description"
+          content="Apis A leading FMCG company which has been thrice awarded the prestigious APEDA Export Award by Ministry of Commerce, Government of India, for our achievement in exports of honey. "
+        />
       </Head>
       <ImageBanner banner={Banner} />
 
       {/* Heading and Description */}
       <div className="w-full flex flex-col items-center justify-center gap-4 md:gap-10 px-4">
         <p className="text-[20px] text-center md:text-[40px] font-bold text-[#9F7B49] font-literata">
-          CSR @Apis
+          CSR @AIL
         </p>
         <p className="w-full md:w-[75%] text-sm md:text-xl text-center font-jost">
           {sustainBiltyData[0]?.csrContent || "Loading..."}
@@ -249,15 +289,21 @@ const [isModalOpen, setIsModalOpen] = useState(false);
       <div className="w-full flex justify-center items-center my-4">
         <div className="flex gap-4">
           <button
-            className={`px-4 py-2 rounded ${activeTab === "image" ? "bg-[#85673D] text-white" : "bg-gray-200 text-black"
-              }`}
+            className={`px-4 py-2 rounded ${
+              activeTab === "image"
+                ? "bg-[#85673D] text-white"
+                : "bg-gray-200 text-black"
+            }`}
             onClick={() => setActiveTab("image")}
           >
             Images
           </button>
           <button
-            className={`px-4 py-2 rounded ${activeTab === "video" ? "bg-[#85673D] text-white" : "bg-gray-200 text-black"
-              }`}
+            className={`px-4 py-2 rounded ${
+              activeTab === "video"
+                ? "bg-[#85673D] text-white"
+                : "bg-gray-200 text-black"
+            }`}
             onClick={() => setActiveTab("video")}
           >
             Videos
@@ -269,7 +315,10 @@ const [isModalOpen, setIsModalOpen] = useState(false);
       {activeTab === "image" && (
         <div className="flex justify-center mt-8 px-2 md:px-4">
           <div className="w-full max-w-6xl">
-            <EmblaCarousel options={{ loop: true, align: "center", slidesToScroll: 1 }} autoScroll>
+            <EmblaCarousel
+              options={{ loop: true, align: "center", slidesToScroll: 1 }}
+              autoScroll
+            >
               {SUSTAINBILITY_IMAGE?.map((image, index) => (
                 <div key={index} className="embla__slide flex justify-center">
                   <div
@@ -307,7 +356,9 @@ const [isModalOpen, setIsModalOpen] = useState(false);
                       referrerPolicy="strict-origin-when-cross-origin"
                       allowFullScreen
                     ></iframe>
-                    <p className="text-xs md:text-base font-normal mt-2 text-center">{itm.title}</p>
+                    <p className="text-xs md:text-base font-normal mt-2 text-center">
+                      {itm.title}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -335,54 +386,51 @@ const [isModalOpen, setIsModalOpen] = useState(false);
         </button>
       </div> */}
 
-{/* View More Button */}
-<div className="flex justify-center">
-  <button
-    onClick={() => setIsModalOpen(true)}
-    className="px-4 py-2 text-lg bg-[#855B3D] text-white rounded-md hover:bg-[#734C33] transition-colors duration-300 mt-8"
-  >
-    View More
-  </button>
-</div>
-{isModalOpen && (
-  <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center px-2 mt-40">
-    <div className="bg-white rounded-2xl max-h-[90vh] w-full max-w-6xl overflow-y-auto p-6 relative">
-      
-      {/* Close Icon */}
-      <button
-        onClick={() => setIsModalOpen(false)}
-        className="absolute top-4 right-4 text-2xl font-bold text-black hover:text-[#855B3D]"
-      >
-        &times;
-      </button>
-
-      <h2 className="text-center text-2xl font-semibold text-[#855B3D] mb-6">All CSR Images</h2>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {SUSTAINBILITY_IMAGE?.map((image, index) => (
-          <div
-            key={index}
-            className="w-full aspect-square overflow-hidden rounded-xl cursor-pointer"
-            onClick={() => handleImageClick(image)}
-          >
-            <Image
-              src={image.image || "/Eovibb.png"}
-              alt={`CSR ${index + 1}`}
-              width={400}
-              height={400}
-              className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-            />
-          </div>
-        ))}
+      {/* View More Button */}
+      <div className="flex justify-center">
+        <button
+          onClick={() => setIsModalOpen(true)}
+          className="px-4 py-2 text-lg bg-[#855B3D] text-white rounded-md hover:bg-[#734C33] transition-colors duration-300 mt-8"
+        >
+          View More
+        </button>
       </div>
-    </div>
-  </div>
-)}
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center px-2 mt-40">
+          <div className="bg-white rounded-2xl max-h-[90vh] w-full max-w-6xl overflow-y-auto p-6 relative">
+            {/* Close Icon */}
+            <button
+              onClick={() => setIsModalOpen(false)}
+              className="absolute top-4 right-4 text-2xl font-bold text-black hover:text-[#855B3D]"
+            >
+              &times;
+            </button>
 
+            <h2 className="text-center text-2xl font-semibold text-[#855B3D] mb-6">
+              All CSR Images
+            </h2>
 
-
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {SUSTAINBILITY_IMAGE?.map((image, index) => (
+                <div
+                  key={index}
+                  className="w-full aspect-square overflow-hidden rounded-xl cursor-pointer"
+                  onClick={() => handleImageClick(image)}
+                >
+                  <Image
+                    src={image.image || "/Eovibb.png"}
+                    alt={`CSR ${index + 1}`}
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </>
-
   );
 }
 

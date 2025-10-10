@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Banner from "@/assets/images/Careers/careerBanner.png";
 import ImageBanner from "../../Layout/Banner";
@@ -9,11 +9,11 @@ import { useRouter } from "next/navigation";
 
 export default function LifeAtApis() {
   const router = useRouter();
-  const [apisLifeData, setApisLifeData] = useState([])
+  const [apisLifeData, setApisLifeData] = useState([]);
 
   const handleImageClick = (item) => {
-    localStorage.setItem('imageGroup', JSON.stringify(item));
-    router.push('/careers/careerGallary');
+    localStorage.setItem("imageGroup", JSON.stringify(item));
+    router.push("/careers/careerGallary");
   };
 
   useEffect(() => {
@@ -21,29 +21,38 @@ export default function LifeAtApis() {
       try {
         const response = await axios.get("/api/careers/apisLife");
         console.log("responseLifeAt", response);
-        setApisLifeData(response.data)
+        setApisLifeData(response.data);
       } catch (error) {
         console.log("error", error);
       }
-    }
-    fetchLifeApis()
-  }, [])
+    };
+    fetchLifeApis();
+  }, []);
 
   return (
     <>
       <ImageBanner banner={Banner} />
-      <div id="life-at-apis" className="flex flex-col items-center justify-center">
+      <div
+        id="life-at-apis"
+        className="flex flex-col items-center justify-center"
+      >
         <p className="font-bold text-[20px] md:text-[40px] text-center text-[#9F7B49] font-literata">
-          Life @Apis
+          Life @AIL
         </p>
         <p className="text-sm w-[95%]  md:text-xl md:w-[70%] md:leading-8 mt-3  md:mt-6 text-center font-jost">
-        At AIL, we foster a collaborative and innovative work culture where every team member's ideas are valued, and growth opportunities are embraced with enthusiasm.
+          At AIL, we foster a collaborative and innovative work culture where
+          every team member's ideas are valued, and growth opportunities are
+          embraced with enthusiasm.
         </p>
       </div>
       {/* <Link href={"/careers/careerGallary"}> */}
       <div className="flex mt-7 md:mt-14 flex-wrap items-center justify-center gap-5 md:gap-10 w-[80%] m-auto">
         {apisLifeData?.map((itm, index) => (
-          <div key={index} className="border p-2 md:p-3 px-1 border-[#85673D]" onClick={() => handleImageClick(itm)}>
+          <div
+            key={index}
+            className="border p-2 md:p-3 px-1 border-[#85673D]"
+            onClick={() => handleImageClick(itm)}
+          >
             {itm.type === "1" && (
               <div className="p-3 pt-0 text-[#85673D] font-bold text-sm md:text-2xl pb-5 font-jost">
                 <p>{itm.title}</p>
@@ -67,5 +76,5 @@ export default function LifeAtApis() {
         ))}
       </div>
     </>
-  )
+  );
 }

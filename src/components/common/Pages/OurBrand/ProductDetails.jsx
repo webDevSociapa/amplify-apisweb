@@ -640,7 +640,7 @@ const ProductDetails = () => {
         {selectedBrand?.id === 1 && selectedProduct?.id === 1 && (
           <div className="w-full py-6 md:py-20 bg-[#FFF9F0] flex flex-col items-center justify-center">
             <p className="text-sm text-center md:text-[22px] font-medium text-[#585858] font-jost">
-              Get to know more about Apis from our customers
+              Get to know more about AIL from our customers
             </p>
             <p className="text-[20px] md:text-[40px] font-bold text-[#9F7B49] py-2 font-literata">
               Our Social Reviews
