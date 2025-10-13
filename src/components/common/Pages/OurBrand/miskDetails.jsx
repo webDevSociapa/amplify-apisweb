@@ -8,84 +8,81 @@ import Ring3 from "@/assets/images/OurBrands/Ring-3.png";
 import Ring4 from "@/assets/images/OurBrands/Ring-4.png";
 import Comma from "@/assets/images/OurBrands/Comma.png";
 import Image from "next/image";
-import CheckReportBanner from '@/assets/images/OurBrands/ProductBanner.png'
-import HimalayaHoney from "@/assets/images/OurBrands/himalayaHoney.png"
+import CheckReportBanner from "@/assets/images/OurBrands/ProductBanner.png";
+import HimalayaHoney from "@/assets/images/OurBrands/himalayaHoney.png";
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { AVAILABILITY_SLIDE, GGP, NEWS_DATA, PRODUCT_DATA, RECIPIES_DATA1 } from "@/lib/constants";
+import {
+  AVAILABILITY_SLIDE,
+  GGP,
+  NEWS_DATA,
+  PRODUCT_DATA,
+  RECIPIES_DATA1,
+} from "@/lib/constants";
 import Link from "next/link";
-import FlowerRun from '@/assets/images/home-banner-section/flowerRun.gif'
-import MiskBanner from '@/assets/images/OurBrands/misk-banner-new.png'
-import MiskProductImage from '@/assets/images/OurBrands/new-misk-product-fixed.png'
-import MiskProductDesc from '@/assets/images/OurBrands/misk-product-desc-02.png'
-import ProductIcon1 from '@/assets/images/AboutUs/Digestive-Benefits-Misk-Icon.png'
-import ProductIcon2 from '@/assets/images/AboutUs/Instant-Freshness-Misk-Icon.png'
-import ProductIcon3 from '@/assets/images/AboutUs/No-Artificial-Sweeteners-Misk-Icon.png'
-import ProductIcon4 from '@/assets/images/AboutUs/Silver-Coating-Misk-Icon.png'
-
-
-
-
+import FlowerRun from "@/assets/images/home-banner-section/flowerRun.gif";
+import MiskBanner from "@/assets/images/OurBrands/misk-banner-new.png";
+import MiskProductImage from "@/assets/images/OurBrands/new-misk-product-fixed.png";
+import MiskProductDesc from "@/assets/images/OurBrands/misk-product-desc-02.png";
+import ProductIcon1 from "@/assets/images/AboutUs/Digestive-Benefits-Misk-Icon.png";
+import ProductIcon2 from "@/assets/images/AboutUs/Instant-Freshness-Misk-Icon.png";
+import ProductIcon3 from "@/assets/images/AboutUs/No-Artificial-Sweeteners-Misk-Icon.png";
+import ProductIcon4 from "@/assets/images/AboutUs/Silver-Coating-Misk-Icon.png";
 
 import axios from "axios";
 
 const OPTIONS = { loop: true };
 
 const MiskDetails = () => {
+  const benefits = [
+    {
+      image: ProductIcon1,
+      title: "Boosts Immunity",
+    },
+    {
+      image: ProductIcon2,
+      title: "Improves Digestion",
+    },
+    {
+      image: ProductIcon3,
+      title: "Enhances Energy Levels",
+    },
+    {
+      image: ProductIcon4,
+      title: "Supports Heart Health",
+    },
+  ];
 
+  const [hoveredId, setHoveredId] = useState(null);
 
-const benefits = [
-  {
-    image: ProductIcon1,
-    title: "Boosts Immunity",
-  },
-  {
-    image: ProductIcon2,
-    title: "Improves Digestion",
-  },
-  {
-    image: ProductIcon3,
-    title: "Enhances Energy Levels",
-  },
-  {
-    image: ProductIcon4,
-    title: "Supports Heart Health",
-  },
-];
+  const handleMouseEnter = (index) => setHoveredId(index);
+  const handleMouseLeave = () => setHoveredId(null);
 
-const [hoveredId, setHoveredId] = useState(null);
-
-const handleMouseEnter = (index) => setHoveredId(index);
-const handleMouseLeave = () => setHoveredId(null);
-
-const renderBenefits = (benefits) => {
-  return benefits.map((itm, index) => (
-    <div
-      key={index}
-      className="flex flex-col w-[48%] sm:w-[45%] md:w-[30%] items-center justify-center my-4"
-    >
-       <div
+  const renderBenefits = (benefits) => {
+    return benefits.map((itm, index) => (
+      <div
+        key={index}
+        className="flex flex-col w-[48%] sm:w-[45%] md:w-[30%] items-center justify-center my-4"
+      >
+        <div
           className={`h-[110px] flex items-center justify-center w-[110px] border-[#9F7B49] 
-                      ${hoveredId === itm.id ? 'shadow-lg' : ''} transition-shadow duration-200`}
+                      ${hoveredId === itm.id ? "shadow-lg" : ""} transition-shadow duration-200`}
         >
-        <Image
-          src={itm.image}
-          width={65}
-          height={65}
-          alt={itm.title}
+          <Image
+            src={itm.image}
+            width={65}
+            height={65}
+            alt={itm.title}
             className="h-[65px] w-[65px] cursor-pointer mt-10"
-          onClick={() => handleImageClick(itm)}
-        />
+            onClick={() => handleImageClick(itm)}
+          />
+        </div>
+        <p className="text-center text-xs sm:text-sm md:text-base my-2 md:my-4">
+          {itm.title}
+        </p>
       </div>
-      <p className="text-center text-xs sm:text-sm md:text-base my-2 md:my-4">
-        {itm.title}
-      </p>
-    </div>
-  ));
-};
-
- 
-
+    ));
+  };
 
   // const openModal = (video) => {
 
@@ -96,37 +93,39 @@ const renderBenefits = (benefits) => {
   return (
     <div className="relative flex flex-col items-center justify-center w-full">
       <ImageBanner banner={MiskBanner} />
-    
-      <div className="grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2">
-            {/* Text Section */}
-            <div className="flex flex-col items-center justify-center w-full px-4 md:px-0">
-              <p className="w-full max-w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
-Purity wrapped in silver.
-              </p>
-              <p className="text-[#454545] w-full max-w-[80%] text-sm md:text-2xl text-center mt-4 md:mt-8 font-jost">
-                Misk is a brand that embodies the essence of purity and natural goodness. Our products are crafted with care, ensuring that every bite is a testament to our commitment to quality and health. From honey to herbal teas, we bring you the best of nature's offerings, reimagined for your wellness journey.
-              </p>
-            </div>
 
-            {/* Image and Button Section */}
-            <div className="flex flex-col items-center justify-center px-4 md:px-0">
-              <Image
-                src={MiskProductImage}
-                height={280}
-                alt="header-logo"
-                className="h-[180px] mt-8 w-auto md:h-[380px]"
-              />
-              
-            </div>
-            {/* Benefits Section */}
-             <div className="w-full flex flex-row flex-wrap md:flex-nowrap px-4 md:px-0 -mt-[40px]">
-    {renderBenefits(benefits)}
-                        </div>
-            
-            <div>
-            </div>
-          </div>
-    
+      <div className="grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2">
+        {/* Text Section */}
+        <div className="flex flex-col items-center justify-center w-full px-4 md:px-0">
+          <p className="w-full max-w-[90%] text-[20px] md:text-[40px] font-bold text-center text-[#84663C]">
+            Purity wrapped in silver.
+          </p>
+          <p className="text-[#454545] w-full max-w-[80%] text-sm md:text-2xl text-center mt-4 md:mt-8 font-jost">
+            Misk is a brand that embodies the essence of purity and natural
+            goodness. Our products are crafted with care, ensuring that every
+            bite is a testament to our commitment to quality and health. From
+            honey to herbal teas, we bring you the best of nature's offerings,
+            reimagined for your wellness journey.
+          </p>
+        </div>
+
+        {/* Image and Button Section */}
+        <div className="flex flex-col items-center justify-center px-4 md:px-0">
+          <Image
+            src={MiskProductImage}
+            height={280}
+            alt="header-logo"
+            className="h-[180px] mt-8 w-auto md:h-[380px]"
+          />
+        </div>
+        {/* Benefits Section */}
+        <div className="w-full flex flex-row flex-wrap md:flex-nowrap px-4 md:px-0 -mt-[40px]">
+          {renderBenefits(benefits)}
+        </div>
+
+        <div></div>
+      </div>
+
       <div className="w-[90%] border border-[#AE844A] rounded-[10px] flex mt-8 md:mt-20 items-center flex-col gap-4 md:gap-12">
         <div className="bg-white rounded-[10px] w-full h-[23px] md:h-[65px] flex items-center justify-between px-3 md:pt-2 pt-1 avaibility">
           <EmblaCarousel options={OPTIONS} autoScroll>
@@ -148,10 +147,6 @@ Purity wrapped in silver.
         </div>
       </div>
       {/* <a href={'/about-us'}> */}
-      
-
-      
-
 
       {/* <p className="text-[20px] md:text-[40px] py-4 md:py-10 font-bold text-[#9F7B49] font-literata">
         Content
@@ -170,10 +165,8 @@ Purity wrapped in silver.
               className={` relative 2xl:rounded-tl-[157px] 2xl:rounded-tr-[71px] 2xl:rounded-br-[122px] 2xl:rounded-bl-0
         rounded-tl-[60px] rounded-tr-[30px] rounded-br-[60px] rounded-bl-0 mt-8 z-50 h-[175px] md:h-[250px] w-[280px] md:w-[380px]`}
             >
-              <div
-                className="bg-custom-radial-gradient absolute bottom-4 md:bottom-8 z-50 left-4 md:left-8  rounded-tl-[60px] rounded-tr-[30px] rounded-br-[60px] rounded-bl-0 h-[175px] md:h-[250px] w-[300px] md:w-[380px]"
-              ></div> 
-               <Image
+              <div className="bg-custom-radial-gradient absolute bottom-4 md:bottom-8 z-50 left-4 md:left-8  rounded-tl-[60px] rounded-tr-[30px] rounded-br-[60px] rounded-bl-0 h-[175px] md:h-[250px] w-[300px] md:w-[380px]"></div>
+              <Image
                 src={MiskProductDesc}
                 height={180}
                 alt="product-image"
@@ -208,7 +201,15 @@ Purity wrapped in silver.
               />
             </p>
             <p className="text-sm font-jost font-light md:text-xl text-center font-light">
-              I recently tried MISK Shahi Khazoor and was genuinely amazed. The silver-coated dates are not just luxurious in appearance but rich in taste and texture too. They offer a perfect balance of sweetness and freshness, with hints of rose and mint that linger just right. What truly impressed me was the clean, high-quality ingredients no unnecessary additives, just a refined blend that feels both royal and refreshing. These are now my go-to choice after meals and a favorite to offer guests. A must-try for anyone looking for a tasteful, sophisticated mouth freshener.
+              I recently tried MISK Shahi Khazoor and was genuinely amazed. The
+              silver-coated dates are not just luxurious in appearance but rich
+              in taste and texture too. They offer a perfect balance of
+              sweetness and freshness, with hints of rose and mint that linger
+              just right. What truly impressed me was the clean, high-quality
+              ingredients no unnecessary additives, just a refined blend that
+              feels both royal and refreshing. These are now my go-to choice
+              after meals and a favorite to offer guests. A must-try for anyone
+              looking for a tasteful, sophisticated mouth freshener.
               {/* “{selectedProduct.customer_says}” */}
             </p>
             <Image
@@ -229,28 +230,16 @@ Purity wrapped in silver.
         /> */}
       </div>
 
+      <div className="flex w-full  items-center justify-center flex-col"></div>
 
-
-
-      <div className="flex w-full  items-center justify-center flex-col">
-
-       
-      </div>
-     
-
-      <div className="w-full relative flex flex-col justify-center items-center">
+      {/* <div className="w-full relative flex flex-col justify-center items-center">
         <div className="flex flex-col gap-4 sm:gap-10 px-4 lg:px-36 pb-0 pt-6 md:py-6">
           <div className="flex flex-col items-center justify-center gap-4 md:gap-5">
-            {/* <p className="text-center text-[14px] md:text-[22px] font-jost  text-[#585858]" style={{ paddingTop: "30px" }}>
-              day-to-day choices that weave the most profound stories of
-              character & growth.
-            </p> */}
             <h3 className="text-[20px] md:text-[40px] font-bold text-[#9F7B49] font-literata -mt-5">
-               Our Range
+              Our Range
             </h3>
           </div>
         </div>
-        
       </div>
       <div className="bg-[#FFF9F0] py-10 w-full flex flex-col items-center">
         <p className="text-[20px] md:text-[40px] text-[#9F7B49] font-bold">
@@ -292,7 +281,7 @@ Purity wrapped in silver.
             View All
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

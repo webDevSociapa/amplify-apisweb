@@ -256,11 +256,19 @@ export default function HomePage() {
               className="text-center text-[16px] md:text-[24px] font-medium text-[#fffff]"
               style={{ fontFamily: "jost" }}
             >
-              We are ISO 22000 certified by Intertek which is a documented
-              procedure that applies to Food Safety Management System framed by
-              International body. From producing honey off our own hives to
-              marketing the finished retail packs around the globe, we offer the
-              consumer a quality product every time.
+              We are proud to be certified Grade A by LRQA under the BRCGS
+              Global Standard for Food Safety, reflecting our unwavering
+              commitment to product quality, hygiene, and safety.
+              <br />
+              Our certification scope covers the processing, melting,
+              evaporation, filtration, and packing of honey into various
+              packaging formats including steel barrels, PET bottles, blister
+              packs, and glass bottles.
+              <br />
+              We operate in full compliance with FSMA (Food Safety Modernization
+              Act) requirements for honey processing and ingredients, ensuring
+              that every drop of our honey meets the highest international food
+              safety standards.
             </p>
           </div>
           <div>
