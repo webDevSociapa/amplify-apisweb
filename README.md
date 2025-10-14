@@ -1,97 +1,36 @@
-# Bavarians Buyer
-
-## Description
-
-A Next.js application for Bavairans' Buyer domain.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-What things you need to install the software and how to install them:
+First, run the development server:
 
 ```bash
-npm install pnpm -g
-```
-
-### Installing
-
-clone the repository:
-
-```bash
-git clone <repository-url>
-```
-
-Install the dependencies:
-
-```bash
-pnpm install
-```
-
-### Running the application
-
-To run the application in development mode:
-
-```bash
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
+# or
+bun dev
 ```
 
-To build the application:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-pnpm build
-```
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-To run the build:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```bash
-pnpm start
-```
+## Learn More
 
-## Running before commit
+To learn more about Next.js, take a look at the following resources:
 
-To run the linter & prettier before commit:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```bash
-pnpm run test-all
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-To fix all the linting issues:
+## Deploy on Vercel
 
-```bash
-pnpm run fix-all
-```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Post merge husky hook
-
-After merge, the husky hook will run the pnpm patch version script, for next commit.
-
-## How to Update On AWS EC2
-
-1. Update the code in `main` branch of the repo (WebDevSociapa / ApisWeb).
-
-2. Connect to `EC2 instance` and under the `ApisWeb Folder` in `EC2 console` pull the code from `main` branch
-
-```bash
-git pull origin main
-```
-
-3. Now do the following commands in order in `EC2 console`
-
-```bash
-npm run build
-```
-
-```bash
-pm2 start npm --name "next-app" -- start
-```
-
-```bash
-sudo npm install -g pm2
-```
-
-```bash
-pm2 restart all
-```
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
